@@ -1,0 +1,277 @@
+body {
+    width: 960px; /* 網頁主體寬度 */
+    height: 100%; 
+    margin: 0 auto; /* 致中 */
+    line-height: 1.75; /* 行高 */
+    font-size: 16px; /* 主要字體大小 */
+    font-family: "Palatino Linotype", "Source Han Serif", PMingLiU, serif; 
+    color: #444444
+}
+
+/*a tage format*/
+a {
+    color: #444444;
+    text-decoration: none;
+    border-bottom: 1px solid;
+    font-family: "Palatino Linotype", "Source Han Serif", PMingLiU, serif;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Source Han Sans", "Microsoft JhengHei", sans-serif;
+}
+
+h2, h3 {
+    font-family: "Source Han Sans", "Microsoft JhengHei", sans-serif;
+    text-align: center;
+}
+
+img {
+    max-width: 580px;
+    margin: auto;
+}
+
+.blog_title {
+    font-family: Consolas, "DejaVu Sans Mono", monospace;
+    line-height: 0.77;
+    font-size: 52px;
+    text-align: right;
+    font-weight: bold;
+    color: #333333;
+}
+
+
+.container {
+    height: 100%;  
+    position: sticky;/*黏著，搭配.blog_header使用*/
+    top: 0;
+}
+
+.page_title {
+    margin: 45px auto;
+    text-align: center;
+
+}
+.blog_header {
+    border-right: 3px solid #e9e9e9; 
+    width: 250px;
+    height: 100%;
+    padding: 20px 20px;
+    float: left; /*靠左*/
+    position: sticky; /*黏著，搭配的上層.container也要設定同樣屬性*/
+    top: 0;/*搭配黏著屬性使用*/
+    text-align: right;
+}
+
+.blog_nav {
+    text-align: right;
+}
+
+.menu_item {
+    float: right; 
+    clear: right;
+}
+
+.main {
+    max-width: 600px;
+    padding: 30px 30px;
+    margin-left: 300px;
+}
+
+.archive_title {
+    display: block;
+    padding: 10px 40px;
+}
+
+.full {
+    text-align: justify;/*這兩行試圖讓文字平均對齊*/
+    text-justify: auto;
+    width: 100%; 
+}
+
+.tags_page {
+    margin: 35px  auto;
+    text-align: center;
+    font-size:0.8em;
+}
+.tags_page > a {
+    font-family: " Source Han Sans", "Microsoft JhengHei", sans-serif;
+    margin: 0 10px;
+}
+
+/*code*/
+code, .code {
+    display: inline-block;
+    background: #e9e9e9;
+    font-family: Consolas, 'KaiTi', monospace;
+    font-size: 0.95em;
+}
+/*overflow code blocks auto get a scroll bar*/
+.highlight {
+    width:95%;
+    overflow:auto;
+    margin:auto;
+    display: block;
+    background: #e9e9e9;
+    font-family: Consolas, 'KaiTi', monospace;
+    font-size: 0.95em;
+    line-height:1.4;
+}
+
+pre, .highlight {
+    width:95%;
+    margin:auto;
+    display: block;
+    background: #e9e9e9;
+    font-family: Consolas, 'KaiTi', monospace;
+    font-size: 0.95em;
+    line-height:1.4;
+}
+
+
+/*tag-list-item*/
+.tag-list-item {
+    display: inline-block;
+    margin: 10px;
+}
+
+.tag-list-item > a {
+    font-family: "Source Han Sans", "Microsoft JhengHei", sans-serif;
+}
+
+.tag-list-item::before {
+    content: "#";
+}
+    
+/*date on archive */
+.date {
+    text-align: left;
+    font-size: 0.8em;
+    margin-left: 30px;
+}
+
+
+.title {
+    margin-left: 60px;
+    margin-top: -10px;
+    text-align: left;
+    text-decoration-line: underline;
+    display: block;
+}
+
+
+#comments, .blog_footer {
+    width: 600px;
+    padding: 0px 30px;
+    margin-left: 300px;
+    text-align: center
+}
+
+img[alt*="CC"] {
+    height: 16px;
+    width: 16px;
+}
+
+img[alt*="git logo"] {
+    height: 20px;
+}
+
+/**
+ * --------------
+ *  Media Queries
+ * --------------
+ *
+ * The @viewport tag does the same thing as
+ *
+ *   <meta name="viewport" content="width=device-width">
+ *
+ * but in the future W3C standard way. The -ms- prefix is required for
+ * IE10+ to render responsive styling in Windows 8 "snapped" views;
+ * IE10+ does not honour the meta tag.
+ */
+
+@-ms-viewport {
+    width: device-width;
+  }
+
+@viewport {
+    width: device-width;
+  }
+
+/* Tablet screens and smaller */
+
+@media screen and (max-width: 960px) {
+    body {
+        width: auto;
+        max-width: 700px;
+    }
+
+    .container, .body {
+        width: auto;
+        position: unset;
+        margin: auto;
+        height: auto;
+        padding: 0px;
+    }
+
+    .blog_header {
+        width: 230px;
+        float: none;
+        text-align: center;
+        border-bottom: 3px solid #e9e9e9;
+        border-right: 0px;
+        position: unset;
+        margin: auto;
+    }
+
+    .blog_title, .blog_nav {
+        text-align: center;
+    }
+
+    .blog_title, .blog_nav {
+        text-align: center;
+    }
+
+    .menu_item {
+        float: none;
+    }
+
+    .archive_title, .blog_footer, .full, #comments {
+        width: 100%;
+        padding: 0 0;
+        margin: auto;
+    }
+
+    .main {
+        padding: 0px 20px;
+        margin: auto;
+    }
+
+    .title {
+        margin: auto;
+    }
+
+    .page_title {
+        margin: 0;
+    }
+
+    .date {
+        display: none;
+    }
+
+    img {
+       width: 100%;
+    }
+
+    img[alt*="CC"] {
+        height: 16px;
+        width: 16px;
+    }
+
+    img[alt*="git logo"] {
+        height: 20px;
+        width: auto;
+    }
+
+
+}
