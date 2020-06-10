@@ -56,7 +56,7 @@
     <div class="body">
     <div class="main">
 <div class="full">
-    <h1 class="page_title">J-3 Git 運作原理</h1>
+    <h1 class="page_title">J-3 [日記] Git 運作原理</h1>
     <p>要瞭解 Git 的詳細運作原理可能要花不少時間，以下只是粗淺的研究。如果內容有任何錯誤還請老師與同學不吝指正。</p>
 <h2 id="Git-的一切都在-git"><a href="#Git-的一切都在-git" class="headerlink" title="Git 的一切都在 .git/"></a>Git 的一切都在 .git/</h2><p>讓我們從頭開始。<br>先建立一個空的資料夾，然後進入這個資料夾。<br>在按下 <code>git init</code> 這個指令之後，git 就會在所在的資料夾內創建一個 .git/ 資料夾，然後整個資料夾裡有任何風吹草動都會被 Git 給嚴密監控，<br>翻一遍 .git 資料夾就可以對 Git 有更深入一點點的瞭解，在 init 之後 .git/ 資料夾初始的內部組織長的像這樣：(只列出我懂的一些內容，以及這個討論主題會提到的資料，並非完整資料夾結構。）</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">.git</span><br><span class="line">├── HEAD</span><br><span class="line">├── objects&#x2F;</span><br><span class="line">│   ├── info</span><br><span class="line">│   └── pack</span><br><span class="line">└── refs</span><br><span class="line">    ├── heads</span><br><span class="line">    └── tags</span><br></pre></td></tr></table></figure>
@@ -103,10 +103,10 @@
 <p>這個「頭」其實還可以有更複雜的運用，還可以讓他指向某個提交變成斷頭狀態……等等，以後再慢慢研究吧！</p>
 <p>看了那麼多網上的教學，還是覺得 Git 官網上的資料講的最仔細，Pro Git 上有關分支介紹（<a href="https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell" target="_blank" rel="noopener">Git Branching - Branches in a Nutshell</a>）的部分有一些圖片解釋 ，整理成 GIF 圖感覺就像這樣：<br><img src="/diary/images/git_branching.gif" alt="git branching"></p>
 <h3 id="python-寫一個查看-object-內容的小程式"><a href="#python-寫一個查看-object-內容的小程式" class="headerlink" title="python 寫一個查看 object 內容的小程式"></a>python 寫一個查看 object 內容的小程式</h3><p>import zlib<br>filename = ‘file/path’<br>compressed_contents = open(filename, ‘rb’).read()<br>decompressed_contents = zlib.decompress(compressed_contents)</p>
-<p>Reading git objects <a href="https://matthew-brett.github.io/curious-git/reading_git_objects.html" target="_blank" rel="noopener">https://matthew-brett.github.io/curious-git/reading_git_objects.html</a><br>The Git Object Model <a href="http://shafiul.github.io/gitbook/1_the_git_object_model.html" target="_blank" rel="noopener">http://shafiul.github.io/gitbook/1_the_git_object_model.html</a><br><a href="https://www.atlassian.com/git/tutorials/merging-vs-rebasing" target="_blank" rel="noopener">https://www.atlassian.com/git/tutorials/merging-vs-rebasing</a></p>
+<p><a href="https://matthew-brett.github.io/curious-git/reading_git_objects.html" target="_blank" rel="noopener">Reading git objects</a><br>[The Git Object Model](<a href="http://shafiul.github.io/gitbook/1_the_git_object_model.html" target="_blank" rel="noopener">http://shafiul.github.io/gitbook/1_the_git_object_model.html</a><br><a href="https://www.atlassian.com/git/tutorials/merging-vs-rebasing" target="_blank" rel="noopener">https://www.atlassian.com/git/tutorials/merging-vs-rebasing</a>) GOM XD</p>
 
     <hr>
-    <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/diary/tags/%E8%AA%B2%E5%89%8D%E6%BA%96%E5%82%99/" rel="tag">課前準備</a></li><li class="tag-list-item"><a class="tag-list-link" href="/diary/tags/%E9%A0%90%E7%BF%92/" rel="tag">預習</a></li></ul>
+    <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/diary/tags/Git/" rel="tag">Git</a></li><li class="tag-list-item"><a class="tag-list-link" href="/diary/tags/%E9%A0%90%E7%BF%92/" rel="tag">預習</a></li></ul>
     
     
 </div>

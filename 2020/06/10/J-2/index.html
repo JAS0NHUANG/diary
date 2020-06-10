@@ -56,7 +56,7 @@
     <div class="body">
     <div class="main">
 <div class="full">
-    <h1 class="page_title">J-2 課前準備</h1>
+    <h1 class="page_title">J-2 [進度] 課前準備</h1>
     <h2 id="訂定計畫"><a href="#訂定計畫" class="headerlink" title="訂定計畫"></a>訂定計畫</h2><ol>
 <li>Lidemy 學習系統上的每日進度報告於 UTC 24：00 之前完成提交。內容應該只會有每日進度的大綱、概要，細節會寫在日記裡。</li>
 <li>試著在開課前先把第一週內容完成，第一週可以進行第二週進度，先偷跑一點讓之後有比較大的空間喘息，有比較多時間思考較困難的作業。</li>
@@ -70,26 +70,7 @@
 <h3 id="Git"><a href="#Git" class="headerlink" title="Git"></a>Git</h3><p>為了寫第一週 hw1 把 Git 仔細的重頭學了一遍，然後在 .git/ 資料夾裡面打滾了一陣子，對於 Git 的運作原理算是有比較多一點的瞭解了。<br>有興趣話可以看我前兩天的日記 <a href="/diary/2020/06/08/J-4/">J-4 Git 基礎複習</a>、<a href="/diary/2020/06/09/J-3/">J-3 Git 運作原理</a><br>今天應該會看完 [GIT101] Git 超新手入門。</p>
 <h3 id="CMD"><a href="#CMD" class="headerlink" title="CMD"></a>CMD</h3><p>為了寫第一週的兩個挑戰題也是重新學了一遍命令列、Bash Script 的寫法。<br>其實平常主要使用的系統就是 Linux（之前有想要改用 Red Hat 但是對嘸蝦米輸入法不太友善，所以目前還是使用 Linux Mint），但是字串處理、寫 Bash Script 其實不太常碰到，就趁這個機會好好學一次，之後大概還是會忘記 XD，至少動手做過會有個基本概念就是了。<br>今天應該也會看完[CMD101] Command Line 超新手入門。</p>
 <h3 id="程式與網路基礎概念"><a href="#程式與網路基礎概念" class="headerlink" title="程式與網路基礎概念"></a>程式與網路基礎概念</h3><p>今天有時間應該也可以看一些 [CS101] 初心者的計概與 coding 火球術： 1-1、1-2、4-1、4-2、11 。<br>後天嘗試把第一週作業完成。</p>
-<h3 id="今日學習筆記"><a href="#今日學習筆記" class="headerlink" title="今日學習筆記"></a>今日學習筆記</h3><h4 id="Week1-挑戰題與超級挑戰題-Bash-Script-寫法與常用字串處理指令"><a href="#Week1-挑戰題與超級挑戰題-Bash-Script-寫法與常用字串處理指令" class="headerlink" title="Week1 挑戰題與超級挑戰題 - Bash Script 寫法與常用字串處理指令"></a>Week1 挑戰題與超級挑戰題 - Bash Script 寫法與常用字串處理指令</h4><p>Bash Script 基礎：</p>
-<ol>
-<li>讀取參數：<br><code>$1</code> 會讀入執行 Script 時第一個傳入的參數，<code>$2</code> 會讀入第二個，以此類推。</li>
-<li>讀取輸入：<br><code>read VARNAME</code> 會等待使用者輸入，並將輸入的資料傳為 VARNAME 的值。</li>
-<li>for 迴圈：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">for i in &#96;seq 1 $X&#96;</span><br><span class="line">do</span><br><span class="line">  動作</span><br><span class="line">done</span><br></pre></td></tr></table></figure>
-從 1 重覆執行「動作」$X 次<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">for i in &quot;one&quot; &quot;two&quot; &quot;three&quot;</span><br></pre></td></tr></table></figure>
-對 “one” “two” “three” 三個字串各執行一次，執行時 i 的值會分別為 “one” “two” “three”</li>
-<li>if 判斷式<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">if [ &quot;$i&quot; &#x3D; &#39;&quot;blog&quot;&#39; ]</span><br><span class="line">then</span><br><span class="line">  動作 1</span><br><span class="line">else</span><br><span class="line">  動作 2</span><br><span class="line">fi</span><br></pre></td></tr></table></figure></li>
-<li>變數宣告<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">VARNAME&#x3D;VALUE</span><br></pre></td></tr></table></figure>
-記得這裡等號前後都不可以有空格<br>想要把一段指令輸出的結果傳入的話，可以這樣寫：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">VARNAME&#x3D;$(一串會輸出結果的指令)</span><br></pre></td></tr></table></figure>
 
-</li>
-</ol>
-<p>字串處理：</p>
-<ol>
-<li>grep - print lines matching a pattern<br><code>grep &#39;&quot;name&quot;&#39;</code> 以 “name” 字串搜尋、<code>grep $i</code> 以 i 的值搜尋、<code>grep &#39;word1\|word2\|word3&#39;</code> 以三組不同文字搜尋（只要找到其中一項就輸出）</li>
-<li>cut - remove sections from each line of files<br><code>cut -d &quot;:&quot; -f X-Y</code> 以「:」為分隔項目的符號，保留第 X 到第 Y 項的內容。<br>例：<code>blog: http://github.com/</code> 這個字串經過 <code>cut -d &quot;:&quot; -f 2-3</code> 處理的結果就會是 <code>https://github.com/</code></li>
-<li>sed - stream editor for filtering and transforming text<br><code>sed &#39;s/XXX/YYY/g&#39;</code> 會把某字串或文件裡的所有 XXX 都替換為 YYY</li>
-</ol>
-<h3 id="教學影片筆記、心得"><a href="#教學影片筆記、心得" class="headerlink" title="教學影片筆記、心得"></a>教學影片筆記、心得</h3>
     <hr>
     <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/diary/tags/%E8%A8%88%E7%95%AB/" rel="tag">計畫</a></li><li class="tag-list-item"><a class="tag-list-link" href="/diary/tags/%E8%AA%B2%E5%89%8D%E6%BA%96%E5%82%99/" rel="tag">課前準備</a></li><li class="tag-list-item"><a class="tag-list-link" href="/diary/tags/%E9%A0%90%E7%BF%92/" rel="tag">預習</a></li></ul>
     
