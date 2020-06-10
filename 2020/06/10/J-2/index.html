@@ -81,7 +81,11 @@
 <li>if 判斷式<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">if [ &quot;$i&quot; &#x3D; &#39;&quot;blog&quot;&#39; ]</span><br><span class="line">then</span><br><span class="line">  動作 1</span><br><span class="line">else</span><br><span class="line">  動作 2</span><br><span class="line">fi</span><br></pre></td></tr></table></figure></li>
 <li>變數宣告<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">VARNAME&#x3D;VALUE</span><br></pre></td></tr></table></figure>
 記得這裡等號前後都不可以有空格<br>想要把一段指令輸出的結果傳入的話，可以這樣寫：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">VARNAME&#x3D;$(一串會輸出結果的指令)</span><br></pre></td></tr></table></figure>
-字串處理：</li>
+
+</li>
+</ol>
+<p>字串處理：</p>
+<ol>
 <li>grep - print lines matching a pattern<br><code>grep &#39;&quot;name&quot;&#39;</code> 以 “name” 字串搜尋、<code>grep $i</code> 以 i 的值搜尋、<code>grep &#39;word1\|word2\|word3&#39;</code> 以三組不同文字搜尋（只要找到其中一項就輸出）</li>
 <li>cut - remove sections from each line of files<br><code>cut -d &quot;:&quot; -f X-Y</code> 以「:」為分隔項目的符號，保留第 X 到第 Y 項的內容。<br>例：<code>blog: http://github.com/</code> 這個字串經過 <code>cut -d &quot;:&quot; -f 2-3</code> 處理的結果就會是 <code>https://github.com/</code></li>
 <li>sed - stream editor for filtering and transforming text<br><code>sed &#39;s/XXX/YYY/g&#39;</code> 會把某字串或文件裡的所有 XXX 都替換為 YYY</li>
