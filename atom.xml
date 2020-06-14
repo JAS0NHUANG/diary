@@ -6,7 +6,7 @@
   <link href="/diary/atom.xml" rel="self"/>
   
   <link href="http://JAS0NHUANG.github.io/diary/"/>
-  <updated>2020-06-12T21:58:23.185Z</updated>
+  <updated>2020-06-14T11:47:16.501Z</updated>
   <id>http://JAS0NHUANG.github.io/diary/</id>
   
   <author>
@@ -15,6 +15,54 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>J+1 [日記]  搞懂 JS 還不懂的部分 - 2</title>
+    <link href="http://JAS0NHUANG.github.io/diary/2020/06/13/J-plus-1-diary/"/>
+    <id>http://JAS0NHUANG.github.io/diary/2020/06/13/J-plus-1-diary/</id>
+    <published>2020-06-13T11:46:22.000Z</published>
+    <updated>2020-06-14T11:47:16.501Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="J-1-日記"><a href="#J-1-日記" class="headerlink" title="J+1 [日記]"></a>J+1 [日記]</h1><h2 id="寫作業與題目時的問題"><a href="#寫作業與題目時的問題" class="headerlink" title="寫作業與題目時的問題"></a>寫作業與題目時的問題</h2><h3 id="關於-Eslint"><a href="#關於-Eslint" class="headerlink" title="關於 Eslint"></a>關於 Eslint</h3><p>作業庫裡面設定 Eslint 會禁止 <code>++</code> 的使用，雖然 JavaScript 大神 Crockford 大概 10 年前就在說不要用 <code>++</code> 或 <code>--</code> <a href="https://youtu.be/47Ceot8yqeI?t=4140" target="_blank" rel="noopener">Crockford on JavaScript - Part 5: The End of All Things</a>（連結會直接從討論 <code>++</code>、<code>--</code> 的地方開始），但是課程裡還是有教到，不知道應該如何處理？真的不應該使用？先不要使用？還是有辦法改成不糾正這個問題？<br>還有句尾的分號也設定了一定要加，老師在一些示範影片裡面好像也都沒有打分號，不知道是不是能夠改為不必加？</p><h2 id="Immutable-到底可變不可變？！"><a href="#Immutable-到底可變不可變？！" class="headerlink" title="Immutable 到底可變不可變？！"></a>Immutable 到底可變不可變？！</h2><p>Primitive values（原始數值）<br>Primitive type（原始資料型態）</p><blockquote><p>All primitives are immutable, i.e., they cannot be altered. It is important not to confuse a primitive itself with a variable assigned a primitive value. The variable may be reassigned a new value, but the existing value can not be changed in the ways that objects, arrays, and functions can be altered.<br>一定要搞清楚「變數」與「原始數值」之間的差異。</p></blockquote><p>不可變的數值在經過函數處理後一定要回傳給一個「變數」儲存（可以這樣表達嗎？），因為它的「原始數值」沒辦法被改變。<br>因為「原始數值」</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">let a &#x3D; &#39;hello&#39; &#x2F;&#x2F; a 是變數 &#39;hello&#39; 是「原始數值」</span><br><span class="line">a.toUpperCase() &#x2F;&#x2F; 沒有作用，&#39;hello&#39;被處理後沒有被儲存</span><br><span class="line">a &#x3D; a.toUpperCase() &#x2F;&#x2F; &#39;hello&#39; 在經過處理後被傳回給 a</span><br></pre></td></tr></table></figure><p>物件（object）為「可變」資料型態<br>如陣列（array）是物件（object）的一種，所以它是可變的，因此對它呼叫內建函式處理後會直接改變它本來的內容，然後回傳另一個值，所以如果把函式處理後的值傳給一個變數，它「可能」會與本來的內容不同，例如：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">let a &#x3D; [1, 2]</span><br><span class="line">a.push(3) &#x2F;&#x2F; 原始陣列會被更新為 [1, 2, 3]</span><br><span class="line">console.log(a) &#x2F;&#x2F; [1, 2, 3]</span><br><span class="line">a &#x3D; a.push(99) &#x2F;&#x2F; 原始陣列同樣會被更新，變成 [1, 2, 3, 99]，但是這個函式是會回傳新陣列的長度，所以 a 就會被賦值為 4</span><br><span class="line">console.log(a) &#x2F;&#x2F; 4</span><br></pre></td></tr></table></figure><p>但是有些函式的結果是一樣的，像是 array.reverse()</p><p>但是物件裡也有不會改動到原本資料的函式，如 array.join()</p><p>array 真的很煩，.splice() 與 .slice() 的行為也不同</p><hr><p>跟家人去公園玩了一個下午，晚上去朋友家吃飯，下面預訂要完成的內容都沒有完成 XD。但是難得可以出門到空曠的地方跑一跑，還跟公園裡的陌生人打了一下排球，雖然不太會打，但是運動一下真的蠻舒服的。</p><h2 id="reduce-用法"><a href="#reduce-用法" class="headerlink" title="reduce 用法"></a>reduce 用法</h2><p>綜合題目練習 Lv1 練習十，可以用 reduce()解。</p><h2 id="浮點數誤差"><a href="#浮點數誤差" class="headerlink" title="浮點數誤差"></a>浮點數誤差</h2>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;J-1-日記&quot;&gt;&lt;a href=&quot;#J-1-日記&quot; class=&quot;headerlink&quot; title=&quot;J+1 [日記]&quot;&gt;&lt;/a&gt;J+1 [日記]&lt;/h1&gt;&lt;h2 id=&quot;寫作業與題目時的問題&quot;&gt;&lt;a href=&quot;#寫作業與題目時的問題&quot; class=&quot;head
+      
+    
+    </summary>
+    
+    
+      <category term="JavaScript" scheme="http://JAS0NHUANG.github.io/diary/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>J+1 [進度] 複習 JavaScript 基礎 - 2</title>
+    <link href="http://JAS0NHUANG.github.io/diary/2020/06/13/J-plus-1-progress/"/>
+    <id>http://JAS0NHUANG.github.io/diary/2020/06/13/J-plus-1-progress/</id>
+    <published>2020-06-13T11:39:03.000Z</published>
+    <updated>2020-06-14T11:41:54.755Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Jour-J-複習-JavaScript-基礎"><a href="#Jour-J-複習-JavaScript-基礎" class="headerlink" title="Jour-J 複習 JavaScript 基礎"></a>Jour-J 複習 JavaScript 基礎</h1><h2 id="感謝-minw-助教"><a href="#感謝-minw-助教" class="headerlink" title="感謝 minw 助教"></a>感謝 minw 助教</h2><p>感謝 minw 助教仔細的幫我改了作業，還給了很多實用的建議，學到不少東西，也知道自已大概還有什麼地方需要加強。<br>然後出於好奇就去翻了 <a href="https://medium.com/@minw/" target="_blank" rel="noopener">minw 助教的部落格</a>，有兩篇文章完整的整理參加計畫的心得，可能不少同學也已經看過了，我自已覺得那幾個 side project 的想法真的很不錯，也做的超好的（當然可能 minw 本來就有累積一些不錯的基礎了？！），把所學的東西馬上應用在小計畫上面。<br>可能也應該要想想怎樣做一些有實用性的 project 以保持學習的動力，比較有成就感，對未來真的求職時也有幫助。  </p><h2 id="遇到的問題"><a href="#遇到的問題" class="headerlink" title="遇到的問題"></a>遇到的問題</h2><p>作業庫裡面設定好的 Eslint 會禁止 <code>++</code> 的使用，雖然 JavaScript 大神 Crockford 大概 10 年前就在說不要用 <code>++</code> 或 <code>--</code> <a href="https://youtu.be/47Ceot8yqeI?t=4140" target="_blank" rel="noopener">Crockford on JavaScript - Part 5: The End of All Things</a>（連結會直接從討論 <code>++</code>、<code>--</code> 的地方開始，不知道這幾年他的觀點有沒有改變？），但是課程裡還是有教到，不知道應該如何處理，真的不應該使用？先不要使用？還是有辦法改成不糾正這個問題？<br>還有句尾的分號也設定了一定要加，老師在一些示範影片裡面好像也都沒有打分號，不知道是不是能夠改為不必加？  </p><h2 id="今日進度"><a href="#今日進度" class="headerlink" title="今日進度"></a>今日進度</h2><h3 id="看完-JS101"><a href="#看完-JS101" class="headerlink" title="看完 [JS101]"></a>看完 [JS101]</h3><ul><li><input checked="" disabled="" type="checkbox"> [JS101] 用 JavaScript 一步步打造程式基礎到「綜合練習 Lv1」<br>昨天看已經差不多都看完了，也大概做了一點筆記，把還不是很熟悉的東西記下來，只剩「Immutable 觀念」以及「Lv1 練習十」講解影片（關於 reduce 用法的部分）沒有仔細看完，今天看完、做完筆記。  </li></ul><h3 id="寫-week2-作業"><a href="#寫-week2-作業" class="headerlink" title="寫 week2 作業"></a>寫 week2 作業</h3><ul><li><input disabled="" type="checkbox"> 寫完 week2 作業 hw1 - hw5<br>昨天寫了前兩題，沒什麼大問題。  </li></ul><h3 id="全家老小到-Parc-de-Sceaux-走走"><a href="#全家老小到-Parc-de-Sceaux-走走" class="headerlink" title="全家老小到 Parc de Sceaux 走走"></a>全家老小到 Parc de Sceaux 走走</h3><p>這個公園算是巴黎近郊有名的賞櫻公園，它有兩塊大約各一公頃的櫻花樹林，每年春天都會有超多日本人在那裡聚集辦櫻花季之類的活動，很舒服的一個公園，但是今年肺炎疫情影響，大概三週前才重新開放，櫻花都謝了！帶著棒球手套跟球去逛逛，希望能找到願意一起丟丟球的法國佬。（在法國要找個人 KGB 都不太容易阿……）  </p><h2 id="明日進度"><a href="#明日進度" class="headerlink" title="明日進度"></a>明日進度</h2><h3 id="將-JS101-練習-Lv2-與-Lv3-做完"><a href="#將-JS101-練習-Lv2-與-Lv3-做完" class="headerlink" title="將 [JS101] 練習 Lv2 與 Lv3 做完"></a>將 [JS101] 練習 Lv2 與 Lv3 做完</h3><ul><li><input disabled="" type="checkbox"> [JS101] 練習 Lv2 與 Lv3 做完<br>很多都跟作業、[ALG101] 的內容重覆了，應該只會大概看一下講解影片看看有沒有什麼我沒有想到的地方。</li></ul><h3 id="搞懂超級挑戰題"><a href="#搞懂超級挑戰題" class="headerlink" title="搞懂超級挑戰題"></a>搞懂超級挑戰題</h3><ul><li><input disabled="" type="checkbox"> 搞懂超級挑戰題，確實學會 BFS 到底是在幹什麼</li></ul><h3 id="快速的再看一遍-ALG101-到單元六"><a href="#快速的再看一遍-ALG101-到單元六" class="headerlink" title="快速的再看一遍  [ALG101] 到單元六"></a>快速的再看一遍  [ALG101] 到單元六</h3><ul><li><input disabled="" type="checkbox"> 快速的再看一遍  [ALG101] 到單元六<br>之前很仔細的上完了這堂課，程式概念慢慢有點內化的感覺，再瀏覽一次加深印象。  </li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Jour-J-複習-JavaScript-基礎&quot;&gt;&lt;a href=&quot;#Jour-J-複習-JavaScript-基礎&quot; class=&quot;headerlink&quot; title=&quot;Jour-J 複習 JavaScript 基礎&quot;&gt;&lt;/a&gt;Jour-J 複習 JavaScr
+      
+    
+    </summary>
+    
+    
+      <category term="每日進度" scheme="http://JAS0NHUANG.github.io/diary/tags/%E6%AF%8F%E6%97%A5%E9%80%B2%E5%BA%A6/"/>
+    
+      <category term="JavaScript" scheme="http://JAS0NHUANG.github.io/diary/tags/JavaScript/"/>
+    
+  </entry>
   
   <entry>
     <title>Jour-J [日記] JavaScript 還不清楚的地方</title>
@@ -65,10 +113,10 @@
   
   <entry>
     <title>J-1 [進度] 第一週進度完成</title>
-    <link href="http://JAS0NHUANG.github.io/diary/2020/06/12/J-1-progress/"/>
-    <id>http://JAS0NHUANG.github.io/diary/2020/06/12/J-1-progress/</id>
-    <published>2020-06-12T06:56:52.000Z</published>
-    <updated>2020-06-12T06:56:52.475Z</updated>
+    <link href="http://JAS0NHUANG.github.io/diary/2020/06/11/J-1-progress/"/>
+    <id>http://JAS0NHUANG.github.io/diary/2020/06/11/J-1-progress/</id>
+    <published>2020-06-11T06:56:52.000Z</published>
+    <updated>2020-06-14T11:40:25.397Z</updated>
     
     <content type="html"><![CDATA[<h2 id="今日進度"><a href="#今日進度" class="headerlink" title="今日進度"></a>今日進度</h2><h3 id="完成-Week1-作業"><a href="#完成-Week1-作業" class="headerlink" title="完成 Week1 作業"></a>完成 Week1 作業</h3><ul><li><input checked="" disabled="" type="checkbox"> 完成 week1 作業以及挑戰題<br>不算是特別的難，比較像是在練習寫作文……<br>覺得自已講解 CLI、Git、前後端差異的時候還是不太順暢，寫出來的東西總覺得缺了點什麼……<br>同學們可以到我的 Repo 給點指教 ，幫我先改改作業。</li></ul><h3 id="看完-CS101-初心者的計概與-coding-火球術指定部分"><a href="#看完-CS101-初心者的計概與-coding-火球術指定部分" class="headerlink" title="看完 [CS101] 初心者的計概與 coding 火球術指定部分"></a>看完 [CS101] 初心者的計概與 coding 火球術指定部分</h3><ul><li><input checked="" disabled="" type="checkbox"> [CS101] 初心者的計概與 coding 火球術： 1、2、4-1、4-2、11</li></ul><h3 id="看完-MTR04-程式導師實驗計畫第四-至-第一週結束"><a href="#看完-MTR04-程式導師實驗計畫第四-至-第一週結束" class="headerlink" title="看完 [MTR04] 程式導師實驗計畫第四 至 第一週結束"></a>看完 [MTR04] 程式導師實驗計畫第四 至 第一週結束</h3><ul><li><input checked="" disabled="" type="checkbox"> [MTR04] 程式導師實驗計畫第四期 至第一週結束<br>計畫簡介、寫作業與交作業流程、心態培養三個部分已經看完，今天把第一週的內容看完。</li></ul><p>筆記、日記晚點會寫在部落格裡。</p><h2 id="明天進度"><a href="#明天進度" class="headerlink" title="明天進度"></a>明天進度</h2><h3 id="看完-JS101-用-JavaScript-一步步打造程式基礎"><a href="#看完-JS101-用-JavaScript-一步步打造程式基礎" class="headerlink" title="看完 [JS101] 用 JavaScript 一步步打造程式基礎"></a>看完 [JS101] 用 JavaScript 一步步打造程式基礎</h3><ul><li><input disabled="" type="checkbox"> [JS101] 用 JavaScript 一步步打造程式基礎到「綜合練習 Lv1」<br>複習 JavaScript 的基礎。之前上完 [ALG101] 就想要把 LIOJ 上面的題目解完，可是最後一題 1053 一直沒有提起勁去把它搞清楚，希望這兩天能把老師講解的方法或是網上找到的解法搞懂，能夠自已試著模仿一次。（自已想出解法大概是不可能了……）</li><li><input disabled="" type="checkbox"> 寫 week2 作業 hw1 - hw5。這些在 [ALG101] 裡面都有不少類似的練習了。</li></ul><h3 id="看完-MTR04-程式導師實驗計畫第四期-第二週"><a href="#看完-MTR04-程式導師實驗計畫第四期-第二週" class="headerlink" title="看完 [MTR04] 程式導師實驗計畫第四期 第二週"></a>看完 [MTR04] 程式導師實驗計畫第四期 第二週</h3><ul><li><input disabled="" type="checkbox"> [MTR04] 程式導師實驗計畫第四期 第二週</li></ul><h2 id="關於進度"><a href="#關於進度" class="headerlink" title="關於進度"></a>關於進度</h2><p>有些同學提到比較，其實課程在時程上都還不算開始，我就先把第一週看完、明天打算看第二週，我自已也覺得會不會讓別人覺得：「他是在趕什麼的？自以為很厲害？」也會怕自已是不是到時候虎頭蛇尾。<br>其實多想無益，想這麼多幹麼？該做什麼去做就對了。大家的起點本來就不一樣，學習能力也不一樣，就算是最爛的一個又怎樣，重點是學習的過程與收獲。而且看到進度比我快的，有需要可以找他幫忙，看到進度比我慢的，也可以去幫忙他們，一起學習不就是有這個好處，倒別讓這個好處變壞處了！</p>]]></content>
     
@@ -88,10 +136,10 @@
   
   <entry>
     <title>J-1 [日記] 網頁架構 &amp; 關於比較</title>
-    <link href="http://JAS0NHUANG.github.io/diary/2020/06/12/J-1-diary/"/>
-    <id>http://JAS0NHUANG.github.io/diary/2020/06/12/J-1-diary/</id>
-    <published>2020-06-12T06:56:45.000Z</published>
-    <updated>2020-06-12T06:56:45.527Z</updated>
+    <link href="http://JAS0NHUANG.github.io/diary/2020/06/11/J-1-diary/"/>
+    <id>http://JAS0NHUANG.github.io/diary/2020/06/11/J-1-diary/</id>
+    <published>2020-06-11T06:56:45.000Z</published>
+    <updated>2020-06-14T11:41:10.016Z</updated>
     
     <content type="html"><![CDATA[<h2 id="網頁架構"><a href="#網頁架構" class="headerlink" title="網頁架構"></a>網頁架構</h2><p>Ruofan(@ruofanwei) 同學推薦的 Whimsical 真的滿好用的，分享我做的一張基礎網路架構圖：<a href="https://whimsical.com/QnPBztP5vx4rwACD8zMDtF" target="_blank" rel="noopener">Basic Web Structure</a><br><img src="/diary/images/Basic_Web_Structure.png" alt="Basic Web Structure"><br>筆記就用這張圖代表吧！<br>然後……老師，您 request 拼錯了……</p><p><code>nslookup</code> 查詢 ip 位址。</p><h2 id="程式基礎概念"><a href="#程式基礎概念" class="headerlink" title="程式基礎概念"></a>程式基礎概念</h2><p>這些在 [ALG101] 先別急著寫 leetcode 都有一些概念了，附上一些當時的筆記：<a href="https://jas0nhuang.github.io/2020/04/10/alg101-dont-leetcode-yet-1/">Don’t LeetCode Yet - 1&amp;2 - Think First</a>（也不知道為啥當時就用英文記了，有任何錯誤歡迎指正。）  </p><h2 id="關於比較"><a href="#關於比較" class="headerlink" title="關於比較"></a>關於比較</h2><p>讓我直接的想到道德經裡的一段話,大家可以自已體會體會：   </p><blockquote><p>天下皆知美之爲美，斯惡已；皆知善之爲善，斯不善已。故有無相生，難易相成，長短相較，高下相傾，音聲相和，前後相隨。是以聖人處無爲之事，行不言之教。萬物作焉而不辭，生而不有，爲而不恃，功成而弗居。夫唯弗居，是以不去。  </p></blockquote><p>本來寫了一堆想放在每日進度裡，但是想說不要把那裡當個版用好了，就還是移到自已日記部落格。  </p><p>老子大概也不是說大家就都別比了、大家都來去修行好了（這也是我覺得很多人對道家的誤解，覺得「無為」就是什麼事都不用做了），而是認清「比較」難免，只要做好自已分內的事、成功了不要驕傲、不要自恃，這才是應該有的態度。（這些也只是我自已的看法，不代表老子真正的看法……）<br>大家都是有想要跟胡立學習的地方才來到這裡，一百多個人起點也都不一樣，我昨天看了一下胡立講切版的影片，他也知道自已可能在切版上還有需要精進的地方，甚至有很多切版經驗的學員都可以做的「比」他好，其實這種比較就是一種學習的動力。  </p>]]></content>
     
