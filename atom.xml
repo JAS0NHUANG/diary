@@ -6,7 +6,7 @@
   <link href="/diary/atom.xml" rel="self"/>
   
   <link href="http://JAS0NHUANG.github.io/diary/"/>
-  <updated>2020-06-14T21:53:21.010Z</updated>
+  <updated>2020-06-15T20:31:07.361Z</updated>
   <id>http://JAS0NHUANG.github.io/diary/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>J+3 [進度] [ALG101] 複習</title>
+    <link href="http://JAS0NHUANG.github.io/diary/2020/06/15/J-plus-3-progress/"/>
+    <id>http://JAS0NHUANG.github.io/diary/2020/06/15/J-plus-3-progress/</id>
+    <published>2020-06-15T20:31:07.000Z</published>
+    <updated>2020-06-15T20:31:07.361Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="昨日小記"><a href="#昨日小記" class="headerlink" title="昨日小記"></a>昨日小記</h2><h3 id="完成-week2-超級挑戰題"><a href="#完成-week2-超級挑戰題" class="headerlink" title="完成 week2 超級挑戰題"></a>完成 week2 超級挑戰題</h3><p>自已真的想不出來，雖然大概理解 BFS 就是將所有可能的點都走過（實際上網路上那些 BFS 相關的文章還是看的一知半解，大概程度確實還不到那邊吧！），但是轉換成程式碼還是沒那麼容易。<br>所以就決定先把老師的解法一步一步的看懂，然後再試著自已默寫一遍，在看老師程式碼的時候，x 軸、y 軸的狀態因為到後面出現 <code>ans[y][x]</code> 還有 <code>and[newY][newX]</code> 所以有一點點被搞混了，大概理解老師是要保持一般 x 軸為水平、y 軸為垂直的慣例才會這樣寫，但是我自已是覺得，直接在 <code>endX</code>、<code>endY</code> 設定的時候就使用 <code>endX = h - 1</code>、<code>endY = w - 1</code>，會比較直覺、比較好懂一點點（因為後面就不會出現有 x y 反過來寫的狀況了。）<br>自已默寫的時候還是會出錯，有些語法、內建函式的應用還不是很熟練。<br>三天後再來試試看自已還記不記得住解法。  </p><h3 id="研究-reduce-的用法"><a href="#研究-reduce-的用法" class="headerlink" title="研究 .reduce() 的用法"></a>研究 <code>.reduce()</code> 的用法</h3><p>花了大概兩個小時找資料，再看一遍老師的影片，然後把 <code>.reduce()</code> 的用法搞懂，寫了一篇筆記（<a href="https://jas0nhuang.github.io/diary/2020/06/14/J-plus-2-note-reduce/">J+2 [筆記] 淺淺的看一下 reduce</a>），歡迎大家指教。</p><h2 id="今日進度"><a href="#今日進度" class="headerlink" title="今日進度"></a>今日進度</h2><h3 id="快速的再看一遍-ALG101-到單元四"><a href="#快速的再看一遍-ALG101-到單元四" class="headerlink" title="快速的再看一遍  [ALG101] 到單元四"></a>快速的再看一遍  [ALG101] 到單元四</h3><ul><li><input disabled="" type="checkbox"> 快速的再看一遍  [ALG101] 到單元四<br>之前很仔細的上完了這堂課，程式概念慢慢有點內化的感覺，再瀏覽一次加深印象。<br>因為到單元六內容還不少，雖然之前都看過了，把影片再過一次還是要花不少時間，今天進度就先暫訂這樣就好。也讓自已腦子可以再消化一下超級挑戰題的解法。</li></ul><h3 id="整理、修正-week1-作業"><a href="#整理、修正-week1-作業" class="headerlink" title="整理、修正 week1 作業"></a>整理、修正 week1 作業</h3><ul><li><input checked="" disabled="" type="checkbox"> 整理、修正 week 作業<br>把 week1 作業裡面要修正，想要重新整理的地方改好，重新發 PR 自已 merge。</li></ul><h2 id="明日進度"><a href="#明日進度" class="headerlink" title="明日進度"></a>明日進度</h2><h3 id="看-CS101-初心者的計概與-coding-火球術-unit-7"><a href="#看-CS101-初心者的計概與-coding-火球術-unit-7" class="headerlink" title="看 [CS101] 初心者的計概與 coding 火球術 unit 7"></a>看 [CS101] 初心者的計概與 coding 火球術 unit 7</h3><ul><li><input disabled="" type="checkbox"> [CS101] 初心者的計概與 coding 火球術 unit 7</li></ul><h3 id="將-JS101-練習-Lv2-與-Lv3-做完"><a href="#將-JS101-練習-Lv2-與-Lv3-做完" class="headerlink" title="將 [JS101] 練習 Lv2 與 Lv3 做完"></a>將 [JS101] 練習 Lv2 與 Lv3 做完</h3><ul><li><input disabled="" type="checkbox"> [JS101] 練習 Lv2 與 Lv3 做完<br>很多都跟作業、[ALG101] 的內容重覆了，應該只會大概看一下講解影片看看有沒有什麼我沒有想到的地方。</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;昨日小記&quot;&gt;&lt;a href=&quot;#昨日小記&quot; class=&quot;headerlink&quot; title=&quot;昨日小記&quot;&gt;&lt;/a&gt;昨日小記&lt;/h2&gt;&lt;h3 id=&quot;完成-week2-超級挑戰題&quot;&gt;&lt;a href=&quot;#完成-week2-超級挑戰題&quot; class=&quot;headerli
+      
+    
+    </summary>
+    
+    
+      <category term="每日進度" scheme="http://JAS0NHUANG.github.io/diary/tags/%E6%AF%8F%E6%97%A5%E9%80%B2%E5%BA%A6/"/>
+    
+  </entry>
   
   <entry>
     <title>J+2 [筆記] 淺淺的看一下 reduce</title>
