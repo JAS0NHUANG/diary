@@ -6,7 +6,7 @@
   <link href="/diary/atom.xml" rel="self"/>
   
   <link href="http://JAS0NHUANG.github.io/diary/"/>
-  <updated>2020-06-15T20:31:07.361Z</updated>
+  <updated>2020-06-16T15:00:28.943Z</updated>
   <id>http://JAS0NHUANG.github.io/diary/</id>
   
   <author>
@@ -15,6 +15,53 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>J+4 [筆記] 模組、套件與 npm</title>
+    <link href="http://JAS0NHUANG.github.io/diary/2020/06/16/J-plus-4-note-package/"/>
+    <id>http://JAS0NHUANG.github.io/diary/2020/06/16/J-plus-4-note-package/</id>
+    <published>2020-06-16T14:55:05.000Z</published>
+    <updated>2020-06-16T15:00:28.943Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="模組化"><a href="#模組化" class="headerlink" title="模組化"></a>模組化</h2><ul><li>require 用別人的模組<br>將不同功能切開，分別寫在不同檔案裡。<br>列如 node 就有提供很多寫好的模組，如：os、readline、fs、https……等等。<br>引入方法，使用 <code>require</code> 關鍵字：  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">var os &#x3D; require(&#39;os&#39;) &#x2F;&#x2F; 引入模組並存入 os 這個變數中</span><br><span class="line">console.log(os.platform())</span><br></pre></td></tr></table></figure></li><li>exports 建立自已的模組<br>建立自已的模組讓別人/或自已可以使用，使用 <code>module.exports</code> 關鍵字  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; 檔名為 abcde</span><br><span class="line">function abc(x) &#123;</span><br><span class="line">  return x</span><br><span class="line">&#125;</span><br><span class="line">module.exports &#x3D; abc</span><br></pre></td></tr></table></figure>然後想要在同一個資料夾裡的另一個程式裡使用的話一樣是用 require，但是引入的必需是檔案名稱，而不是函數名稱：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">var abc &#x3D; require(&#39;.&#x2F;abcde&#39;)</span><br><span class="line">console.log(abc(&#39;hello&#39;))</span><br></pre></td></tr></table></figure></li><li>輸出多個模組<br>同一個檔案可以輸出多個模組，但是必需以單一物件 export（不然只會輸出最後一個模組），例如：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; 檔名為 utils.js</span><br><span class="line">function double (x) &#123;</span><br><span class="line">  return x * 2</span><br><span class="line">&#125;</span><br><span class="line">function triple (y) &#123;</span><br><span class="line">  return y * 3</span><br><span class="line">&#125;</span><br><span class="line">module.exports &#x3D; &#123;</span><br><span class="line">  double: double,</span><br><span class="line">  triple: triple</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure></li></ul><p>或者也可以寫成：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; exports 初始會被視為空物件</span><br><span class="line">exports.double &#x3D; double</span><br><span class="line">exports triple &#x3D; triple</span><br></pre></td></tr></table></figure><p>引入時可以作為方法使用：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">var utils &#x3D; require(&#39;.&#x2F;utils&#39;）</span><br><span class="line">utils.double(22)</span><br><span class="line">utils.triple(33)</span><br></pre></td></tr></table></figure><h2 id="npm-大神們寫的模組-套件"><a href="#npm-大神們寫的模組-套件" class="headerlink" title="npm 大神們寫的模組/套件"></a>npm 大神們寫的模組/套件</h2><p>library、package、module 三個相近的概念，有時候其實指的也是同一個東西。</p><ol><li>拿 left-pad 來試試<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install left-pad</span><br></pre></td></tr></table></figure>安裝 left-pad（其實就是在同一個資料夾建立一個 <code>node_modules/</code> 資料夾，然後從 npm 的程式庫裡把 <code>left-pad</code> 這個套件抓下來，放到 <code>node_modules/</code> 資料夾內）<br>然後就可以 <code>var LP = require(&#39;left-pad&#39;)</code> 使用它了。</li></ol><ul><li>如果還沒有執行過，<code>npm init</code> 的話，因為資料夾內還沒有 <code>package.json</code> 檔案，所以這時候安裝的套件都不會被記錄到相依性裡頭。</li><li>但是只要一執行 <code>npm init</code>（不論是安裝套件之前還是之後），npm 預設都會把安裝的套件記錄到相依性裡（–save）。<br>這個相依關係有一個很實用的地方就是大家在分享自已的專案時不用分享 <code>node_modules</code> 資料夾內的套件，只要有 <code>package.json</code> 檔，在任何電腦上執行 <code>npm install</code> npm 就會自動把相依的套件都抓下來了。</li><li><code>--save</code> 選項是記錄到相依套件，<code>--save-dev</code> 則會記錄到「開發環境」的相依關係裡。<br>（看 <code>left-pad</code> 事件看了一個多小時，網路真的很恐怖，連出去就抓不回來了……）</li></ul><ol start="2"><li><p>npm scripts<br>在 <code>package.json</code> 檔案裡可以看到：<code>&quot;scripts&quot;:{}</code> 這個區塊，就是讓你寫 scripts 的地方啦！<br>這個 json 物件裡的 key 就是你想要在這個 node 專案裡設定的一個指令，value 就是下了這個指令後會執行的步驟。例如：設定 <code>&quot;start&quot;: &quot;node index.js&quot;</code> 那麼在這個專案資料夾裡執行 <code>npm run start</code>（必需要加 <code>npm run</code> 在指令之前）的時候，npm 就會自動執行 <code>node index.js</code> 這個指令。</p></li><li><p>還有 yarn<br>其實就是另一個管理套件的程式，跟 npm 不止 87 分像，基本指令對照 npm：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">yarn -v &#x3D;&#x3D; npm -v</span><br><span class="line">yarn &#x3D;&#x3D; npm install</span><br><span class="line">yarn add PACKAGE &#x3D;&#x3D; npm install PACKAGE</span><br><span class="line">yarn add --dev PACKAGE &#x3D;&#x3D; npm install --save-dev PACKAGE</span><br><span class="line">yarn run start &#x3D;&#x3D; npm run start</span><br></pre></td></tr></table></figure><p><a href="https://classic.yarnpkg.com/es-ES/docs/migrating-from-npm" target="_blank" rel="noopener">這裡</a>可以看完整對照表</p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;模組化&quot;&gt;&lt;a href=&quot;#模組化&quot; class=&quot;headerlink&quot; title=&quot;模組化&quot;&gt;&lt;/a&gt;模組化&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;require 用別人的模組&lt;br&gt;將不同功能切開，分別寫在不同檔案裡。&lt;br&gt;列如 node 就有提供很多寫好的模組，
+      
+    
+    </summary>
+    
+    
+      <category term="JavaScript" scheme="http://JAS0NHUANG.github.io/diary/tags/JavaScript/"/>
+    
+      <category term="npm" scheme="http://JAS0NHUANG.github.io/diary/tags/npm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>J+4 [進度]</title>
+    <link href="http://JAS0NHUANG.github.io/diary/2020/06/16/J-plus-4-progress/"/>
+    <id>http://JAS0NHUANG.github.io/diary/2020/06/16/J-plus-4-progress/</id>
+    <published>2020-06-16T14:54:50.000Z</published>
+    <updated>2020-06-16T14:54:50.938Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="J-4-寫題目-amp-學-ES6-npm-Jest"><a href="#J-4-寫題目-amp-學-ES6-npm-Jest" class="headerlink" title="J+4 寫題目 &amp; 學 ES6/npm/Jest"></a>J+4 寫題目 &amp; 學 ES6/npm/Jest</h1><h2 id="昨日小記"><a href="#昨日小記" class="headerlink" title="昨日小記"></a>昨日小記</h2><h3 id="重看-ALG101"><a href="#重看-ALG101" class="headerlink" title="重看 [ALG101]"></a>重看 [ALG101]</h3><p>昨天快速的重看了 [ALG101] 到單元四，重做了一些比較複雜的題目（如：印出聖誕樹、水仙花數……），因為第一次跟完 [ALG101] 的時候，有些自已亂寫的解法在 LIOJ 上面也能 AC 所以就沒有特別仔細的看老師的解法，這一次找出幾個比較複雜的仔細照老師的解法寫一次。  </p><h3 id="大O"><a href="#大O" class="headerlink" title="大O"></a>大O</h3><p>看完了 [CS101] 火球術的第七單元，對提到的排序法也有些概念了，但是那個「大O」還是一直搞不懂，怎麼算的也不清楚，這應該真的就是數學不好的問題了……O(1)、O(n) 還勉強可以知道怎麼來的，但是一看到那些 log n、(log n)c、(n!) 就真的不知道是怎麼推算出來的了，腦子大概有自動防護功能，避免它們進來搞亂我脆弱的腦子。  </p><h2 id="今日進度"><a href="#今日進度" class="headerlink" title="今日進度"></a>今日進度</h2><h3 id="檢查-week2-作業"><a href="#檢查-week2-作業" class="headerlink" title="檢查 week2 作業"></a>檢查 week2 作業</h3><ul><li><input disabled="" type="checkbox"> 檢查 week2 作業<br>確定 hw1 到 hw6 以及挑戰題沒有問題，補上想補充的，然後明天再寫一次超級挑戰題，後天應該就可以交 week2 的作業了。  </li></ul><h3 id="看-JS102-升級你的-JavaScript-技能：ES6-npm-Jest"><a href="#看-JS102-升級你的-JavaScript-技能：ES6-npm-Jest" class="headerlink" title="看 [JS102] 升級你的 JavaScript 技能：ES6 + npm + Jest"></a>看 [JS102] 升級你的 JavaScript 技能：ES6 + npm + Jest</h3><ul><li><input disabled="" type="checkbox"> 看 [JS102] 升級你的 JavaScript 技能：ES6 + npm + Jest  </li></ul><h2 id="明日進度"><a href="#明日進度" class="headerlink" title="明日進度"></a>明日進度</h2><h3 id="快速複習-ALG101-先別急著寫-leetcode-到單元六"><a href="#快速複習-ALG101-先別急著寫-leetcode-到單元六" class="headerlink" title="快速複習 [ALG101] 先別急著寫 leetcode 到單元六"></a>快速複習 [ALG101] 先別急著寫 leetcode 到單元六</h3><ul><li><input disabled="" type="checkbox"> [ALG101] 先別急著寫 leetcode 到單元六<br>一樣快速複習一遍看過的內容，把比較複雜的題目再寫一遍，雖然說是「快速」但是內容比較難一點點，題目也比較多，我解題速度也還很慢，所以大概也快不起來……  </li></ul><h3 id="將-JS101-練習-Lv2-與-Lv3-做完"><a href="#將-JS101-練習-Lv2-與-Lv3-做完" class="headerlink" title="將 [JS101] 練習 Lv2 與 Lv3 做完"></a>將 [JS101] 練習 Lv2 與 Lv3 做完</h3><ul><li><input disabled="" type="checkbox"> [JS101] 練習 Lv2 與 Lv3 做完<br>很多都跟作業、[ALG101] 的內容重覆了，應該只會大概看一下講解影片看看有沒有什麼我沒有想到的地方。<br>（看了一下課綱，發現這算是補充內容，所以排到其它主要內容後面完成。）  </li></ul><p>偷偷看了一下第四、第六、七週的內容……厚厚，真正的挑戰還沒開始呢！！</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;J-4-寫題目-amp-學-ES6-npm-Jest&quot;&gt;&lt;a href=&quot;#J-4-寫題目-amp-學-ES6-npm-Jest&quot; class=&quot;headerlink&quot; title=&quot;J+4 寫題目 &amp;amp; 學 ES6/npm/Jest&quot;&gt;&lt;/a&gt;J+4 寫題
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>J+3 [進度] [ALG101] 複習</title>
