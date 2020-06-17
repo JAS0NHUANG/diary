@@ -60,15 +60,15 @@
 <div class="full">
     <h1 class="page_title">J+4 [筆記] Jest</h1>
     <h2 id="土炮測試"><a href="#土炮測試" class="headerlink" title="土炮測試"></a>土炮測試</h2><p>log 爆了你！  </p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">console.log(theFunction())</span><br><span class="line">console.log(theFunction() &#x3D;&#x3D;&#x3D; &#39;XXXX&#39;)</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">console.log(theFunction())</span><br><span class="line">console.log(theFunction() &#x3D;&#x3D;&#x3D; &#39;XXXX&#39;)</span><br></pre></td></tr></table></figure>
 <p>缺點就是沒辦法規模化、不好執行。</p>
 <h2 id="Jest-大神幫你測"><a href="#Jest-大神幫你測" class="headerlink" title="Jest 大神幫你測"></a>Jest 大神幫你測</h2><p><a href="https://jestjs.io/" target="_blank" rel="noopener">JEST</a></p>
 <ul>
 <li>安裝 <code>yarn add --dev jest</code>。</li>
 <li>基本使用方法：<ol>
-<li>先把想要測試的程式 <code>export</code> 出來：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; 想被測的程式.js</span><br><span class="line">function 兩倍(x)&#123;</span><br><span class="line">  return x * 2</span><br><span class="line">&#125;</span><br><span class="line">module.exports &#x3D; 兩倍</span><br></pre></td></tr></table></figure></li>
-<li>建立一個測試檔，引入想測試的程式：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; 測試.test.js</span><br><span class="line">var 兩倍 &#x3D; require(&#39;.&#x2F;想被測的程式&#39;)</span><br></pre></td></tr></table></figure></li>
-<li>然後寫測試：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">test(&#39;這裡你想打什麼就打什麼，例如：&quot;5 的兩倍是 10&quot;&#39;， function () &#123;</span><br><span class="line">  &#x2F;&#x2F; 測試資料與預期結果</span><br><span class="line">  expect(兩倍(5)).toBe(10)</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure></li>
+<li>先把想要測試的程式 <code>export</code> 出來：<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;&#x2F; 想被測的程式.js</span><br><span class="line">function 兩倍(x)&#123;</span><br><span class="line">  return x * 2</span><br><span class="line">&#125;</span><br><span class="line">module.exports &#x3D; 兩倍</span><br></pre></td></tr></table></figure></li>
+<li>建立一個測試檔，引入想測試的程式：<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;&#x2F; 測試.test.js</span><br><span class="line">var 兩倍 &#x3D; require(&#39;.&#x2F;想被測的程式&#39;)</span><br></pre></td></tr></table></figure></li>
+<li>然後寫測試：<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">test(&#39;這裡你想打什麼就打什麼，例如：&quot;5 的兩倍是 10&quot;&#39;， function () &#123;</span><br><span class="line">  &#x2F;&#x2F; 測試資料與預期結果</span><br><span class="line">  expect(兩倍(5)).toBe(10)</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure></li>
 <li>然後跑起來！  <ol>
 <li><code>./node_modules/jest/bin/jest.js</code>。</li>
 <li>在 package.json 檔案裡加一個 script：<code>&quot;test&quot;:&quot;jest&quot;</code>，然後 <code>npm run test</code>。</li>
@@ -79,7 +79,7 @@
 </li>
 </ul>
 <ul>
-<li>加一個 describe 包住其它測試資料, 可以讓同一個函式的所有測試被放到同一個群組裡<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">describe(&#39;測試 兩倍&#39;, function() &#123;</span><br><span class="line">  test(&#39;這裡你想打什麼就打什麼&#39;， function () &#123;</span><br><span class="line">    &#x2F;&#x2F; 測試資料與預期結果</span><br><span class="line">    expect(兩倍(5)).toBe(10)</span><br><span class="line">  &#125;)</span><br><span class="line">  test(&#39;這裡你想打什麼就打什麼&#39;， function () &#123;</span><br><span class="line">    &#x2F;&#x2F; 測試資料與預期結果</span><br><span class="line">    expect(兩倍(9)).toBe(18)</span><br><span class="line">  &#125;)</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+<li>加一個 describe 包住其它測試資料, 可以讓同一個函式的所有測試被放到同一個群組裡<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">describe(&#39;測試 兩倍&#39;, function() &#123;</span><br><span class="line">  test(&#39;這裡你想打什麼就打什麼&#39;， function () &#123;</span><br><span class="line">    &#x2F;&#x2F; 測試資料與預期結果</span><br><span class="line">    expect(兩倍(5)).toBe(10)</span><br><span class="line">  &#125;)</span><br><span class="line">  test(&#39;這裡你想打什麼就打什麼&#39;， function () &#123;</span><br><span class="line">    &#x2F;&#x2F; 測試資料與預期結果</span><br><span class="line">    expect(兩倍(9)).toBe(18)</span><br><span class="line">  &#125;)</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
 <h2 id="TDD-測試驅動開發"><a href="#TDD-測試驅動開發" class="headerlink" title="TDD 測試驅動開發"></a>TDD 測試驅動開發</h2>先寫測試再寫程式。<br>其實就是把一般先寫程式再測試的方法倒過來，之後寫新的 project 的時候可以試試看。</li>
 </ul>
 

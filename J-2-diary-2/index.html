@@ -72,12 +72,12 @@
 <h2 id="Bash-Script-寫法與常用字串處理指令"><a href="#Bash-Script-寫法與常用字串處理指令" class="headerlink" title="Bash Script 寫法與常用字串處理指令"></a>Bash Script 寫法與常用字串處理指令</h2><h3 id="Bash-Script-基礎"><a href="#Bash-Script-基礎" class="headerlink" title="Bash Script 基礎"></a>Bash Script 基礎</h3><ol>
 <li>讀取參數：<br><code>$1</code> 會讀入執行 Script 時第一個傳入的參數，<code>$2</code> 會讀入第二個，以此類推。</li>
 <li>讀取輸入：<br><code>read VARNAME</code> 會等待使用者輸入，並將輸入的資料傳為 VARNAME 的值。</li>
-<li>for 迴圈：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">for i in &#96;seq 1 $X&#96;</span><br><span class="line">do</span><br><span class="line">  動作</span><br><span class="line">done</span><br></pre></td></tr></table></figure>
-從 1 重覆執行「動作」$X 次<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">for i in &quot;one&quot; &quot;two&quot; &quot;three&quot;</span><br></pre></td></tr></table></figure>
+<li>for 迴圈：<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">for i in &#96;seq 1 $X&#96;</span><br><span class="line">do</span><br><span class="line">  動作</span><br><span class="line">done</span><br></pre></td></tr></table></figure>
+從 1 重覆執行「動作」$X 次<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">for i in &quot;one&quot; &quot;two&quot; &quot;three&quot;</span><br></pre></td></tr></table></figure>
 對 “one” “two” “three” 三個字串各執行一次，執行時 i 的值會分別為 “one” “two” “three”</li>
-<li>if 判斷式<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">if [ &quot;$i&quot; &#x3D; &#39;&quot;blog&quot;&#39; ]</span><br><span class="line">then</span><br><span class="line">  動作 1</span><br><span class="line">else</span><br><span class="line">  動作 2</span><br><span class="line">fi</span><br></pre></td></tr></table></figure></li>
-<li>變數宣告<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">VARNAME&#x3D;VALUE</span><br></pre></td></tr></table></figure>
-記得這裡等號前後都不可以有空格<br>想要把一段指令輸出的結果傳入的話，可以這樣寫：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">VARNAME&#x3D;$(一串會輸出結果的指令)</span><br></pre></td></tr></table></figure>
+<li>if 判斷式<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">if [ &quot;$i&quot; &#x3D; &#39;&quot;blog&quot;&#39; ]</span><br><span class="line">then</span><br><span class="line">  動作 1</span><br><span class="line">else</span><br><span class="line">  動作 2</span><br><span class="line">fi</span><br></pre></td></tr></table></figure></li>
+<li>變數宣告<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">VARNAME&#x3D;VALUE</span><br></pre></td></tr></table></figure>
+記得這裡等號前後都不可以有空格<br>想要把一段指令輸出的結果傳入的話，可以這樣寫：<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">VARNAME&#x3D;$(一串會輸出結果的指令)</span><br></pre></td></tr></table></figure>
 
 </li>
 </ol>
