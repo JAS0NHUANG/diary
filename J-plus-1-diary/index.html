@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <!--head-->
+    <head>
+    <title>JAS0N HUANG</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="DoQOqkvX376V4rp4mmeGYFGrLOB-wrUCMMKlqgrqmuQ" />
+    
+<link rel="stylesheet" href="/diary/css/style.css">
+
+
+    <script type="text/javascript">
+        let apiUrl = 'https://www.googleapis.com/youtube/v3/channels?part=snippet&id=UC9ckyA_A3MfXUa0ttxMoIZw&key=AIzaSyBiuF1WCpG7TaCY8xtd4cb73Sn-5NTPrb0'
+        let xhr = new XMLHttpRequest()
+        xhr.open('get', apiUrl, true)
+        xhr.send()
+
+        xhr.onreadystatechange = function(){
+            if(this.readyState ===4 && this.status === 200){
+                let data = JSON.parse(this.responseText)
+                console.log(data)
+            }
+        }
+    </script>
+<meta name="generator" content="Hexo 4.2.1"></head>
+
+  <body>
+
+    
+    <div class="container">
+        <div class="blog_header">
+    <a href="/diary/">
+        <h1 class="blog_title">
+        <img src="/diary/images/Jas0nhuang.svg" alt="jas0nhuang">
+        <!-- %= config.title %-->
+        </h1>
+    </a>
+
+    <div class="container">
+        <nav class="blog_nav">
+            
+                <a class="menu_item" href="/diary/archives">文章</a>
+            
+                <a class="menu_item" href="/diary/tags">標籤</a>
+            
+                <a class="menu_item" href="/diary/about">關於</a>
+            
+        </nav>
+    </div>
+</div>
+
+    </div>
+    
+
+    
+    <div class="body">
+    <div class="main">
+<div class="full">
+    <h1 class="page_title">J+1 [日記]  搞懂 JS 還不懂的部分 - 2</h1>
+    <h1 id="J-1-日記"><a href="#J-1-日記" class="headerlink" title="J+1 [日記]"></a>J+1 [日記]</h1><h2 id="寫作業與題目時的問題"><a href="#寫作業與題目時的問題" class="headerlink" title="寫作業與題目時的問題"></a>寫作業與題目時的問題</h2><h3 id="關於-Eslint"><a href="#關於-Eslint" class="headerlink" title="關於 Eslint"></a>關於 Eslint</h3><p>作業庫裡面設定 Eslint 會禁止 <code>++</code> 的使用，雖然 JavaScript 大神 Crockford 大概 10 年前就在說不要用 <code>++</code> 或 <code>--</code> <a href="https://youtu.be/47Ceot8yqeI?t=4140" target="_blank" rel="noopener">Crockford on JavaScript - Part 5: The End of All Things</a>（連結會直接從討論 <code>++</code>、<code>--</code> 的地方開始），但是課程裡還是有教到，不知道應該如何處理？真的不應該使用？先不要使用？還是有辦法改成不糾正這個問題？<br>還有句尾的分號也設定了一定要加，老師在一些示範影片裡面好像也都沒有打分號，不知道是不是能夠改為不必加？</p>
+<h2 id="Immutable-到底可變不可變？！"><a href="#Immutable-到底可變不可變？！" class="headerlink" title="Immutable 到底可變不可變？！"></a>Immutable 到底可變不可變？！</h2><p>Primitive values（原始數值）<br>Primitive type（原始資料型態）</p>
+<blockquote>
+<p>All primitives are immutable, i.e., they cannot be altered. It is important not to confuse a primitive itself with a variable assigned a primitive value. The variable may be reassigned a new value, but the existing value can not be changed in the ways that objects, arrays, and functions can be altered.<br>一定要搞清楚「變數」與「原始數值」之間的差異。</p>
+</blockquote>
+<p>不可變的數值在經過函數處理後一定要回傳給一個「變數」儲存（可以這樣表達嗎？），因為它的「原始數值」沒辦法被改變。<br>因為「原始數值」</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">let a &#x3D; &#39;hello&#39; &#x2F;&#x2F; a 是變數 &#39;hello&#39; 是「原始數值」</span><br><span class="line">a.toUpperCase() &#x2F;&#x2F; 沒有作用，&#39;hello&#39;被處理後沒有被儲存</span><br><span class="line">a &#x3D; a.toUpperCase() &#x2F;&#x2F; &#39;hello&#39; 在經過處理後被傳回給 a</span><br></pre></td></tr></table></figure>
+
+<p>物件（object）為「可變」資料型態<br>如陣列（array）是物件（object）的一種，所以它是可變的，因此對它呼叫內建函式處理後會直接改變它本來的內容，然後回傳另一個值，所以如果把函式處理後的值傳給一個變數，它「可能」會與本來的內容不同，例如：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">let a &#x3D; [1, 2]</span><br><span class="line">a.push(3) &#x2F;&#x2F; 原始陣列會被更新為 [1, 2, 3]</span><br><span class="line">console.log(a) &#x2F;&#x2F; [1, 2, 3]</span><br><span class="line">a &#x3D; a.push(99) &#x2F;&#x2F; 原始陣列同樣會被更新，變成 [1, 2, 3, 99]，但是這個函式是會回傳新陣列的長度，所以 a 就會被賦值為 4</span><br><span class="line">console.log(a) &#x2F;&#x2F; 4</span><br></pre></td></tr></table></figure>
+
+<p>但是有些函式的結果是一樣的，像是 array.reverse()</p>
+<p>但是物件裡也有不會改動到原本資料的函式，如 array.join()</p>
+<p>array 真的很煩，.splice() 與 .slice() 的行為也不同</p>
+<hr>
+<p>跟家人去公園玩了一個下午，晚上去朋友家吃飯，下面預訂要完成的內容都沒有完成 XD。但是難得可以出門到空曠的地方跑一跑，還跟公園裡的陌生人打了一下排球，雖然不太會打，但是運動一下真的蠻舒服的。</p>
+<h2 id="reduce-用法"><a href="#reduce-用法" class="headerlink" title="reduce 用法"></a>reduce 用法</h2><p>綜合題目練習 Lv1 練習十，可以用 reduce()解。</p>
+<h2 id="浮點數誤差"><a href="#浮點數誤差" class="headerlink" title="浮點數誤差"></a>浮點數誤差</h2>
+    <hr>
+    <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/diary/tags/JavaScript/" rel="tag">JavaScript</a></li></ul>
+    
+    
+</div>
+</div>
+
+
+    </div>
+
+    
+        <section id="comments">
+    <div id="disqus_thread"></div>
+        <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'JAS0NHUANG';
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a></noscript>
+</section>
+
+
+    
+    
+    <!--footer-->
+    <footer class="blog_footer">
+    <p>
+        JAS0N HUANG
+        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">
+            <img src="/images/cc.svg" alt="CC" height="16"></a>
+        2020/06
+    </p>
+    
+</footer>
+
+  </body>
+</html>

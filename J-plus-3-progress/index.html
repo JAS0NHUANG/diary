@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <!--head-->
+    <head>
+    <title>JAS0N HUANG</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="DoQOqkvX376V4rp4mmeGYFGrLOB-wrUCMMKlqgrqmuQ" />
+    
+<link rel="stylesheet" href="/diary/css/style.css">
+
+
+    <script type="text/javascript">
+        let apiUrl = 'https://www.googleapis.com/youtube/v3/channels?part=snippet&id=UC9ckyA_A3MfXUa0ttxMoIZw&key=AIzaSyBiuF1WCpG7TaCY8xtd4cb73Sn-5NTPrb0'
+        let xhr = new XMLHttpRequest()
+        xhr.open('get', apiUrl, true)
+        xhr.send()
+
+        xhr.onreadystatechange = function(){
+            if(this.readyState ===4 && this.status === 200){
+                let data = JSON.parse(this.responseText)
+                console.log(data)
+            }
+        }
+    </script>
+<meta name="generator" content="Hexo 4.2.1"></head>
+
+  <body>
+
+    
+    <div class="container">
+        <div class="blog_header">
+    <a href="/diary/">
+        <h1 class="blog_title">
+        <img src="/diary/images/Jas0nhuang.svg" alt="jas0nhuang">
+        <!-- %= config.title %-->
+        </h1>
+    </a>
+
+    <div class="container">
+        <nav class="blog_nav">
+            
+                <a class="menu_item" href="/diary/archives">文章</a>
+            
+                <a class="menu_item" href="/diary/tags">標籤</a>
+            
+                <a class="menu_item" href="/diary/about">關於</a>
+            
+        </nav>
+    </div>
+</div>
+
+    </div>
+    
+
+    
+    <div class="body">
+    <div class="main">
+<div class="full">
+    <h1 class="page_title">J+3 [進度] [ALG101] 複習</h1>
+    <h2 id="昨日小記"><a href="#昨日小記" class="headerlink" title="昨日小記"></a>昨日小記</h2><h3 id="完成-week2-超級挑戰題"><a href="#完成-week2-超級挑戰題" class="headerlink" title="完成 week2 超級挑戰題"></a>完成 week2 超級挑戰題</h3><p>自已真的想不出來，雖然大概理解 BFS 就是將所有可能的點都走過（實際上網路上那些 BFS 相關的文章還是看的一知半解，大概程度確實還不到那邊吧！），但是轉換成程式碼還是沒那麼容易。<br>所以就決定先把老師的解法一步一步的看懂，然後再試著自已默寫一遍，在看老師程式碼的時候，x 軸、y 軸的狀態因為到後面出現 <code>ans[y][x]</code> 還有 <code>and[newY][newX]</code> 所以有一點點被搞混了，大概理解老師是要保持一般 x 軸為水平、y 軸為垂直的慣例才會這樣寫，但是我自已是覺得，直接在 <code>endX</code>、<code>endY</code> 設定的時候就使用 <code>endX = h - 1</code>、<code>endY = w - 1</code>，會比較直覺、比較好懂一點點（因為後面就不會出現有 x y 反過來寫的狀況了。）<br>自已默寫的時候還是會出錯，有些語法、內建函式的應用還不是很熟練。<br>三天後再來試試看自已還記不記得住解法。  </p>
+<h3 id="研究-reduce-的用法"><a href="#研究-reduce-的用法" class="headerlink" title="研究 .reduce() 的用法"></a>研究 <code>.reduce()</code> 的用法</h3><p>花了大概兩個小時找資料，再看一遍老師的影片，然後把 <code>.reduce()</code> 的用法搞懂，寫了一篇筆記（<a href="https://jas0nhuang.github.io/diary/2020/06/14/J-plus-2-note-reduce/">J+2 [筆記] 淺淺的看一下 reduce</a>），歡迎大家指教。</p>
+<h2 id="今日進度"><a href="#今日進度" class="headerlink" title="今日進度"></a>今日進度</h2><h3 id="快速的再看一遍-ALG101-到單元四"><a href="#快速的再看一遍-ALG101-到單元四" class="headerlink" title="快速的再看一遍  [ALG101] 到單元四"></a>快速的再看一遍  [ALG101] 到單元四</h3><ul>
+<li><input disabled="" type="checkbox"> 快速的再看一遍  [ALG101] 到單元四<br>之前很仔細的上完了這堂課，程式概念慢慢有點內化的感覺，再瀏覽一次加深印象。<br>因為到單元六內容還不少，雖然之前都看過了，把影片再過一次還是要花不少時間，今天進度就先暫訂這樣就好。也讓自已腦子可以再消化一下超級挑戰題的解法。</li>
+</ul>
+<h3 id="整理、修正-week1-作業"><a href="#整理、修正-week1-作業" class="headerlink" title="整理、修正 week1 作業"></a>整理、修正 week1 作業</h3><ul>
+<li><input checked="" disabled="" type="checkbox"> 整理、修正 week 作業<br>把 week1 作業裡面要修正，想要重新整理的地方改好，重新發 PR 自已 merge。</li>
+</ul>
+<h2 id="明日進度"><a href="#明日進度" class="headerlink" title="明日進度"></a>明日進度</h2><h3 id="看-CS101-初心者的計概與-coding-火球術-unit-7"><a href="#看-CS101-初心者的計概與-coding-火球術-unit-7" class="headerlink" title="看 [CS101] 初心者的計概與 coding 火球術 unit 7"></a>看 [CS101] 初心者的計概與 coding 火球術 unit 7</h3><ul>
+<li><input disabled="" type="checkbox"> [CS101] 初心者的計概與 coding 火球術 unit 7</li>
+</ul>
+<h3 id="將-JS101-練習-Lv2-與-Lv3-做完"><a href="#將-JS101-練習-Lv2-與-Lv3-做完" class="headerlink" title="將 [JS101] 練習 Lv2 與 Lv3 做完"></a>將 [JS101] 練習 Lv2 與 Lv3 做完</h3><ul>
+<li><input disabled="" type="checkbox"> [JS101] 練習 Lv2 與 Lv3 做完<br>很多都跟作業、[ALG101] 的內容重覆了，應該只會大概看一下講解影片看看有沒有什麼我沒有想到的地方。</li>
+</ul>
+
+    <hr>
+    <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/diary/tags/%E6%AF%8F%E6%97%A5%E9%80%B2%E5%BA%A6/" rel="tag">每日進度</a></li></ul>
+    
+    
+</div>
+</div>
+
+
+    </div>
+
+    
+        <section id="comments">
+    <div id="disqus_thread"></div>
+        <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'JAS0NHUANG';
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a></noscript>
+</section>
+
+
+    
+    
+    <!--footer-->
+    <footer class="blog_footer">
+    <p>
+        JAS0N HUANG
+        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">
+            <img src="/images/cc.svg" alt="CC" height="16"></a>
+        2020/06
+    </p>
+    
+</footer>
+
+  </body>
+</html>

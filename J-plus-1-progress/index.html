@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <!--head-->
+    <head>
+    <title>JAS0N HUANG</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="DoQOqkvX376V4rp4mmeGYFGrLOB-wrUCMMKlqgrqmuQ" />
+    
+<link rel="stylesheet" href="/diary/css/style.css">
+
+
+    <script type="text/javascript">
+        let apiUrl = 'https://www.googleapis.com/youtube/v3/channels?part=snippet&id=UC9ckyA_A3MfXUa0ttxMoIZw&key=AIzaSyBiuF1WCpG7TaCY8xtd4cb73Sn-5NTPrb0'
+        let xhr = new XMLHttpRequest()
+        xhr.open('get', apiUrl, true)
+        xhr.send()
+
+        xhr.onreadystatechange = function(){
+            if(this.readyState ===4 && this.status === 200){
+                let data = JSON.parse(this.responseText)
+                console.log(data)
+            }
+        }
+    </script>
+<meta name="generator" content="Hexo 4.2.1"></head>
+
+  <body>
+
+    
+    <div class="container">
+        <div class="blog_header">
+    <a href="/diary/">
+        <h1 class="blog_title">
+        <img src="/diary/images/Jas0nhuang.svg" alt="jas0nhuang">
+        <!-- %= config.title %-->
+        </h1>
+    </a>
+
+    <div class="container">
+        <nav class="blog_nav">
+            
+                <a class="menu_item" href="/diary/archives">文章</a>
+            
+                <a class="menu_item" href="/diary/tags">標籤</a>
+            
+                <a class="menu_item" href="/diary/about">關於</a>
+            
+        </nav>
+    </div>
+</div>
+
+    </div>
+    
+
+    
+    <div class="body">
+    <div class="main">
+<div class="full">
+    <h1 class="page_title">J+1 [進度] 複習 JavaScript 基礎 - 2</h1>
+    <h1 id="Jour-J-複習-JavaScript-基礎"><a href="#Jour-J-複習-JavaScript-基礎" class="headerlink" title="Jour-J 複習 JavaScript 基礎"></a>Jour-J 複習 JavaScript 基礎</h1><h2 id="感謝-minw-助教"><a href="#感謝-minw-助教" class="headerlink" title="感謝 minw 助教"></a>感謝 minw 助教</h2><p>感謝 minw 助教仔細的幫我改了作業，還給了很多實用的建議，學到不少東西，也知道自已大概還有什麼地方需要加強。<br>然後出於好奇就去翻了 <a href="https://medium.com/@minw/" target="_blank" rel="noopener">minw 助教的部落格</a>，有兩篇文章完整的整理參加計畫的心得，可能不少同學也已經看過了，我自已覺得那幾個 side project 的想法真的很不錯，也做的超好的（當然可能 minw 本來就有累積一些不錯的基礎了？！），把所學的東西馬上應用在小計畫上面。<br>可能也應該要想想怎樣做一些有實用性的 project 以保持學習的動力，比較有成就感，對未來真的求職時也有幫助。  </p>
+<h2 id="遇到的問題"><a href="#遇到的問題" class="headerlink" title="遇到的問題"></a>遇到的問題</h2><p>作業庫裡面設定好的 Eslint 會禁止 <code>++</code> 的使用，雖然 JavaScript 大神 Crockford 大概 10 年前就在說不要用 <code>++</code> 或 <code>--</code> <a href="https://youtu.be/47Ceot8yqeI?t=4140" target="_blank" rel="noopener">Crockford on JavaScript - Part 5: The End of All Things</a>（連結會直接從討論 <code>++</code>、<code>--</code> 的地方開始，不知道這幾年他的觀點有沒有改變？），但是課程裡還是有教到，不知道應該如何處理，真的不應該使用？先不要使用？還是有辦法改成不糾正這個問題？<br>還有句尾的分號也設定了一定要加，老師在一些示範影片裡面好像也都沒有打分號，不知道是不是能夠改為不必加？  </p>
+<h2 id="今日進度"><a href="#今日進度" class="headerlink" title="今日進度"></a>今日進度</h2><h3 id="看完-JS101"><a href="#看完-JS101" class="headerlink" title="看完 [JS101]"></a>看完 [JS101]</h3><ul>
+<li><input checked="" disabled="" type="checkbox"> [JS101] 用 JavaScript 一步步打造程式基礎到「綜合練習 Lv1」<br>昨天看已經差不多都看完了，也大概做了一點筆記，把還不是很熟悉的東西記下來，只剩「Immutable 觀念」以及「Lv1 練習十」講解影片（關於 reduce 用法的部分）沒有仔細看完，今天看完、做完筆記。  </li>
+</ul>
+<h3 id="寫-week2-作業"><a href="#寫-week2-作業" class="headerlink" title="寫 week2 作業"></a>寫 week2 作業</h3><ul>
+<li><input disabled="" type="checkbox"> 寫完 week2 作業 hw1 - hw5<br>昨天寫了前兩題，沒什麼大問題。  </li>
+</ul>
+<h3 id="全家老小到-Parc-de-Sceaux-走走"><a href="#全家老小到-Parc-de-Sceaux-走走" class="headerlink" title="全家老小到 Parc de Sceaux 走走"></a>全家老小到 Parc de Sceaux 走走</h3><p>這個公園算是巴黎近郊有名的賞櫻公園，它有兩塊大約各一公頃的櫻花樹林，每年春天都會有超多日本人在那裡聚集辦櫻花季之類的活動，很舒服的一個公園，但是今年肺炎疫情影響，大概三週前才重新開放，櫻花都謝了！帶著棒球手套跟球去逛逛，希望能找到願意一起丟丟球的法國佬。（在法國要找個人 KGB 都不太容易阿……）  </p>
+<h2 id="明日進度"><a href="#明日進度" class="headerlink" title="明日進度"></a>明日進度</h2><h3 id="將-JS101-練習-Lv2-與-Lv3-做完"><a href="#將-JS101-練習-Lv2-與-Lv3-做完" class="headerlink" title="將 [JS101] 練習 Lv2 與 Lv3 做完"></a>將 [JS101] 練習 Lv2 與 Lv3 做完</h3><ul>
+<li><input disabled="" type="checkbox"> [JS101] 練習 Lv2 與 Lv3 做完<br>很多都跟作業、[ALG101] 的內容重覆了，應該只會大概看一下講解影片看看有沒有什麼我沒有想到的地方。</li>
+</ul>
+<h3 id="搞懂超級挑戰題"><a href="#搞懂超級挑戰題" class="headerlink" title="搞懂超級挑戰題"></a>搞懂超級挑戰題</h3><ul>
+<li><input disabled="" type="checkbox"> 搞懂超級挑戰題，確實學會 BFS 到底是在幹什麼</li>
+</ul>
+<h3 id="快速的再看一遍-ALG101-到單元六"><a href="#快速的再看一遍-ALG101-到單元六" class="headerlink" title="快速的再看一遍  [ALG101] 到單元六"></a>快速的再看一遍  [ALG101] 到單元六</h3><ul>
+<li><input disabled="" type="checkbox"> 快速的再看一遍  [ALG101] 到單元六<br>之前很仔細的上完了這堂課，程式概念慢慢有點內化的感覺，再瀏覽一次加深印象。  </li>
+</ul>
+
+    <hr>
+    <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/diary/tags/JavaScript/" rel="tag">JavaScript</a></li><li class="tag-list-item"><a class="tag-list-link" href="/diary/tags/%E6%AF%8F%E6%97%A5%E9%80%B2%E5%BA%A6/" rel="tag">每日進度</a></li></ul>
+    
+    
+</div>
+</div>
+
+
+    </div>
+
+    
+        <section id="comments">
+    <div id="disqus_thread"></div>
+        <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'JAS0NHUANG';
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a></noscript>
+</section>
+
+
+    
+    
+    <!--footer-->
+    <footer class="blog_footer">
+    <p>
+        JAS0N HUANG
+        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">
+            <img src="/images/cc.svg" alt="CC" height="16"></a>
+        2020/06
+    </p>
+    
+</footer>
+
+  </body>
+</html>

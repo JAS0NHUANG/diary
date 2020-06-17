@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <!--head-->
+    <head>
+    <title>JAS0N HUANG</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="DoQOqkvX376V4rp4mmeGYFGrLOB-wrUCMMKlqgrqmuQ" />
+    
+<link rel="stylesheet" href="/diary/css/style.css">
+
+
+    <script type="text/javascript">
+        let apiUrl = 'https://www.googleapis.com/youtube/v3/channels?part=snippet&id=UC9ckyA_A3MfXUa0ttxMoIZw&key=AIzaSyBiuF1WCpG7TaCY8xtd4cb73Sn-5NTPrb0'
+        let xhr = new XMLHttpRequest()
+        xhr.open('get', apiUrl, true)
+        xhr.send()
+
+        xhr.onreadystatechange = function(){
+            if(this.readyState ===4 && this.status === 200){
+                let data = JSON.parse(this.responseText)
+                console.log(data)
+            }
+        }
+    </script>
+<meta name="generator" content="Hexo 4.2.1"></head>
+
+  <body>
+
+    
+    <div class="container">
+        <div class="blog_header">
+    <a href="/diary/">
+        <h1 class="blog_title">
+        <img src="/diary/images/Jas0nhuang.svg" alt="jas0nhuang">
+        <!-- %= config.title %-->
+        </h1>
+    </a>
+
+    <div class="container">
+        <nav class="blog_nav">
+            
+                <a class="menu_item" href="/diary/archives">文章</a>
+            
+                <a class="menu_item" href="/diary/tags">標籤</a>
+            
+                <a class="menu_item" href="/diary/about">關於</a>
+            
+        </nav>
+    </div>
+</div>
+
+    </div>
+    
+
+    
+    <div class="body">
+    <div class="main">
+<div class="full">
+    <h1 class="page_title">J-1 [日記] 網頁架構 &amp; 關於比較</h1>
+    <h2 id="網頁架構"><a href="#網頁架構" class="headerlink" title="網頁架構"></a>網頁架構</h2><p>Ruofan(@ruofanwei) 同學推薦的 Whimsical 真的滿好用的，分享我做的一張基礎網路架構圖：<a href="https://whimsical.com/QnPBztP5vx4rwACD8zMDtF" target="_blank" rel="noopener">Basic Web Structure</a><br><img src="/diary/images/Basic_Web_Structure.png" alt="Basic Web Structure"><br>筆記就用這張圖代表吧！<br>然後……老師，您 request 拼錯了……</p>
+<p><code>nslookup</code> 查詢 ip 位址。</p>
+<h2 id="程式基礎概念"><a href="#程式基礎概念" class="headerlink" title="程式基礎概念"></a>程式基礎概念</h2><p>這些在 [ALG101] 先別急著寫 leetcode 都有一些概念了，附上一些當時的筆記：<a href="https://jas0nhuang.github.io/2020/04/10/alg101-dont-leetcode-yet-1/">Don’t LeetCode Yet - 1&amp;2 - Think First</a>（也不知道為啥當時就用英文記了，有任何錯誤歡迎指正。）  </p>
+<h2 id="關於比較"><a href="#關於比較" class="headerlink" title="關於比較"></a>關於比較</h2><p>讓我直接的想到道德經裡的一段話,大家可以自已體會體會：   </p>
+<blockquote>
+<p>天下皆知美之爲美，斯惡已；皆知善之爲善，斯不善已。故有無相生，難易相成，長短相較，高下相傾，音聲相和，前後相隨。是以聖人處無爲之事，行不言之教。萬物作焉而不辭，生而不有，爲而不恃，功成而弗居。夫唯弗居，是以不去。  </p>
+</blockquote>
+<p>本來寫了一堆想放在每日進度裡，但是想說不要把那裡當個版用好了，就還是移到自已日記部落格。  </p>
+<p>老子大概也不是說大家就都別比了、大家都來去修行好了（這也是我覺得很多人對道家的誤解，覺得「無為」就是什麼事都不用做了），而是認清「比較」難免，只要做好自已分內的事、成功了不要驕傲、不要自恃，這才是應該有的態度。（這些也只是我自已的看法，不代表老子真正的看法……）<br>大家都是有想要跟胡立學習的地方才來到這裡，一百多個人起點也都不一樣，我昨天看了一下胡立講切版的影片，他也知道自已可能在切版上還有需要精進的地方，甚至有很多切版經驗的學員都可以做的「比」他好，其實這種比較就是一種學習的動力。  </p>
+
+    <hr>
+    <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/diary/tags/%E5%9F%BA%E7%A4%8E%E6%A6%82%E5%BF%B5/" rel="tag">基礎概念</a></li><li class="tag-list-item"><a class="tag-list-link" href="/diary/tags/%E6%97%A5%E8%A8%98/" rel="tag">日記</a></li></ul>
+    
+    
+</div>
+</div>
+
+
+    </div>
+
+    
+        <section id="comments">
+    <div id="disqus_thread"></div>
+        <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'JAS0NHUANG';
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a></noscript>
+</section>
+
+
+    
+    
+    <!--footer-->
+    <footer class="blog_footer">
+    <p>
+        JAS0N HUANG
+        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">
+            <img src="/images/cc.svg" alt="CC" height="16"></a>
+        2020/06
+    </p>
+    
+</footer>
+
+  </body>
+</html>
