@@ -6,7 +6,7 @@
   <link href="/diary/atom.xml" rel="self"/>
   
   <link href="http://JAS0NHUANG.github.io/diary/"/>
-  <updated>2020-06-17T20:55:39.978Z</updated>
+  <updated>2020-06-18T19:16:52.739Z</updated>
   <id>http://JAS0NHUANG.github.io/diary/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>J+6 [進度] 複習 [ALG101]，玩玩 HTTP、API</title>
+    <link href="http://JAS0NHUANG.github.io/diary/J-plus-6-progress/"/>
+    <id>http://JAS0NHUANG.github.io/diary/J-plus-6-progress/</id>
+    <published>2020-06-18T19:16:52.000Z</published>
+    <updated>2020-06-18T19:16:52.739Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="昨日小記"><a href="#昨日小記" class="headerlink" title="昨日小記"></a>昨日小記</h2><h3 id="再走一次迷宮"><a href="#再走一次迷宮" class="headerlink" title="再走一次迷宮"></a>再走一次迷宮</h3><p>把 LIOJ 1053 迷宮再走一次，其實就還是在默寫，先學著把模仿做好囉！<br>但是其中遇到一個神奇的地方，就是最後在判斷是否為未走過的點以及原始點（老師說的 A 點）到前往點（老師說的 B 點）的距離比較那裡。<br>我第一次不知道腦子進了什麼東西，寫出來變這樣，明顯就是錯誤（不相關）的判斷：  </p><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> (stepsArr[newX][newY] &gt; stepsArr[x][y] + stepsArr[newX][newY] || stepsArr[newX][newY] !== <span class="literal">undefined</span>) <span class="keyword">continue</span></span><br></pre></td></tr></table></figure><p>但是居然 AC！<br>仔細又看了一次老師的解法，發現好像沒有去判斷 A 走到 B 點的距離也沒關係，所以就試著把那一部分刪了，變成：  </p><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> (stepsArr[newX][newY] !== <span class="literal">undefined</span>) <span class="keyword">continue</span></span><br></pre></td></tr></table></figure><p>也還是 AC。XD<br>我自已的感覺是，其實只要判斷是否有走過就可以了？！或者是測資還不夠強，遇到更複雜的迷宮就可能會算錯？！</p><hr><h2 id="今日進度"><a href="#今日進度" class="headerlink" title="今日進度"></a>今日進度</h2><h3 id="快速複習-ALG101-先別急著寫-leetcode-單元-5"><a href="#快速複習-ALG101-先別急著寫-leetcode-單元-5" class="headerlink" title="快速複習 [ALG101] 先別急著寫 leetcode 單元 5"></a>快速複習 [ALG101] 先別急著寫 leetcode 單元 5</h3><ul><li><input checked="" disabled="" type="checkbox"> [ALG101] 先別急著寫 leetcode 單元 5<br>決定先看一半，其它時間學新的東西。  </li></ul><h3 id="看-NET201-HTTP-協定"><a href="#看-NET201-HTTP-協定" class="headerlink" title="看 [NET201] HTTP 協定"></a>看 [NET201] HTTP 協定</h3><ul><li><input disabled="" type="checkbox"> [NET201] HTTP 協定<br>仔細看完影片並做筆記。  </li></ul><h3 id="玩一下-API"><a href="#玩一下-API" class="headerlink" title="玩一下 API"></a>玩一下 API</h3><ul><li><input checked="" disabled="" type="checkbox"> 玩一下第四週作業裡的 API<br>其實就是很快的瀏覽了一次 [NET201] 的影片，介紹到 API 實作的時候覺得蠻有趣的，然後看到第四週作業的內容就不小心玩了一下，第四週的前兩個作業解的差不多了……<br>上 npm 找 request 這個套件的介紹時，看到它上面大大的紅字 “<a href="https://www.npmjs.com/package/request" target="_blank" rel="noopener">This package has been deprecated</a>“，看了一下 <a href="https://github.com/request/request/issues/3142" target="_blank" rel="noopener">issue #3142</a> 還有推薦的替代方案：<a href="https://github.com/request/request/issues/3143" target="_blank" rel="noopener">#3143</a>，發現 axios 這個名字好像最近很常在網路上看到，就想說自已研究看看了。<br>有興趣的人可以到我 week4 分支的 <a href="https://github.com/Lidemy/mentor-program-4th-JAS0NHUANG/tree/week4/homeworks/week4" target="_blank" rel="noopener">week4</a> 裡看一下，給我一點意見…… （我好像是從 week2 分支切過去的，所以 repo 有點亂，反正到時候 week4 應該會再重開一個分支）  </li></ul><hr><h2 id="明日進度"><a href="#明日進度" class="headerlink" title="明日進度"></a>明日進度</h2><h3 id="快速複習-ALG101-先別急著寫-leetcode-單元-6"><a href="#快速複習-ALG101-先別急著寫-leetcode-單元-6" class="headerlink" title="快速複習 [ALG101] 先別急著寫 leetcode 單元 6"></a>快速複習 [ALG101] 先別急著寫 leetcode 單元 6</h3><ul><li><input disabled="" type="checkbox"> [ALG101] 先別急著寫 leetcode 單元 5<br>把 [ALG101] 單元 5、6 分四天（或更多天）看吧！以免有倦怠感……<br>也讓自已每天回憶一點 JavaScript。  </li></ul><h3 id="看-NET201-TCP-IP"><a href="#看-NET201-TCP-IP" class="headerlink" title="看 [NET201] TCP/IP"></a>看 [NET201] TCP/IP</h3><ul><li><input disabled="" type="checkbox"> [NET201] TCP/IP  </li></ul><hr><h2 id="未來計畫"><a href="#未來計畫" class="headerlink" title="未來計畫"></a>未來計畫</h2><h3 id="按照課程進度前進"><a href="#按照課程進度前進" class="headerlink" title="按照課程進度前進"></a>按照課程進度前進</h3><h3 id="將-JS101-練習-Lv2-與-Lv3-做完"><a href="#將-JS101-練習-Lv2-與-Lv3-做完" class="headerlink" title="將 [JS101] 練習 Lv2 與 Lv3 做完"></a>將 [JS101] 練習 Lv2 與 Lv3 做完</h3><ul><li><input disabled="" type="checkbox"> [JS101] 練習 Lv2 與 Lv3 做完<br>很多都跟作業、[ALG101] 的內容重覆了，大概看一下講解影片看看有沒有什麼我沒有想到的地方。有時間再慢慢做。  </li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;昨日小記&quot;&gt;&lt;a href=&quot;#昨日小記&quot; class=&quot;headerlink&quot; title=&quot;昨日小記&quot;&gt;&lt;/a&gt;昨日小記&lt;/h2&gt;&lt;h3 id=&quot;再走一次迷宮&quot;&gt;&lt;a href=&quot;#再走一次迷宮&quot; class=&quot;headerlink&quot; title=&quot;再走一次迷
+      
+    
+    </summary>
+    
+    
+      <category term="每日進度" scheme="http://JAS0NHUANG.github.io/diary/tags/%E6%AF%8F%E6%97%A5%E9%80%B2%E5%BA%A6/"/>
+    
+  </entry>
   
   <entry>
     <title>J+5 [筆記] 再走一次迷宮</title>
@@ -469,30 +492,6 @@
       
         &lt;p&gt;要瞭解 Git 的詳細運作原理可能要花不少時間，以下只是粗淺的研究。如果內容有任何錯誤還請老師與同學不吝指正。&lt;/p&gt;
 &lt;h2 id=&quot;Git-的一切都在-git&quot;&gt;&lt;a href=&quot;#Git-的一切都在-git&quot; class=&quot;headerlink&quot; title=&quot;Git
-      
-    
-    </summary>
-    
-    
-      <category term="Git" scheme="http://JAS0NHUANG.github.io/diary/tags/Git/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>J-4 [日記] Git 基礎複習</title>
-    <link href="http://JAS0NHUANG.github.io/diary/J-4-diary/"/>
-    <id>http://JAS0NHUANG.github.io/diary/J-4-diary/</id>
-    <published>2020-06-08T15:03:00.000Z</published>
-    <updated>2020-06-12T06:59:20.692Z</updated>
-    
-    <content type="html"><![CDATA[<p>昨天除了試著把 week1/hw1 完成，也看了一下 week2、week3 的作業，在做 hw1 的時候覺得自已 Git 的基礎還要再複習一下，所以今天就先把 Git 基礎複習一遍。</p><h2 id="版本控制概念"><a href="#版本控制概念" class="headerlink" title="版本控制概念"></a>版本控制概念</h2><ol><li>保存不同版本的檔案</li><li>版本分支（例如新功能分支與除蟲分支)，分支各別完成之後可以合併</li><li>記錄各版本之間的差異</li><li>排除不必被追蹤的檔案</li><li>協作功能</li></ol><h2 id="自建版本控制系統"><a href="#自建版本控制系統" class="headerlink" title="自建版本控制系統"></a>自建版本控制系統</h2><ol><li>每個版本新開資料夾</li><li>將不必被追蹤之檔案移出</li><li>各版本資料夾以亂數命名避免重複/衝突</li><li>建立一個歷史記錄檔，記錄各資料夾之時間順序</li></ol><h2 id="Git-基礎"><a href="#Git-基礎" class="headerlink" title="Git 基礎"></a>Git 基礎</h2><p>其實可以參考我自已之前的筆記：<a href="https://jas0nhuang.github.io/2016/02/22/monkey-learning-git-1-basic-and-locale/">猴子學 git (一) 基本概念與本地端操作</a>，只是有些細節沒有寫到。</p><ul><li>git init 初始化（其實就是在資料夾裡建立一個 .git/ 資料夾，讓 git 可以對整個資料夾的檔案進行版本控制，沒事可以進去看看 .git/ 裡面都存了些什麼東西）</li><li>git status 查詢版本控制狀態</li><li>git add 檔案加入版本控制</li><li>git rm –cached 檔案移除版本控制<br>（tracked、stage、untracked……等狀態可以參考下面這張圖）<img src="https://jas0nhuang.github.io/images/Gitflow.svg" alt="git stats"></li><li>git commit 提交新版本<ul><li>快速方法：git -am “XXXX”</li></ul></li></ul><hr><p>下面這些是我之前比較沒用過的指令：</p><ul><li><p>git log 查看(提交)歷史記錄（可以加 –oneline 只顯示簡短的提交記錄）</p></li><li><p>git checkout 切換提交版本 </p><ul><li>加上 {commit id} 可以進去指定的 commit 版本</li><li>加上 master 可以回到目前最新版本</li></ul></li><li><p>.gitignore 檔案裡可以放入不想加入版本控制的檔名</p></li></ul><h2 id="Git-分支"><a href="#Git-分支" class="headerlink" title="Git 分支"></a>Git 分支</h2><h3 id="為什使用分支"><a href="#為什使用分支" class="headerlink" title="為什使用分支"></a>為什使用分支</h3><p>使用分支的場景其實很容易想像，無論是個人或是團隊專案，想要加上新功能或是修改內容而不影響穩定版本的運作，最好的方式就是開一個分支。</p><h2 id="分支指令"><a href="#分支指令" class="headerlink" title="分支指令"></a>分支指令</h2><p>git branch 不提供參數的話會列出所有分支名稱，並且顯示現在所在分支位置；提供參數「新分支名」則會建立一個新的分支<br>git checkout 加上分支名可以切換到所選分支</p><h3 id="分支的運作原理"><a href="#分支的運作原理" class="headerlink" title="分支的運作原理"></a>分支的運作原理</h3><p>這部分比較複雜，Pro Git 書中有一整個章節在講分支（<a href="https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell" target="_blank" rel="noopener">第三章</a>），可能也要對 Git 底層的運作原理（Pro Git 這本書<a href="https://git-scm.com/book/en/v2/Git-Internals-Plumbing-and-Porcelain" target="_blank" rel="noopener">第十章</a>的內容）有點概念才行。</p><p>今天花了點時間試著把 Git 的運作原理看了一下，明天再戰……</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;昨天除了試著把 week1/hw1 完成，也看了一下 week2、week3 的作業，在做 hw1 的時候覺得自已 Git 的基礎還要再複習一下，所以今天就先把 Git 基礎複習一遍。&lt;/p&gt;
-&lt;h2 id=&quot;版本控制概念&quot;&gt;&lt;a href=&quot;#版本控制概念&quot; class=
       
     
     </summary>
