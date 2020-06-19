@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <!--head-->
+    <head>
+    <title>JAS0N HUANG</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="DoQOqkvX376V4rp4mmeGYFGrLOB-wrUCMMKlqgrqmuQ" />
+    
+<link rel="stylesheet" href="/diary/css/style.css">
+
+
+    <script type="text/javascript">
+        let apiUrl = 'https://www.googleapis.com/youtube/v3/channels?part=snippet&id=UC9ckyA_A3MfXUa0ttxMoIZw&key=AIzaSyBiuF1WCpG7TaCY8xtd4cb73Sn-5NTPrb0'
+        let xhr = new XMLHttpRequest()
+        xhr.open('get', apiUrl, true)
+        xhr.send()
+
+        xhr.onreadystatechange = function(){
+            if(this.readyState ===4 && this.status === 200){
+                let data = JSON.parse(this.responseText)
+                console.log(data)
+            }
+        }
+    </script>
+<meta name="generator" content="Hexo 4.2.1"></head>
+
+  <body>
+
+    
+    <div class="container">
+        <div class="blog_header">
+    <a href="/diary/">
+        <h1 class="blog_title">
+        <img src="/diary/images/Jas0nhuang.svg" alt="jas0nhuang">
+        <!-- %= config.title %-->
+        </h1>
+    </a>
+
+    <div class="container">
+        <nav class="blog_nav">
+            
+                <a class="menu_item" href="/diary/archives">文章</a>
+            
+                <a class="menu_item" href="/diary/tags">標籤</a>
+            
+                <a class="menu_item" href="/diary/about">關於</a>
+            
+        </nav>
+    </div>
+</div>
+
+    </div>
+    
+
+    
+    <div class="body">
+    <div class="main">
+<div class="full">
+    <h1 class="page_title">J+6 [筆記] http 基本概念</h1>
+    <h2 id="HTTP-是什麼"><a href="#HTTP-是什麼" class="headerlink" title="HTTP 是什麼"></a>HTTP 是什麼</h2><p>H [超] T[文本] T[傳輸] P[協定]！！！  </p>
+<p>它是一個「協定」，我們要做的事情是去瞭解它的「規則」。  </p>
+<p>HTTP 屬於網路分層中的「應用層」（Application），每層都有相關的「協定」，這個到 TCP/IP 的部分會更詳細的討論。<br>[Web Layers](/diary/images/Web Layers.png)</p>
+<h2 id="HTTP-request-與-response"><a href="#HTTP-request-與-response" class="headerlink" title="HTTP request 與 response"></a>HTTP request 與 response</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">client ---request---&gt; server</span><br><span class="line">client &lt;--response--- server</span><br></pre></td></tr></table></figure>
+<p>以瀏覽器為例：  </p>
+<ol>
+<li>我們在網址列輸入 <a href="https://www.google.com" target="_blank" rel="noopener">https://www.google.com</a>  </li>
+<li>瀏覽器幫我們傳一個 Request 到 server（幫我們寫紙條）<br>Request 差不多長這樣（在每個瀏覽器上會有些不同）：  <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">:authority: www.google.com</span><br><span class="line">:method: GET</span><br><span class="line">:path: &#x2F;</span><br><span class="line">:scheme: https</span><br><span class="line">accept: text&#x2F;html,application&#x2F;xhtml+xml,application&#x2F;xml;q&#x3D;0.9,image&#x2F;webp,image&#x2F;apng,*&#x2F;*;q&#x3D;0.8,application&#x2F;signed-exchange;v&#x3D;b3;q&#x3D;0.9</span><br><span class="line">accept-encoding: gzip, deflate, br</span><br><span class="line">accept-language: en-US,en;q&#x3D;0.9</span><br><span class="line">..................................................</span><br></pre></td></tr></table></figure>
+因為是 GET 所以只有 head 沒有 body  </li>
+<li>server 會回傳一個帶有 HTML 原始碼的 Response。(完成紙條上的要求）  </li>
+<li>瀏覽器接收到這個 Response 然後渲染（render）出來。  </li>
+</ol>
+<h2 id="DNS"><a href="#DNS" class="headerlink" title="DNS"></a>DNS</h2><p>網路世界的郵差，進行 IP 與 Domain Name 的轉換，翻譯。<br>可以用 <code>nslookup</code> 查看IP 與 Domain Name 的對照。  </p>
+<p>一個神奇的檔案：<code>/etc/hosts</code> 裡面寫有電腦預設的 IP / Domain Name 對照表  </p>
+<h2 id="瀏覽器與其它"><a href="#瀏覽器與其它" class="headerlink" title="瀏覽器與其它"></a>瀏覽器與其它</h2><p>除了瀏覽器可以傳送 request 與接收 response 之外，我們也可以自已寫程式完成這個任務。<br>使用 request 這個套件就可以寫出一個這樣的 node 程式。（node 也有內建函式可以用。<code>http.request(url[, options][, callback])</code>）  </p>
+<h2 id="GET、POST-與其它"><a href="#GET、POST-與其它" class="headerlink" title="GET、POST 與其它"></a>GET、POST 與其它</h2><p>執行什麼動作：  </p>
+<ol>
+<li>GET：最常使用，用於取得資料，通常不會有 request body，只需要 header  </li>
+<li>POST：傳送資料，通常會有 request body，body 內容為要向伺服器傳送的資料  </li>
+<li>DELETE：刪除資料  </li>
+<li>PUT：會完全取代所選取的資料  </li>
+<li>PATCH：單純對所選取的資料做某些內容的修改、或增加內容  </li>
+<li>OPTIONS：會回傳可以用的方法。（例如：Allow： GET，POST）有點像是一個可執行動作的查詢功能。  </li>
+</ol>
+<h2 id="HTTP-狀態碼"><a href="#HTTP-狀態碼" class="headerlink" title="HTTP 狀態碼"></a>HTTP 狀態碼</h2><p>常見 HTTP 狀態碼：</p>
+<p>1XX：Server 正在做事情。<br>2XX：  </p>
+<ul>
+<li>204 處理了，但是不需回應，（如 DELETE）  </li>
+</ul>
+<p>3XX：  </p>
+<ul>
+<li>301 Location： XXXX  瀏覽器會記住 LOC （永久移動）  </li>
+<li>302 （暫時移動）  </li>
+</ul>
+<p>4XX：  </p>
+<ul>
+<li>404 沒有  </li>
+<li>418 查無  </li>
+</ul>
+<p>5XX：server錯誤</p>
+<ul>
+<li>500</li>
+<li>503</li>
+</ul>
+<p><a href="https://www.google.com/teapot" target="_blank" rel="noopener">Google 418</a><br><a href="https://blog.techbridge.cc/2019/06/15/iam-a-teapot-418/" target="_blank" rel="noopener">Huli 418</a><br><a href="https://zh.wikipedia.org/wiki/HTTP%E7%8A%B6%E6%80%81%E7%A0%81" target="_blank" rel="noopener">維基百科 - HTTP 狀態碼</a>  </p>
+<h2 id="超簡單-HTTP-Server"><a href="#超簡單-HTTP-Server" class="headerlink" title="超簡單 HTTP Server"></a>超簡單 HTTP Server</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">const http &#x3D; require(&#39;http&#39;)</span><br><span class="line"></span><br><span class="line">const server &#x3D; http.createServer(function(req, res) &#123;</span><br><span class="line">  console.log(req.url)</span><br><span class="line">  res.write(&#39;hello&#39;)</span><br><span class="line">  res.end()</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">server.listen(5000) &#x2F;&#x2F; port</span><br></pre></td></tr></table></figure>
+
+
+    <hr>
+    <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/diary/tags/HTTP/" rel="tag">HTTP</a></li><li class="tag-list-item"><a class="tag-list-link" href="/diary/tags/%E7%B6%B2%E8%B7%AF%E6%A6%82%E8%AB%96/" rel="tag">網路概論</a></li></ul>
+    
+    
+</div>
+</div>
+
+
+    </div>
+
+    
+        <section id="comments">
+    <div id="disqus_thread"></div>
+        <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'JAS0NHUANG';
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a></noscript>
+</section>
+
+
+    
+    
+    <!--footer-->
+    <footer class="blog_footer">
+    <p>
+        JAS0N HUANG
+        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">
+            <img src="/images/cc.svg" alt="CC" height="16"></a>
+        2020/06
+    </p>
+    
+</footer>
+
+  </body>
+</html>
