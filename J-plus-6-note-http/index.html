@@ -58,22 +58,46 @@
     <div class="body">
     <div class="main">
 <div class="full">
-    <h1 class="page_title">J+6 [筆記] http 基本概念</h1>
-    <h2 id="HTTP-是什麼"><a href="#HTTP-是什麼" class="headerlink" title="HTTP 是什麼"></a>HTTP 是什麼</h2><p>H [超] T[文本] T[傳輸] P[協定]！！！  </p>
+    <h1 class="page_title">[筆記] 傳紙條與 HTTP 基本概念</h1>
+    <h2 id="傳紙條"><a href="#傳紙條" class="headerlink" title="傳紙條"></a>傳紙條</h2><h3 id="告白篇"><a href="#告白篇" class="headerlink" title="告白篇"></a>告白篇</h3><ol>
+<li>來源</li>
+<li>目的地</li>
+<li>三次前置作業，確保收發功能（三次握手：確定發送、接收功能正常）</li>
+</ol>
+<h3 id="訂便當"><a href="#訂便當" class="headerlink" title="訂便當"></a>訂便當</h3><ol>
+<li>格式統一</li>
+<li>特殊需求（頭-特殊資訊、身體-內容）</li>
+<li>回覆格式：以數字/狀態碼回應 200、300、400、404、500、503(也有頭-數字、身體-內容)</li>
+<li>不同動作：GET POST DELET PUT</li>
+</ol>
+<h3 id="發大財"><a href="#發大財" class="headerlink" title="發大財"></a>發大財</h3><ol>
+<li>統一服務代碼：80、3000、4000、5000……</li>
+<li>格式簡化：對不同服務可以有不同格式</li>
+<li>加速：有些服務不用確認如 streaming</li>
+<li>地址、校名：ip Domain</li>
+</ol>
+<ul>
+<li>為何需要協定（protocol）？<br>為了讓人能夠溝通，需要規範，所以其實語言就是一種 protocol 啦！？</li>
+</ul>
+<h2 id="HTTP-是什麼"><a href="#HTTP-是什麼" class="headerlink" title="HTTP 是什麼"></a>HTTP 是什麼</h2><p>H [超] T[文本] T[傳輸] P[協定]！！！  </p>
 <p>它是一個「協定」，我們要做的事情是去瞭解它的「規則」。  </p>
 <p>HTTP 屬於網路分層中的「應用層」（Application），每層都有相關的「協定」，這個到 TCP/IP 的部分會更詳細的討論。<br><img src="/diary/images/Web_Layers.png" alt="Web Layers"></p>
 <h2 id="HTTP-request-與-response"><a href="#HTTP-request-與-response" class="headerlink" title="HTTP request 與 response"></a>HTTP request 與 response</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">client ---request---&gt; server</span><br><span class="line">client &lt;--response--- server</span><br></pre></td></tr></table></figure>
 <p>以瀏覽器為例：  </p>
 <ol>
-<li>我們在網址列輸入 <a href="https://www.google.com" target="_blank" rel="noopener">https://www.google.com</a>  </li>
-<li>瀏覽器幫我們傳一個 Request 到 server（幫我們寫紙條）<br>Request 差不多長這樣（在每個瀏覽器上會有些不同）：  <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">:authority: www.google.com</span><br><span class="line">:method: GET</span><br><span class="line">:path: &#x2F;</span><br><span class="line">:scheme: https</span><br><span class="line">accept: text&#x2F;html,application&#x2F;xhtml+xml,application&#x2F;xml;q&#x3D;0.9,image&#x2F;webp,image&#x2F;apng,*&#x2F;*;q&#x3D;0.8,application&#x2F;signed-exchange;v&#x3D;b3;q&#x3D;0.9</span><br><span class="line">accept-encoding: gzip, deflate, br</span><br><span class="line">accept-language: en-US,en;q&#x3D;0.9</span><br><span class="line">..................................................</span><br></pre></td></tr></table></figure>
-因為是 GET 所以只有 head 沒有 body  </li>
-<li>server 會回傳一個帶有 HTML 原始碼的 Response。(完成紙條上的要求）  </li>
-<li>瀏覽器接收到這個 Response 然後渲染（render）出來。  </li>
+<li><p>我們在網址列輸入 <a href="https://www.google.com" target="_blank" rel="noopener">https://www.google.com</a>  </p>
+</li>
+<li><p>瀏覽器幫我們傳一個 Request 到 server（幫我們寫紙條）<br>Request 差不多長這樣（在每個瀏覽器上會有些不同）：<br>（因為是 GET 所以只有 head 沒有 body）  </p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">:authority: www.google.com</span><br><span class="line">:method: GET</span><br><span class="line">:path: &#x2F;</span><br><span class="line">:scheme: https</span><br><span class="line">accept: text&#x2F;html,application&#x2F;xhtml+xml,application&#x2F;xml;q&#x3D;0.9,image&#x2F;webp,image&#x2F;apng,*&#x2F;*;q&#x3D;0.8,application&#x2F;signed-exchange;v&#x3D;b3;q&#x3D;0.9</span><br><span class="line">accept-encoding: gzip, deflate, br</span><br><span class="line">accept-language: en-US,en;q&#x3D;0.9</span><br><span class="line">..................................................</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>server 會回傳一個帶有 HTML 原始碼的 Response。(完成紙條上的要求）  </p>
+</li>
+<li><p>瀏覽器接收到這個 Response 然後渲染（render）出來。  </p>
+</li>
 </ol>
-<h2 id="DNS"><a href="#DNS" class="headerlink" title="DNS"></a>DNS</h2><p>網路世界的郵差，進行 IP 與 Domain Name 的轉換，翻譯。<br>可以用 <code>nslookup</code> 查看IP 與 Domain Name 的對照。  </p>
+<h2 id="DNS"><a href="#DNS" class="headerlink" title="DNS"></a>DNS</h2><p>網路世界的郵差，進行 IP 與 Domain Name 的轉換、翻譯。<br>DNS 伺服器也有分層，company &gt; isp &gt; country &gt; root<br>可以用 <code>nslookup</code> 查看IP 與 Domain Name 的對照。  </p>
 <p>一個神奇的檔案：<code>/etc/hosts</code> 裡面寫有電腦預設的 IP / Domain Name 對照表  </p>
-<h2 id="瀏覽器與其它"><a href="#瀏覽器與其它" class="headerlink" title="瀏覽器與其它"></a>瀏覽器與其它</h2><p>除了瀏覽器可以傳送 request 與接收 response 之外，我們也可以自已寫程式完成這個任務。<br>使用 request 這個套件就可以寫出一個這樣的 node 程式。（node 也有內建函式可以用。<code>http.request(url[, options][, callback])</code>）  </p>
+<h2 id="瀏覽器與其它"><a href="#瀏覽器與其它" class="headerlink" title="瀏覽器與其它"></a>瀏覽器與其它</h2><p>除了瀏覽器可以傳送 request 與接收 response 之外，我們也可以自已寫程式完成這個任務。<br>使用 request 這個套件就可以寫出一個這樣的 node 程式。<br>（node 也有內建函式可以用。<code>http.request(url[, options][, callback])</code>）  </p>
 <h2 id="GET、POST-與其它"><a href="#GET、POST-與其它" class="headerlink" title="GET、POST 與其它"></a>GET、POST 與其它</h2><p>執行什麼動作：  </p>
 <ol>
 <li>GET：最常使用，用於取得資料，通常不會有 request body，只需要 header  </li>

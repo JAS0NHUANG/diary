@@ -58,7 +58,7 @@
     <div class="body">
     <div class="main">
 <div class="full">
-    <h1 class="page_title">J+6 [進度] 複習 [ALG101]，玩玩 HTTP、API</h1>
+    <h1 class="page_title">J+6 [進度] 複習 [ALG101] / 玩玩 HTTP、API</h1>
     <h2 id="昨日小記"><a href="#昨日小記" class="headerlink" title="昨日小記"></a>昨日小記</h2><h3 id="再走一次迷宮"><a href="#再走一次迷宮" class="headerlink" title="再走一次迷宮"></a>再走一次迷宮</h3><p>把 LIOJ 1053 迷宮再走一次，其實就還是在默寫，先學著把模仿做好囉！<br>但是其中遇到一個神奇的地方，就是最後在判斷是否為未走過的點以及原始點（老師說的 A 點）到前往點（老師說的 B 點）的距離比較那裡。<br>我第一次不知道腦子進了什麼東西，寫出來變這樣，明顯就是錯誤（不相關）的判斷：  </p>
 <figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> (stepsArr[newX][newY] &gt; stepsArr[x][y] + stepsArr[newX][newY] || stepsArr[newX][newY] !== <span class="literal">undefined</span>) <span class="keyword">continue</span></span><br></pre></td></tr></table></figure>
 

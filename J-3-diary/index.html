@@ -58,7 +58,7 @@
     <div class="body">
     <div class="main">
 <div class="full">
-    <h1 class="page_title">J-3 [日記] Git 運作原理</h1>
+    <h1 class="page_title">[筆記] Git 運作原理</h1>
     <p>要瞭解 Git 的詳細運作原理可能要花不少時間，以下只是粗淺的研究。如果內容有任何錯誤還請老師與同學不吝指正。</p>
 <h2 id="Git-的一切都在-git"><a href="#Git-的一切都在-git" class="headerlink" title="Git 的一切都在 .git/"></a>Git 的一切都在 .git/</h2><p>讓我們從頭開始。<br>先建立一個空的資料夾，然後進入這個資料夾。<br>在按下 <code>git init</code> 這個指令之後，git 就會在所在的資料夾內創建一個 .git/ 資料夾，然後整個資料夾裡有任何風吹草動都會被 Git 給嚴密監控，<br>翻一遍 .git 資料夾就可以對 Git 有更深入一點點的瞭解，在 init 之後 .git/ 資料夾初始的內部組織長的像這樣：(只列出我懂的一些內容，以及這個討論主題會提到的資料，並非完整資料夾結構。）</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">.git</span><br><span class="line">├── HEAD</span><br><span class="line">├── objects&#x2F;</span><br><span class="line">│   ├── info</span><br><span class="line">│   └── pack</span><br><span class="line">└── refs</span><br><span class="line">    ├── heads</span><br><span class="line">    └── tags</span><br></pre></td></tr></table></figure>
