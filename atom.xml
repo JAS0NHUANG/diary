@@ -6,7 +6,7 @@
   <link href="/diary/atom.xml" rel="self"/>
   
   <link href="http://JAS0NHUANG.github.io/diary/"/>
-  <updated>2020-06-21T22:08:02.193Z</updated>
+  <updated>2020-06-21T23:52:21.988Z</updated>
   <id>http://JAS0NHUANG.github.io/diary/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>[筆記] TCPIP 與 API</title>
+    <link href="http://JAS0NHUANG.github.io/diary/J-plus-9-note-TCPIP-API/"/>
+    <id>http://JAS0NHUANG.github.io/diary/J-plus-9-note-TCPIP-API/</id>
+    <published>2020-06-21T23:52:21.000Z</published>
+    <updated>2020-06-21T23:52:21.988Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="網路層級與-TCP-IP-模型"><a href="#網路層級與-TCP-IP-模型" class="headerlink" title="網路層級與 TCP/IP 模型"></a>網路層級與 TCP/IP 模型</h2><p>在 HTTP 筆記裡就有這張圖啦：<br><img src="/diary/source/images/Web_Layer" alt="Web Layer">  </p><p>OSI 七層，各層級都有自已的協定。<br>TCP/IP 模型為四層：應用層、傳輸層、網路層、鏈結層。<br>HTTP 屬於應用層，TCP 屬於傳送層，IP 屬於網路層。  </p><h3 id="IP-位址"><a href="#IP-位址" class="headerlink" title="IP 位址"></a>IP 位址</h3><p>IPv4 與 IPv6<br>有固定 IP 與浮動 IP  </p><p>理想情況：世界上的所有電腦都有一個不重覆的固定 IP（顯然不可能……）  </p><p>實際狀況：每台內網的電腦都有一個虛擬（私有 private） IP 連到數據機，數據機再以一個對外的固定 IP 對外連線。  </p><h3 id="Port-連接埠"><a href="#Port-連接埠" class="headerlink" title="Port 連接埠"></a>Port 連接埠</h3><p>在 IP 位址後面可以接上 Port，目的是區別在同一個主機上的不同服務<br>預設：HTTP 80、HTTPS 443、FTP 21……  </p><h3 id="TCP-與-UDP"><a href="#TCP-與-UDP" class="headerlink" title="TCP 與 UDP"></a>TCP 與 UDP</h3><p>兩個都是傳輸層的協定，不同點在於，TCP 是可靠的連接，有所謂的三次握手。<br>UDP 則不必要保證可靠性，視訊通話、網路直播……等以即時性為訴求的服務，通常會建立在這個傳輸協定上。  </p><h2 id="什麼是-API"><a href="#什麼是-API" class="headerlink" title="什麼是 API"></a>什麼是 API</h2><p>Application Programming Interface：應用程式介面<br>一種介面, 一個溝通的管道, 資料交換的方法<br>制作 USB 廠商的隨身碟！！！<br>提供「資料」 或接收資料, 提供 API 者可以控制什麼資料可以讓使用者存取。<br>透過「網路」提供的 API 就會被稱做 Web API，而通常 Web API 都是在講 HTTP API（透過 HTTP 協定提供的 API）。<br><a href="https://picsum.photos" target="_blank" rel="noopener">Lorem Picsum</a> 一個有趣的 API。   </p><h3 id="API-的功能"><a href="#API-的功能" class="headerlink" title="API 的功能"></a>API 的功能</h3><ul><li>對使用者：  </li></ul><ol><li>固定選項  </li><li>減少溝通障礙  </li></ol><ul><li>對提供者：  </li></ul><ol><li>減少人力  </li><li>不提供沒有的選項，沒有客製化  </li></ol><h3 id="再用一次-request-串串"><a href="#再用一次-request-串串" class="headerlink" title="再用一次 request 串串"></a>再用一次 request 串串</h3><p>測試用 API：[Req | Res]（<a href="https://reqres.in）" target="_blank" rel="noopener">https://reqres.in）</a><br>GET：  </p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">const request &#x3D; require(&#39;request&#39;)</span><br><span class="line">request(</span><br><span class="line">  &#39;https:&#x2F;&#x2F;reqres.in&#x2F;api&#x2F;users&#39;,</span><br><span class="line">  function(error, response, body) &#123;</span><br><span class="line">    console.log(body)</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><ul><li>node 小技巧：<br>讀取參數  <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">const process &#x3D; require(&#39;process&#39;)</span><br><span class="line">console.log(process.argv）</span><br></pre></td></tr></table></figure></li></ul><p>POST：  </p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">const request &#x3D; require(&#39;request&#39;)</span><br><span class="line">request.post(</span><br><span class="line">  &#123;</span><br><span class="line">    url: &#39;https:&#x2F;&#x2F;reqres.in&#x2F;api&#x2F;users&#39;,</span><br><span class="line">    form: &#123;</span><br><span class="line">      name:&#39;JJ&#39;,</span><br><span class="line">      job:&#39;none&#39;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;,</span><br><span class="line">  function(error, response, body) &#123;</span><br><span class="line">    console.log(body)</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="XML-與-JSON"><a href="#XML-與-JSON" class="headerlink" title="XML 與 JSON"></a>XML 與 JSON</h3><p>XML 歷史悠久，通常會用 SOAP 協定傳送。（node 上面可以用 node-soap 套件來傳送）  </p><p>現在大部分都用 JSON 這個資料格式了。<br>如果回傳的 JSON 內容被轉換為字串的話，可以用 <code>JSON.parse()</code> 來轉換為 JSON 資料。<br>也可以反轉，將 JSON 資料轉換為字串：<code>JSON.stringify()</code>  </p><h3 id="到底什麼是-RESTful"><a href="#到底什麼是-RESTful" class="headerlink" title="到底什麼是 RESTful"></a>到底什麼是 RESTful</h3><p>不是協定、標準，只是一種「風格」<br>查詢用 GET，新增用 POST，刪除用 DELETE，修改用 PATCH。大部分的 API 都是 RESTful 風格了，因為它比較直覺，好懂，也符合 HTTP request 的語意。  </p><h2 id="CLI-上好用的工具"><a href="#CLI-上好用的工具" class="headerlink" title="CLI 上好用的工具"></a>CLI 上好用的工具</h2><h3 id="curl"><a href="#curl" class="headerlink" title="curl"></a>curl</h3><p><code>curl 網址</code> 回傳整個頁面的回應<br><code>curl -i 網址</code> 只下載 header</p><h3 id="ping"><a href="#ping" class="headerlink" title="ping"></a>ping</h3><p>測試是否能連線到某個伺服器</p><h3 id="telnet"><a href="#telnet" class="headerlink" title="telnet"></a>telnet</h3><p><code>telnet {IP} {port}</code> 可以連線到該伺服器的某個 port 上。<br>預設 port 為 23  </p><h3 id="nslookup"><a href="#nslookup" class="headerlink" title="nslookup"></a>nslookup</h3><p>查看 DNS 查詢到的 IP</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;網路層級與-TCP-IP-模型&quot;&gt;&lt;a href=&quot;#網路層級與-TCP-IP-模型&quot; class=&quot;headerlink&quot; title=&quot;網路層級與 TCP/IP 模型&quot;&gt;&lt;/a&gt;網路層級與 TCP/IP 模型&lt;/h2&gt;&lt;p&gt;在 HTTP 筆記裡就有這張圖啦：&lt;
+      
+    
+    </summary>
+    
+    
+      <category term="網路概論" scheme="http://JAS0NHUANG.github.io/diary/tags/%E7%B6%B2%E8%B7%AF%E6%A6%82%E8%AB%96/"/>
+    
+      <category term="TCP/IP" scheme="http://JAS0NHUANG.github.io/diary/tags/TCP-IP/"/>
+    
+  </entry>
   
   <entry>
     <title>J+9 [進度] Week3 解題心得 / 瞭解 API</title>
@@ -467,31 +492,6 @@
     
     
       <category term="每日進度" scheme="http://JAS0NHUANG.github.io/diary/tags/%E6%AF%8F%E6%97%A5%E9%80%B2%E5%BA%A6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>[日記] 網頁架構 &amp; 關於比較</title>
-    <link href="http://JAS0NHUANG.github.io/diary/J-1-diary/"/>
-    <id>http://JAS0NHUANG.github.io/diary/J-1-diary/</id>
-    <published>2020-06-11T06:56:45.000Z</published>
-    <updated>2020-06-21T22:29:18.553Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="網頁架構"><a href="#網頁架構" class="headerlink" title="網頁架構"></a>網頁架構</h2><p>Ruofan(@ruofanwei) 同學推薦的 Whimsical 真的滿好用的，分享我做的一張基礎網路架構圖：<a href="https://whimsical.com/QnPBztP5vx4rwACD8zMDtF" target="_blank" rel="noopener">Basic Web Structure</a><br><img src="/diary/images/Basic_Web_Structure.png" alt="Basic Web Structure"><br>筆記就用這張圖代表吧！<br>然後……老師，您 request 拼錯了……</p><p><code>nslookup</code> 查詢 ip 位址。</p><h2 id="程式基礎概念"><a href="#程式基礎概念" class="headerlink" title="程式基礎概念"></a>程式基礎概念</h2><p>這些在 [ALG101] 先別急著寫 leetcode 都有一些概念了，附上一些當時的筆記：<a href="https://jas0nhuang.github.io/2020/04/10/alg101-dont-leetcode-yet-1/">Don’t LeetCode Yet - 1&amp;2 - Think First</a>（也不知道為啥當時就用英文記了，有任何錯誤歡迎指正。）  </p><h2 id="關於比較"><a href="#關於比較" class="headerlink" title="關於比較"></a>關於比較</h2><p>讓我直接的想到道德經裡的一段話,大家可以自已體會體會：   </p><blockquote><p>天下皆知美之爲美，斯惡已；皆知善之爲善，斯不善已。故有無相生，難易相成，長短相較，高下相傾，音聲相和，前後相隨。是以聖人處無爲之事，行不言之教。萬物作焉而不辭，生而不有，爲而不恃，功成而弗居。夫唯弗居，是以不去。  </p></blockquote><p>本來寫了一堆想放在每日進度裡，但是想說不要把那裡當個版用好了，就還是移到自已日記部落格。  </p><p>老子大概也不是說大家就都別比了、大家都來去修行好了（這也是我覺得很多人對道家的誤解，覺得「無為」就是什麼事都不用做了），而是認清「比較」難免，只要做好自已分內的事、成功了不要驕傲、不要自恃，這才是應該有的態度。（這些也只是我自已的看法，不代表老子真正的看法……）<br>大家都是有想要跟胡立學習的地方才來到這裡，一百多個人起點也都不一樣，我昨天看了一下胡立講切版的影片，他也知道自已可能在切版上還有需要精進的地方，甚至有很多切版經驗的學員都可以做的「比」他好，其實這種比較就是一種學習的動力。  </p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;網頁架構&quot;&gt;&lt;a href=&quot;#網頁架構&quot; class=&quot;headerlink&quot; title=&quot;網頁架構&quot;&gt;&lt;/a&gt;網頁架構&lt;/h2&gt;&lt;p&gt;Ruofan(@ruofanwei) 同學推薦的 Whimsical 真的滿好用的，分享我做的一張基礎網路架構圖：&lt;a hr
-      
-    
-    </summary>
-    
-    
-      <category term="日記" scheme="http://JAS0NHUANG.github.io/diary/tags/%E6%97%A5%E8%A8%98/"/>
-    
-      <category term="基礎概念" scheme="http://JAS0NHUANG.github.io/diary/tags/%E5%9F%BA%E7%A4%8E%E6%A6%82%E5%BF%B5/"/>
     
   </entry>
   
