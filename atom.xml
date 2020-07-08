@@ -6,7 +6,7 @@
   <link href="/diary/atom.xml" rel="self"/>
   
   <link href="http://JAS0NHUANG.github.io/diary/"/>
-  <updated>2020-07-08T04:55:06.159Z</updated>
+  <updated>2020-07-08T06:42:40.119Z</updated>
   <id>http://JAS0NHUANG.github.io/diary/</id>
   
   <author>
@@ -15,6 +15,52 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>J+26 [進度] 整理筆記、心得 / 看龐貝展 / 看直播</title>
+    <link href="http://JAS0NHUANG.github.io/diary/J-plus-26-progress/"/>
+    <id>http://JAS0NHUANG.github.io/diary/J-plus-26-progress/</id>
+    <published>2020-07-08T06:42:40.000Z</published>
+    <updated>2020-07-08T06:42:40.119Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="昨日小記"><a href="#昨日小記" class="headerlink" title="昨日小記"></a>昨日小記</h2><h3 id="SHOWTIME-與練習"><a href="#SHOWTIME-與練習" class="headerlink" title="SHOWTIME 與練習"></a>SHOWTIME 與練習</h3><p>本來以為是今天才要去看牙醫的，結果手機跳出提醒才發現是昨天……還好還來的及趕上。<br>Showtime 就只把寄信小程式看完，明天再試著自已寫寫看。</p><h3 id="法國求職中心-API"><a href="#法國求職中心-API" class="headerlink" title="法國求職中心 API"></a>法國求職中心 API</h3><p>試了好一陣子，想說不要再掙扎了，就直接私訊問老師。就算是法文的文件，老師還是輕鬆的在 10 分鐘內解決問題 :D，就是在 scope 的地方少加了一個東西。順利抓到資料了，之後再想想看能拿它們來幹什麼……</p><p>然後胡立說這個文件寫的不錯，我自已也覺得其實很詳細了，可是還是有其它 API 都有的小缺點：範例不夠完整，大概文件的讀者群都是設定為有經驗的工程師吧…… 我記得昨天好像有看到哪個同學想學法文？？ 那就來看看法文版的文件吧：<a href="https://www.emploi-store-dev.fr/portail-developpeur-cms/home/catalogue-des-api/documentation-des-api/api/api-offres-demploi-v2.html;JSESSIONID_JAHIA=6568CD58835C817049866433D57C77E6" target="_blank" rel="noopener">API Offres d’emploi v2</a><br>（不想學法文的同學應該也可以參考一下他們的文件，應該也可以學到一些東西。）</p><hr><h2 id="今日進度"><a href="#今日進度" class="headerlink" title="今日進度"></a>今日進度</h2><h3 id="看龐貝展"><a href="#看龐貝展" class="headerlink" title="看龐貝展"></a>看龐貝展</h3><p>小孩放假了，帶他們去看看展走一走。</p><h3 id="整理前四週筆記、心得"><a href="#整理前四週筆記、心得" class="headerlink" title="整理前四週筆記、心得"></a>整理前四週筆記、心得</h3><ul><li><input disabled="" type="checkbox"> 整理前四週筆記、心得<br>整理筆記、心得，每日進度差不多都備份到自已部落格上了。整理一下 week5 作業。</li></ul><hr><h2 id="明日進度"><a href="#明日進度" class="headerlink" title="明日進度"></a>明日進度</h2><ul><li><input disabled="" type="checkbox"> week5 Showtime<br>自已試著寫寄信小程式</li></ul><h3 id="練習切個版"><a href="#練習切個版" class="headerlink" title="練習切個版"></a>練習切個版</h3><ul><li><input disabled="" type="checkbox"> 練習切版<br>寫 week6 挑戰題</li></ul><h3 id="每天看一點-JavaScript"><a href="#每天看一點-JavaScript" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input disabled="" type="checkbox"> 每天看一點 JavaScript</li></ul><h3 id="開始看一些-DOM-操作的課程"><a href="#開始看一些-DOM-操作的課程" class="headerlink" title="開始看一些 DOM 操作的課程"></a>開始看一些 DOM 操作的課程</h3><p>其實已經開始看一些些了（就……寫作業或練習有點倦怠時就會跑去看點新的東西……）</p><hr><h2 id="計畫"><a href="#計畫" class="headerlink" title="計畫"></a>計畫</h2><p>希望不要越長越大的計畫列表……</p><ol><li>背包問題筆記</li><li>HTML/CSS 小抄</li><li>想想 Side Project；繼續研究法國求職中心的 API，瞭解法國這裡工程師的就業市場。</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;昨日小記&quot;&gt;&lt;a href=&quot;#昨日小記&quot; class=&quot;headerlink&quot; title=&quot;昨日小記&quot;&gt;&lt;/a&gt;昨日小記&lt;/h2&gt;&lt;h3 id=&quot;SHOWTIME-與練習&quot;&gt;&lt;a href=&quot;#SHOWTIME-與練習&quot; class=&quot;headerlink&quot; 
+      
+    
+    </summary>
+    
+    
+      <category term="每日進度" scheme="http://JAS0NHUANG.github.io/diary/tags/%E6%AF%8F%E6%97%A5%E9%80%B2%E5%BA%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>J+17 [進度] 切版練習 / 寫心得</title>
+    <link href="http://JAS0NHUANG.github.io/diary/J-plus-17-progress/"/>
+    <id>http://JAS0NHUANG.github.io/diary/J-plus-17-progress/</id>
+    <published>2020-07-08T05:00:51.000Z</published>
+    <updated>2020-07-08T05:00:51.058Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="昨日小記"><a href="#昨日小記" class="headerlink" title="昨日小記"></a>昨日小記</h2><h3 id="week4-作業"><a href="#week4-作業" class="headerlink" title="week4 作業"></a>week4 作業</h3><p>大致上是完成作業了，但是自已感覺程式碼還是不太好看，附上<a href="https://github.com/Lidemy/mentor-program-4th-JAS0NHUANG/tree/week4/homeworks/week4" target="_blank" rel="noopener">Week4 作業 REPO</a>有興趣的同學可以一起討論！另外，如果 week3 之前的內容覺得不必勞駕老師或助教的問題也歡迎跟我討論喔！:D</p><h3 id="HTML-CSS"><a href="#HTML-CSS" class="headerlink" title="HTML / CSS"></a>HTML / CSS</h3><p>前天把 week6 作業切了大概 87 分像，昨天再試著重新切一次，把每一步記錄下來，感覺 Flexbox 跟一些細節有比較熟悉，也比較知道自已在切什麼東西了……</p><h3 id="導師計畫半個月心得"><a href="#導師計畫半個月心得" class="headerlink" title="導師計畫半個月心得"></a>導師計畫半個月心得</h3><p>目前寫了一半，今天試著把它寫完，其實也就是大略分享一下自已對這個計畫的感覺還有這半個月學習到的內容。</p><hr><h2 id="今日進度"><a href="#今日進度" class="headerlink" title="今日進度"></a>今日進度</h2><h3 id="完成-Week4-作業"><a href="#完成-Week4-作業" class="headerlink" title="完成 Week4 作業"></a>完成 Week4 作業</h3><ul><li><input checked="" disabled="" type="checkbox"> 完成 Week4 作業<br>程式碼清理一下……或者有強者願意提供一些意見？！</li></ul><h3 id="每天看一點-JavaScript"><a href="#每天看一點-JavaScript" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input disabled="" type="checkbox"> 每天看一點 JavaScript<br>[JS101] 練習 Lv2 與 Lv3。昨天沒有看到 JavaScript，今天試著看一些，然後找 LeetCode 一些簡單的題目試試。</li></ul><h3 id="寫心得、筆記"><a href="#寫心得、筆記" class="headerlink" title="寫心得、筆記"></a>寫心得、筆記</h3><ul><li><input disabled="" type="checkbox"> 寫心得<br>把導師計畫半個月心得寫完。</li></ul><h3 id="練習切個版"><a href="#練習切個版" class="headerlink" title="練習切個版"></a>練習切個版</h3><ul><li><input disabled="" type="checkbox"> 練習切版<br>用 week6 作業練習切版，找一些 RWD 資料。</li></ul><hr><h2 id="明日進度"><a href="#明日進度" class="headerlink" title="明日進度"></a>明日進度</h2><h3 id="每天看一點-JavaScript-1"><a href="#每天看一點-JavaScript-1" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input disabled="" type="checkbox"> 每天看一點 JavaScript</li></ul><h3 id="交-Week4-作業"><a href="#交-Week4-作業" class="headerlink" title="交 Week4 作業"></a>交 Week4 作業</h3><ul><li><input disabled="" type="checkbox"> 交 Week4 作業</li></ul><h3 id="練習切個版-1"><a href="#練習切個版-1" class="headerlink" title="練習切個版"></a>練習切個版</h3><ul><li><input disabled="" type="checkbox"> 練習切版<br>用 week6 作業練習切版</li></ul><hr><h2 id="計畫"><a href="#計畫" class="headerlink" title="計畫"></a>計畫</h2><h3 id="背包問題解題筆記"><a href="#背包問題解題筆記" class="headerlink" title="背包問題解題筆記"></a>背包問題解題筆記</h3><ul><li><input disabled="" type="checkbox"> 把背包問題解題的過程記錄下來</li></ul><h3 id="視覺化-HTML-CSS-小抄"><a href="#視覺化-HTML-CSS-小抄" class="headerlink" title="視覺化 HTML / CSS 小抄"></a>視覺化 HTML / CSS 小抄</h3><ul><li><input disabled="" type="checkbox"> 視覺化 HTML / CSS 小抄</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;昨日小記&quot;&gt;&lt;a href=&quot;#昨日小記&quot; class=&quot;headerlink&quot; title=&quot;昨日小記&quot;&gt;&lt;/a&gt;昨日小記&lt;/h2&gt;&lt;h3 id=&quot;week4-作業&quot;&gt;&lt;a href=&quot;#week4-作業&quot; class=&quot;headerlink&quot; title=&quot;w
+      
+    
+    </summary>
+    
+    
+      <category term="每日進度" scheme="http://JAS0NHUANG.github.io/diary/tags/%E6%AF%8F%E6%97%A5%E9%80%B2%E5%BA%A6/"/>
+    
+  </entry>
   
   <entry>
     <title>J+16 [進度] week4作業/ 切版練習 / 寫心得</title>
@@ -179,6 +225,167 @@
   </entry>
   
   <entry>
+    <title>J+25 [進度] 看 SHOWTIME 2 / 整理筆記、心得</title>
+    <link href="http://JAS0NHUANG.github.io/diary/J-plus-25-progress/"/>
+    <id>http://JAS0NHUANG.github.io/diary/J-plus-25-progress/</id>
+    <published>2020-07-07T06:40:37.000Z</published>
+    <updated>2020-07-08T06:43:24.606Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="昨日小記"><a href="#昨日小記" class="headerlink" title="昨日小記"></a>昨日小記</h2><h3 id="HTML-CSS"><a href="#HTML-CSS" class="headerlink" title="HTML / CSS"></a>HTML / CSS</h3><p>報名表差不多切完了， radio 照著 W3school 上面的一個教學處理：<a href="https://www.w3schools.com/howto/howto_css_custom_checkbox.asp" target="_blank" rel="noopener">How TO - Custom Checkbox</a>，感覺應該是有符合設計稿的要求。我把兩個作業都弄上 GitHub Pages 有空的人可以幫忙看一下囉！<a href="https://jas0nhuang.github.io/demo/hw1/">week6-hw1</a>、<a href="https://jas0nhuang.github.io/demo/hw2/">week6-hw2</a>。</p><h3 id="SHOWTIME-與練習"><a href="#SHOWTIME-與練習" class="headerlink" title="SHOWTIME 與練習"></a>SHOWTIME 與練習</h3><p>看完老師怎麼寫公車時刻查詢小程式，真的都是學過的東西，但是自已練習時思路不容易保持清楚，確實還要多練習如何建構程式的結構。本來想要如法炮製去抓巴黎的公共交通資訊，但都是動態生成的資料，沒辦法直接用 HTML 檔抓到，又想說去找找看航班資訊，感覺更複雜，所以還是先用 「我愛巴士」的資料練習啦！</p><h3 id="被擋在法國求職中心的-API-門外……"><a href="#被擋在法國求職中心的-API-門外……" class="headerlink" title="被擋在法國求職中心的 API 門外……"></a>被擋在法國求職中心的 API 門外……</h3><p>OAuth Token 拿到了，scope 「應該」也是按照設定加入了，但是想要抓資料的時候還是一直跳 401 unauthorized，目前還沒找到解決方法，這幾天再想辦法試試囉。</p><hr><h2 id="今日進度"><a href="#今日進度" class="headerlink" title="今日進度"></a>今日進度</h2><h3 id="看-Showtime-影片"><a href="#看-Showtime-影片" class="headerlink" title="看 Showtime 影片"></a>看 Showtime 影片</h3><ul><li><input disabled="" type="checkbox"> 看 week5 Showtime 影片<br>寄信小程式</li></ul><h3 id="整理前四週筆記、心得"><a href="#整理前四週筆記、心得" class="headerlink" title="整理前四週筆記、心得"></a>整理前四週筆記、心得</h3><ul><li><input disabled="" type="checkbox"> 整理前四週筆記、心得<br>整理筆記、心得然後把每日進度備份到自已部落格上（好一陣子沒有處理了……）。整理一下 week5 作業。</li></ul><hr><h2 id="明日進度"><a href="#明日進度" class="headerlink" title="明日進度"></a>明日進度</h2><h3 id="練習切個版"><a href="#練習切個版" class="headerlink" title="練習切個版"></a>練習切個版</h3><ul><li><input disabled="" type="checkbox"> 練習切版<br>寫 week6 挑戰題</li></ul><h3 id="每天看一點-JavaScript"><a href="#每天看一點-JavaScript" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input disabled="" type="checkbox"> 每天看一點 JavaScript</li></ul><h3 id="開始看一些-DOM-操作的課程"><a href="#開始看一些-DOM-操作的課程" class="headerlink" title="開始看一些 DOM 操作的課程"></a>開始看一些 DOM 操作的課程</h3><p>其實已經開始看一些些了（就……寫作業或練習有點倦怠時就會跑去看點新的東西……）</p><hr><h2 id="計畫"><a href="#計畫" class="headerlink" title="計畫"></a>計畫</h2><p>希望不要越長越大的計畫列表……</p><ol><li>背包問題筆記</li><li>HTML/CSS 小抄</li><li>想想 Side Project；繼續研究法國求職中心的 API，瞭解法國這裡工程師的就業市場。</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;昨日小記&quot;&gt;&lt;a href=&quot;#昨日小記&quot; class=&quot;headerlink&quot; title=&quot;昨日小記&quot;&gt;&lt;/a&gt;昨日小記&lt;/h2&gt;&lt;h3 id=&quot;HTML-CSS&quot;&gt;&lt;a href=&quot;#HTML-CSS&quot; class=&quot;headerlink&quot; title=&quot;H
+      
+    
+    </summary>
+    
+    
+      <category term="每日進度" scheme="http://JAS0NHUANG.github.io/diary/tags/%E6%AF%8F%E6%97%A5%E9%80%B2%E5%BA%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>J+24 [進度] 切完報名表格 /  看 SHOWTIME</title>
+    <link href="http://JAS0NHUANG.github.io/diary/J-plus-24-progress/"/>
+    <id>http://JAS0NHUANG.github.io/diary/J-plus-24-progress/</id>
+    <published>2020-07-06T06:39:26.000Z</published>
+    <updated>2020-07-08T06:43:44.089Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="昨日小記"><a href="#昨日小記" class="headerlink" title="昨日小記"></a>昨日小記</h2><h3 id="HTML-CSS"><a href="#HTML-CSS" class="headerlink" title="HTML / CSS"></a>HTML / CSS</h3><p>報名表切了個大概，然後仔細的看了老師餐廳首頁的切版影片，很有綜藝效果阿 XDDDD：「奇怪，我不是設計師我幹麼一直調這個～～」「很不 friendly 耶……」「SUI！完成了！」……<br>裡面有一個小地方有問題，就是 background 裡的內容順序沒有影響，我自已試了一下發現 url、position/size 、repeat style 那個先寫都一樣！<br>另一個疑問是，section 外面是不是要再用 div 包起來？還是直接用 section 就好？ 我自已的感覺是 section 就已經把頁面分塊了，外面再包一個 div 好像怪怪的？<br><a href="https://www.w3.org/TR/html51/sections.html#the-section-element" target="_blank" rel="noopener">W3C - Section Element</a></p><h3 id="公園"><a href="#公園" class="headerlink" title="公園"></a>公園</h3><p>跟家人朋友到公園野餐，總算是在差不多一年之後又找到人跟我丟棒球了，也跟其它朋友踢了一下足球、丟丟飛盤，感覺三個月的封城體力確實變差了，是該重新開始規律的運動了。</p><hr><h2 id="今日進度"><a href="#今日進度" class="headerlink" title="今日進度"></a>今日進度</h2><h3 id="練習切個版"><a href="#練習切個版" class="headerlink" title="練習切個版"></a>練習切個版</h3><ul><li><input disabled="" type="checkbox"> 練習切版<br>把報名表格切出來。</li></ul><h3 id="看-Showtime-影片"><a href="#看-Showtime-影片" class="headerlink" title="看 Showtime 影片"></a>看 Showtime 影片</h3><ul><li><input disabled="" type="checkbox"> 看第五週 Showtime 影片</li></ul><hr><h2 id="明日進度"><a href="#明日進度" class="headerlink" title="明日進度"></a>明日進度</h2><h3 id="每天看一點-JavaScript"><a href="#每天看一點-JavaScript" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input disabled="" type="checkbox"> 每天看一點 JavaScript</li></ul><h3 id="練習切版"><a href="#練習切版" class="headerlink" title="練習切版"></a>練習切版</h3><ul><li><input disabled="" type="checkbox"> 練習切版</li></ul><h3 id="開始看一些-DOM-操作的課程"><a href="#開始看一些-DOM-操作的課程" class="headerlink" title="開始看一些 DOM 操作的課程"></a>開始看一些 DOM 操作的課程</h3><hr><h2 id="計畫"><a href="#計畫" class="headerlink" title="計畫"></a>計畫</h2><p>希望不要越長越大的計畫列表……</p><ol><li>背包問題筆記</li><li>HTML/CSS 小抄</li><li>想想 Side Project；繼續研究法國求職中心的 API，瞭解法國這裡工程師的就業市場。</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;昨日小記&quot;&gt;&lt;a href=&quot;#昨日小記&quot; class=&quot;headerlink&quot; title=&quot;昨日小記&quot;&gt;&lt;/a&gt;昨日小記&lt;/h2&gt;&lt;h3 id=&quot;HTML-CSS&quot;&gt;&lt;a href=&quot;#HTML-CSS&quot; class=&quot;headerlink&quot; title=&quot;H
+      
+    
+    </summary>
+    
+    
+      <category term="每日進度" scheme="http://JAS0NHUANG.github.io/diary/tags/%E6%AF%8F%E6%97%A5%E9%80%B2%E5%BA%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>J+23 [進度] 切報名表格</title>
+    <link href="http://JAS0NHUANG.github.io/diary/J-plus-23-progress/"/>
+    <id>http://JAS0NHUANG.github.io/diary/J-plus-23-progress/</id>
+    <published>2020-07-05T06:38:03.000Z</published>
+    <updated>2020-07-08T06:43:53.813Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="昨日小記"><a href="#昨日小記" class="headerlink" title="昨日小記"></a>昨日小記</h2><h3 id="HTML-CSS"><a href="#HTML-CSS" class="headerlink" title="HTML / CSS"></a>HTML / CSS</h3><p>昨天總算把 week6 hw1 做的差不多了，開了好幾個視窗、拿手機調了半天，總之是在幾乎沒有看任何資料的狀況下完成了，傳上 <a href="https://github.com/Lidemy/mentor-program-4th-JAS0NHUANG/tree/week6tryagain/homeworks/week6/hw1" target="_blank" rel="noopener">作業 REPO</a> 各位切版大神可以用力鞭。</p><h3 id="從-OAuth-開始……"><a href="#從-OAuth-開始……" class="headerlink" title="從 OAuth 開始……"></a>從 OAuth 開始……</h3><p>又不小心迷失了XD，這一次是 OAuth，先是找到了 Wikipedia 還有 OAuth 「官方」網站：<br><a href="https://en.wikipedia.org/wiki/OAuth" target="_blank" rel="noopener">OAuth - Wikipedia</a>、<a href="https://oauth.net/" target="_blank" rel="noopener">OAuth.net </a> （總算知道 OAuth 怎麼唸了……）<br>然後開始找什麼是 <a href="https://tools.ietf.org/html/" target="_blank" rel="noopener">IETF 與 RFC</a>，看到這個在很多地方被引用的圖（當然是被改畫成比較「漂亮」的 PNG 或 JPG 型式了。）：</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">+--------+                               +---------------+</span><br><span class="line">|        |--(1)- Authorization Request -&gt;|   Resource    |</span><br><span class="line">|        |                               |     Owner     |</span><br><span class="line">|        |&lt;-(2)-- Authorization Grant ---|               |</span><br><span class="line">|        |                               +---------------+</span><br><span class="line">|        |</span><br><span class="line">|        |                               +---------------+</span><br><span class="line">|        |--(3)-- Authorization Grant --&gt;| Authorization |</span><br><span class="line">| Client |                               |     Server    |</span><br><span class="line">|        |&lt;-(4)----- Access Token -------|               |</span><br><span class="line">|        |                               +---------------+</span><br><span class="line">|        |</span><br><span class="line">|        |                               +---------------+</span><br><span class="line">|        |--(5)----- Access Token ------&gt;|    Resource   |</span><br><span class="line">|        |                               |     Server    |</span><br><span class="line">|        |&lt;-(6)--- Protected Resource ---|               |</span><br><span class="line">+--------+                               +---------------+</span><br><span class="line"></span><br><span class="line">          Figure 1: Abstract Protocol Flow</span><br></pre></td></tr></table></figure><p>來源：<a href="https://tools.ietf.org/html/draft-parecki-oauth-v2-1-03#section-1.2" target="_blank" rel="noopener">The OAuth 2.1 Authorization Framework draft-parecki-oauth-v2-1-03</a></p><p>隨著「官網」的影片，找到 <a href="https://aaronparecki.com/" target="_blank" rel="noopener">Aaron Parecki</a>，好強的人阿！除了阿宅本業，還可以<a href="https://100.aaronparecki.com/" target="_blank" rel="noopener">寫歌</a>、<a href="https://www.youtube.com/watch?v=FGVJ0eXTRpw" target="_blank" rel="noopener">講講語音學</a>。  他的公司，<a href="https://www.youtube.com/watch?v=aU9RsE4fcRM" target="_blank" rel="noopener">OKTA 的 Youtube 頻道</a>還有很多簡單的 OAuth 介紹影片，有空大家也可以去迷失一下  XDD</p><hr><h2 id="今日進度"><a href="#今日進度" class="headerlink" title="今日進度"></a>今日進度</h2><h3 id="練習切個版"><a href="#練習切個版" class="headerlink" title="練習切個版"></a>練習切個版</h3><ul><li><input disabled="" type="checkbox"> 練習切版<br>試著把報名表格切出來。</li></ul><h3 id="公園野餐"><a href="#公園野餐" class="headerlink" title="公園野餐"></a>公園野餐</h3><ul><li><input disabled="" type="checkbox"> 跟家人、朋友到公園野餐</li></ul><h3 id="開始看一些-DOM-操作的課程"><a href="#開始看一些-DOM-操作的課程" class="headerlink" title="開始看一些 DOM 操作的課程"></a>開始看一些 DOM 操作的課程</h3><hr><h2 id="明日進度"><a href="#明日進度" class="headerlink" title="明日進度"></a>明日進度</h2><h3 id="每天看一點-JavaScript"><a href="#每天看一點-JavaScript" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input disabled="" type="checkbox"> 每天看一點 JavaScript</li></ul><h3 id="練習切版"><a href="#練習切版" class="headerlink" title="練習切版"></a>練習切版</h3><ul><li><input disabled="" type="checkbox"> 練習切版</li></ul><hr><h2 id="計畫"><a href="#計畫" class="headerlink" title="計畫"></a>計畫</h2><p>兩個小計畫一直沒有完成，先放著慢慢再做……</p><ol><li>背包問題筆記</li><li>HTML/CSS 小抄</li><li>想想 Side Project；繼續研究法國求職中心的 API，瞭解法國這裡工程師的就業市場。</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;昨日小記&quot;&gt;&lt;a href=&quot;#昨日小記&quot; class=&quot;headerlink&quot; title=&quot;昨日小記&quot;&gt;&lt;/a&gt;昨日小記&lt;/h2&gt;&lt;h3 id=&quot;HTML-CSS&quot;&gt;&lt;a href=&quot;#HTML-CSS&quot; class=&quot;headerlink&quot; title=&quot;H
+      
+    
+    </summary>
+    
+    
+      <category term="每日進度" scheme="http://JAS0NHUANG.github.io/diary/tags/%E6%AF%8F%E6%97%A5%E9%80%B2%E5%BA%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>J+22 [進度] 切版練習 / 甜甜圈迷宮</title>
+    <link href="http://JAS0NHUANG.github.io/diary/J-plus-22-progress/"/>
+    <id>http://JAS0NHUANG.github.io/diary/J-plus-22-progress/</id>
+    <published>2020-07-04T05:21:22.000Z</published>
+    <updated>2020-07-08T06:44:04.793Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="昨日小記"><a href="#昨日小記" class="headerlink" title="昨日小記"></a>昨日小記</h2><h3 id="HTML-CSS"><a href="#HTML-CSS" class="headerlink" title="HTML / CSS"></a>HTML / CSS</h3><p>總算在第四次練習的時候有一點點感覺了，然後試著用不同裝置去看，手機、筆電、桌電……有時候好像還不能相信 devtools，在devtools 裡看手機狀態 OK, 但是拿到手機上又跑版了…… 切版真的，水太深了 XD<br>然後還找到這個：<a href="https://freefrontend.com/css-radio-buttons/" target="_blank" rel="noopener">77 Radio Buttons CSS</a>，眼花撩亂。</p><h3 id="從-Huli-的-Twitter-開始……"><a href="#從-Huli-的-Twitter-開始……" class="headerlink" title="從 Huli 的 Twitter 開始……"></a>從 Huli 的 Twitter 開始……</h3><p>逛到老師的 Twitter 然後就不小心迷失了XD，從下面的文章跟影片開始，看了好久……<br><a href="https://pragmaticpineapple.com/how-did-vim-become-so-popular/" target="_blank" rel="noopener">How Did Vim Become So Popular</a><br><a href="https://www.youtube.com/watch?v=ZFvPLrKZywA" target="_blank" rel="noopener">HTML isn’t done! </a></p><hr><h2 id="今日進度"><a href="#今日進度" class="headerlink" title="今日進度"></a>今日進度</h2><h3 id="練習切個版"><a href="#練習切個版" class="headerlink" title="練習切個版"></a>練習切個版</h3><ul><li><input checked="" disabled="" type="checkbox"> 練習切版<br>把 week6 作業一完成。（還沒完成………）</li></ul><h3 id="開始看一些-DOM-操作的課程"><a href="#開始看一些-DOM-操作的課程" class="headerlink" title="開始看一些 DOM 操作的課程"></a>開始看一些 DOM 操作的課程</h3><h3 id="朋友家聚餐"><a href="#朋友家聚餐" class="headerlink" title="朋友家聚餐"></a>朋友家聚餐</h3><hr><h2 id="明日進度"><a href="#明日進度" class="headerlink" title="明日進度"></a>明日進度</h2><h3 id="每天看一點-JavaScript"><a href="#每天看一點-JavaScript" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input disabled="" type="checkbox"> 每天看一點 JavaScript</li></ul><h3 id="練習切版"><a href="#練習切版" class="headerlink" title="練習切版"></a>練習切版</h3><ul><li><input disabled="" type="checkbox"> 練習切版</li></ul><h3 id="想想-Side-Project"><a href="#想想-Side-Project" class="headerlink" title="想想 Side Project"></a>想想 Side Project</h3><p>目前想到的是可以去研究一下法國求職中心的 API，順便瞭解一下法國這裡工程師的就業市場。</p><hr><h2 id="計畫"><a href="#計畫" class="headerlink" title="計畫"></a>計畫</h2><p>兩個小計畫一直沒有完成，先放著慢慢再做……</p><ol><li>背包問題筆記</li><li>HTML/CSS 小抄</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;昨日小記&quot;&gt;&lt;a href=&quot;#昨日小記&quot; class=&quot;headerlink&quot; title=&quot;昨日小記&quot;&gt;&lt;/a&gt;昨日小記&lt;/h2&gt;&lt;h3 id=&quot;HTML-CSS&quot;&gt;&lt;a href=&quot;#HTML-CSS&quot; class=&quot;headerlink&quot; title=&quot;H
+      
+    
+    </summary>
+    
+    
+      <category term="每日進度" scheme="http://JAS0NHUANG.github.io/diary/tags/%E6%AF%8F%E6%97%A5%E9%80%B2%E5%BA%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>J+21 [進度] 切版練習 / 甜甜圈迷宮</title>
+    <link href="http://JAS0NHUANG.github.io/diary/J-plus-21-progress/"/>
+    <id>http://JAS0NHUANG.github.io/diary/J-plus-21-progress/</id>
+    <published>2020-07-03T05:14:43.000Z</published>
+    <updated>2020-07-08T06:44:14.501Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="HTML-CSS"><a href="#HTML-CSS" class="headerlink" title="HTML / CSS"></a>HTML / CSS</h3><p>切版真的是很深奧的世界 ，明明就練習了兩次，也自已做了一個小小的記錄，但是第三次切還是東卡一下西卡一下 ……今天再重新試一次吧！一定要至少把第一個作業完整的完成 XD</p><h3 id="試做甜甜圈迷宮"><a href="#試做甜甜圈迷宮" class="headerlink" title="試做甜甜圈迷宮"></a>試做甜甜圈迷宮</h3><p>昨天切版切到有點煩的時候想說把之前的挑戰題拿出來玩一下，順便複習 BFS，目前只是剛開始處理把資料讀入、然後找出起點、終點，之後再慢慢開始走迷宮囉。</p><h3 id="法國求職中心的-API-跟-New-Twitch-API-一樣麻煩"><a href="#法國求職中心的-API-跟-New-Twitch-API-一樣麻煩" class="headerlink" title="法國求職中心的 API 跟 New Twitch API 一樣麻煩"></a>法國求職中心的 API 跟 New Twitch API 一樣麻煩</h3><p>想說找法國求職中心的 API 串串看，但是跟 New Twitch API 一樣麻煩，要拿 OAuth Token 還要多傳一個 scope 參數，想說隨便傳些東西進去試試看，然後再多傳上一個 Client-ID 就莫明其妙的抓到了……可能要再去瞭解一下 OAuth 跟 API 的驗證機制，不然都不太知道自已傳上去的 query string 是在幹什麼……</p><hr><h2 id="今日進度"><a href="#今日進度" class="headerlink" title="今日進度"></a>今日進度</h2><h3 id="練習切個版"><a href="#練習切個版" class="headerlink" title="練習切個版"></a>練習切個版</h3><ul><li><input disabled="" type="checkbox"> 練習切版<br>把 week6 作業一完成。</li></ul><h3 id="每天看一點-JavaScript"><a href="#每天看一點-JavaScript" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input disabled="" type="checkbox"> 每天看一點 JavaScript</li></ul><h3 id="開始看一些-DOM-操作的課程了"><a href="#開始看一些-DOM-操作的課程了" class="headerlink" title="開始看一些 DOM 操作的課程了"></a>開始看一些 DOM 操作的課程了</h3><hr><h2 id="明日進度"><a href="#明日進度" class="headerlink" title="明日進度"></a>明日進度</h2><h3 id="每天看一點-JavaScript-1"><a href="#每天看一點-JavaScript-1" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input disabled="" type="checkbox"> 每天看一點 JavaScript</li></ul><h3 id="練習切版"><a href="#練習切版" class="headerlink" title="練習切版"></a>練習切版</h3><ul><li><input disabled="" type="checkbox"> 練習切版</li></ul><h3 id="想想-Side-Project"><a href="#想想-Side-Project" class="headerlink" title="想想 Side Project"></a>想想 Side Project</h3><p>目前想到的是可以去研究一下法國求職中心的 API，順便瞭解一下法國這裡工程師的就業市場。</p><hr><h2 id="計畫"><a href="#計畫" class="headerlink" title="計畫"></a>計畫</h2><p>兩個小計畫一直沒有完成，先放著慢慢再做……</p><ol><li>背包問題筆記</li><li>HTML/CSS 小抄</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;HTML-CSS&quot;&gt;&lt;a href=&quot;#HTML-CSS&quot; class=&quot;headerlink&quot; title=&quot;HTML / CSS&quot;&gt;&lt;/a&gt;HTML / CSS&lt;/h3&gt;&lt;p&gt;切版真的是很深奧的世界 ，明明就練習了兩次，也自已做了一個小小的記錄，但是第三次切還
+      
+    
+    </summary>
+    
+    
+      <category term="每日進度" scheme="http://JAS0NHUANG.github.io/diary/tags/%E6%AF%8F%E6%97%A5%E9%80%B2%E5%BA%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>J+20 [進度] 切版練習 / JavaScript 練習</title>
+    <link href="http://JAS0NHUANG.github.io/diary/J-plus-20-progress/"/>
+    <id>http://JAS0NHUANG.github.io/diary/J-plus-20-progress/</id>
+    <published>2020-07-02T05:14:25.000Z</published>
+    <updated>2020-07-08T06:44:25.209Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="昨日小記"><a href="#昨日小記" class="headerlink" title="昨日小記"></a>昨日小記</h2><h3 id="交第四週作業"><a href="#交第四週作業" class="headerlink" title="交第四週作業"></a>交第四週作業</h3><p>昨天交了第四週作業，感謝 ClayGao 助教認真的幫我改作業、給我建議。</p><h3 id="HTML-CSS"><a href="#HTML-CSS" class="headerlink" title="HTML / CSS"></a>HTML / CSS</h3><p>week6 的第一個作業包括 RWD 大致上是完成了，只是不知道 RWD 的作法對不對……報名表單裡 radio 的樣式還沒找到處理方式。</p><hr><h2 id="今日進度"><a href="#今日進度" class="headerlink" title="今日進度"></a>今日進度</h2><h3 id="練習切個版"><a href="#練習切個版" class="headerlink" title="練習切個版"></a>練習切個版</h3><ul><li><input disabled="" type="checkbox"> 練習切版<br>week6 的第一個作業包括 RWD 大致上是完成了，今天繼續寫第二個作業。</li></ul><h3 id="每天看一點-JavaScript"><a href="#每天看一點-JavaScript" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input disabled="" type="checkbox"> 每天看一點 JavaScript<br>昨天解了一題簡單的巴斯卡三角型，沒來的及去看 Linked List 的細節，今天去找來看看。</li></ul><hr><h2 id="明日進度"><a href="#明日進度" class="headerlink" title="明日進度"></a>明日進度</h2><h3 id="每天看一點-JavaScript-1"><a href="#每天看一點-JavaScript-1" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input disabled="" type="checkbox"> 每天看一點 JavaScript</li></ul><h3 id="練習切版"><a href="#練習切版" class="headerlink" title="練習切版"></a>練習切版</h3><ul><li><input disabled="" type="checkbox"> 練習切版</li></ul><h3 id="開始看一些-DOM-操作的課程了"><a href="#開始看一些-DOM-操作的課程了" class="headerlink" title="開始看一些 DOM 操作的課程了"></a>開始看一些 DOM 操作的課程了</h3><h3 id="想想-Side-Project"><a href="#想想-Side-Project" class="headerlink" title="想想 Side Project"></a>想想 Side Project</h3><p>目前想到的是可以去研究一下法國求職中心的 API，順便瞭解一下法國這裡工程師的就業市場。</p><hr><h2 id="計畫"><a href="#計畫" class="headerlink" title="計畫"></a>計畫</h2><p>兩個小計畫一直沒有完成，先放著慢慢再做……</p><ol><li>背包問題筆記</li><li>HTML/CSS 小抄</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;昨日小記&quot;&gt;&lt;a href=&quot;#昨日小記&quot; class=&quot;headerlink&quot; title=&quot;昨日小記&quot;&gt;&lt;/a&gt;昨日小記&lt;/h2&gt;&lt;h3 id=&quot;交第四週作業&quot;&gt;&lt;a href=&quot;#交第四週作業&quot; class=&quot;headerlink&quot; title=&quot;交第四週作
+      
+    
+    </summary>
+    
+    
+      <category term="每日進度" scheme="http://JAS0NHUANG.github.io/diary/tags/%E6%AF%8F%E6%97%A5%E9%80%B2%E5%BA%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>J+19 [進度] 切版練習 / JavaScript 練習</title>
+    <link href="http://JAS0NHUANG.github.io/diary/J-plus-19-progress/"/>
+    <id>http://JAS0NHUANG.github.io/diary/J-plus-19-progress/</id>
+    <published>2020-07-01T05:13:00.000Z</published>
+    <updated>2020-07-08T06:44:35.856Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="昨日小記"><a href="#昨日小記" class="headerlink" title="昨日小記"></a>昨日小記</h2><h3 id="再串一次-Twitch-API-v5"><a href="#再串一次-Twitch-API-v5" class="headerlink" title="再串一次 Twitch API v5"></a>再串一次 Twitch API v5</h3><p>昨天看到 ahwei777 同學交的作業，修了一下自已作業的內容，然後看到老師在留言裡說用 Twitch API v5（舊 API）也可以做挑戰題，就跑回去看了一下文件，還真的有辦法，所以就重新用串接舊 API 的方法做了一次。</p><h3 id="HTML-CSS"><a href="#HTML-CSS" class="headerlink" title="HTML / CSS"></a>HTML / CSS</h3><p>試著切報名表單，目前最大的問題是還不知道 radio 的樣式要怎麼處理。</p><h3 id="導師計畫半個月心得"><a href="#導師計畫半個月心得" class="headerlink" title="導師計畫半個月心得"></a>導師計畫半個月心得</h3><p><a href="https://medium.com/@jas0nhuang/%E7%A8%8B%E5%BC%8F%E5%B0%8E%E5%B8%AB%E5%AF%A6%E9%A9%97%E8%A8%88%E7%95%AB-%E5%8D%8A%E5%80%8B%E6%9C%88%E5%A0%B1%E5%91%8A-e37e25469541" target="_blank" rel="noopener">導師計畫半個月心得</a> 總算是寫完了，大概記錄一下自已對導師計畫的想法跟學習到的東西。（另外，怕被雷到的話不要看 HTTP Challenge 攻略那兩篇 XD）</p><hr><h2 id="今日進度"><a href="#今日進度" class="headerlink" title="今日進度"></a>今日進度</h2><h3 id="練習切個版"><a href="#練習切個版" class="headerlink" title="練習切個版"></a>練習切個版</h3><ul><li><input checked="" disabled="" type="checkbox"> 練習切版<br>昨天作業寫一半，也沒來的及看 RWD 資料，今天繼續。</li></ul><h3 id="每天看一點-JavaScript"><a href="#每天看一點-JavaScript" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input checked="" disabled="" type="checkbox"> 每天看一點 JavaScript<br>一樣找幾題 LeetCode 上面簡單的題目看看，瞭解一下 Linked List 這種資料結構。</li></ul><hr><h2 id="明日進度"><a href="#明日進度" class="headerlink" title="明日進度"></a>明日進度</h2><h3 id="每天看一點-JavaScript-1"><a href="#每天看一點-JavaScript-1" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input disabled="" type="checkbox"> 每天看一點 JavaScript</li></ul><h3 id="練習切版"><a href="#練習切版" class="headerlink" title="練習切版"></a>練習切版</h3><ul><li><input disabled="" type="checkbox"> 練習切版</li></ul><h3 id="想想-Side-Project"><a href="#想想-Side-Project" class="headerlink" title="想想 Side Project"></a>想想 Side Project</h3><p>目前想到的是可以去研究一下法國求職中心的 API，順便瞭解一下法國這裡工程師的就業市場。</p><hr><h2 id="計畫"><a href="#計畫" class="headerlink" title="計畫"></a>計畫</h2><h3 id="背包問題解題筆記"><a href="#背包問題解題筆記" class="headerlink" title="背包問題解題筆記"></a>背包問題解題筆記</h3><ul><li><input disabled="" type="checkbox"> 把背包問題解題的過程記錄下來</li></ul><h3 id="視覺化-HTML-CSS-小抄"><a href="#視覺化-HTML-CSS-小抄" class="headerlink" title="視覺化 HTML / CSS 小抄"></a>視覺化 HTML / CSS 小抄</h3><ul><li><input disabled="" type="checkbox"> 視覺化 HTML / CSS 小抄</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;昨日小記&quot;&gt;&lt;a href=&quot;#昨日小記&quot; class=&quot;headerlink&quot; title=&quot;昨日小記&quot;&gt;&lt;/a&gt;昨日小記&lt;/h2&gt;&lt;h3 id=&quot;再串一次-Twitch-API-v5&quot;&gt;&lt;a href=&quot;#再串一次-Twitch-API-v5&quot; class=&quot;
+      
+    
+    </summary>
+    
+    
+      <category term="每日進度" scheme="http://JAS0NHUANG.github.io/diary/tags/%E6%AF%8F%E6%97%A5%E9%80%B2%E5%BA%A6/"/>
+    
+  </entry>
+  
+  <entry>
     <title>[筆記] TCPIP 與 API</title>
     <link href="http://JAS0NHUANG.github.io/diary/J-plus-9-note-TCPIP-API/"/>
     <id>http://JAS0NHUANG.github.io/diary/J-plus-9-note-TCPIP-API/</id>
@@ -269,227 +476,6 @@
     
     
       <category term="每日進度" scheme="http://JAS0NHUANG.github.io/diary/tags/%E6%AF%8F%E6%97%A5%E9%80%B2%E5%BA%A6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>J+6 [進度] 複習 [ALG101] / 玩玩 HTTP、API</title>
-    <link href="http://JAS0NHUANG.github.io/diary/J-plus-6-progress/"/>
-    <id>http://JAS0NHUANG.github.io/diary/J-plus-6-progress/</id>
-    <published>2020-06-18T19:16:52.000Z</published>
-    <updated>2020-06-21T22:08:49.188Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="昨日小記"><a href="#昨日小記" class="headerlink" title="昨日小記"></a>昨日小記</h2><h3 id="再走一次迷宮"><a href="#再走一次迷宮" class="headerlink" title="再走一次迷宮"></a>再走一次迷宮</h3><p>把 LIOJ 1053 迷宮再走一次，其實就還是在默寫，先學著把模仿做好囉！<br>但是其中遇到一個神奇的地方，就是最後在判斷是否為未走過的點以及原始點（老師說的 A 點）到前往點（老師說的 B 點）的距離比較那裡。<br>我第一次不知道腦子進了什麼東西，寫出來變這樣，明顯就是錯誤（不相關）的判斷：  </p><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> (stepsArr[newX][newY] &gt; stepsArr[x][y] + stepsArr[newX][newY] || stepsArr[newX][newY] !== <span class="literal">undefined</span>) <span class="keyword">continue</span></span><br></pre></td></tr></table></figure><p>但是居然 AC！<br>仔細又看了一次老師的解法，發現好像沒有去判斷 A 走到 B 點的距離也沒關係，所以就試著把那一部分刪了，變成：  </p><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> (stepsArr[newX][newY] !== <span class="literal">undefined</span>) <span class="keyword">continue</span></span><br></pre></td></tr></table></figure><p>也還是 AC。XD<br>我自已的感覺是，其實只要判斷是否有走過就可以了？！或者是測資還不夠強，遇到更複雜的迷宮就可能會算錯？！</p><hr><h2 id="今日進度"><a href="#今日進度" class="headerlink" title="今日進度"></a>今日進度</h2><h3 id="快速複習-ALG101-先別急著寫-leetcode-單元-5"><a href="#快速複習-ALG101-先別急著寫-leetcode-單元-5" class="headerlink" title="快速複習 [ALG101] 先別急著寫 leetcode 單元 5"></a>快速複習 [ALG101] 先別急著寫 leetcode 單元 5</h3><ul><li><input checked="" disabled="" type="checkbox"> [ALG101] 先別急著寫 leetcode 單元 5<br>決定先看一半，其它時間學新的東西。  </li></ul><h3 id="看-NET201-HTTP-協定"><a href="#看-NET201-HTTP-協定" class="headerlink" title="看 [NET201] HTTP 協定"></a>看 [NET201] HTTP 協定</h3><ul><li><input disabled="" type="checkbox"> [NET201] HTTP 協定<br>仔細看完影片並做筆記。  </li></ul><h3 id="玩一下-API"><a href="#玩一下-API" class="headerlink" title="玩一下 API"></a>玩一下 API</h3><ul><li><input checked="" disabled="" type="checkbox"> 玩一下第四週作業裡的 API<br>其實就是很快的瀏覽了一次 [NET201] 的影片，介紹到 API 實作的時候覺得蠻有趣的，然後看到第四週作業的內容就不小心玩了一下，第四週的前兩個作業解的差不多了……<br>上 npm 找 request 這個套件的介紹時，看到它上面大大的紅字 “<a href="https://www.npmjs.com/package/request" target="_blank" rel="noopener">This package has been deprecated</a>“，看了一下 <a href="https://github.com/request/request/issues/3142" target="_blank" rel="noopener">issue #3142</a> 還有推薦的替代方案：<a href="https://github.com/request/request/issues/3143" target="_blank" rel="noopener">#3143</a>，發現 axios 這個名字好像最近很常在網路上看到，就想說自已研究看看了。<br>有興趣的人可以到我 week4 分支的 <a href="https://github.com/Lidemy/mentor-program-4th-JAS0NHUANG/tree/week4/homeworks/week4" target="_blank" rel="noopener">week4</a> 裡看一下，給我一點意見…… （我好像是從 week2 分支切過去的，所以 repo 有點亂，反正到時候 week4 應該會再重開一個分支）  </li></ul><hr><h2 id="明日進度"><a href="#明日進度" class="headerlink" title="明日進度"></a>明日進度</h2><h3 id="快速複習-ALG101-先別急著寫-leetcode-單元-6"><a href="#快速複習-ALG101-先別急著寫-leetcode-單元-6" class="headerlink" title="快速複習 [ALG101] 先別急著寫 leetcode 單元 6"></a>快速複習 [ALG101] 先別急著寫 leetcode 單元 6</h3><ul><li><input disabled="" type="checkbox"> [ALG101] 先別急著寫 leetcode 單元 5<br>把 [ALG101] 單元 5、6 分四天（或更多天）看吧！以免有倦怠感……<br>也讓自已每天回憶一點 JavaScript。  </li></ul><h3 id="看-NET201-TCP-IP"><a href="#看-NET201-TCP-IP" class="headerlink" title="看 [NET201] TCP/IP"></a>看 [NET201] TCP/IP</h3><ul><li><input disabled="" type="checkbox"> [NET201] TCP/IP  </li></ul><hr><h2 id="未來計畫"><a href="#未來計畫" class="headerlink" title="未來計畫"></a>未來計畫</h2><h3 id="按照課程進度前進"><a href="#按照課程進度前進" class="headerlink" title="按照課程進度前進"></a>按照課程進度前進</h3><h3 id="將-JS101-練習-Lv2-與-Lv3-做完"><a href="#將-JS101-練習-Lv2-與-Lv3-做完" class="headerlink" title="將 [JS101] 練習 Lv2 與 Lv3 做完"></a>將 [JS101] 練習 Lv2 與 Lv3 做完</h3><ul><li><input disabled="" type="checkbox"> [JS101] 練習 Lv2 與 Lv3 做完<br>很多都跟作業、[ALG101] 的內容重覆了，大概看一下講解影片看看有沒有什麼我沒有想到的地方。有時間再慢慢做。  </li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;昨日小記&quot;&gt;&lt;a href=&quot;#昨日小記&quot; class=&quot;headerlink&quot; title=&quot;昨日小記&quot;&gt;&lt;/a&gt;昨日小記&lt;/h2&gt;&lt;h3 id=&quot;再走一次迷宮&quot;&gt;&lt;a href=&quot;#再走一次迷宮&quot; class=&quot;headerlink&quot; title=&quot;再走一次迷
-      
-    
-    </summary>
-    
-    
-      <category term="每日進度" scheme="http://JAS0NHUANG.github.io/diary/tags/%E6%AF%8F%E6%97%A5%E9%80%B2%E5%BA%A6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>[筆記] 傳紙條與 HTTP 基本概念</title>
-    <link href="http://JAS0NHUANG.github.io/diary/J-plus-6-note-http/"/>
-    <id>http://JAS0NHUANG.github.io/diary/J-plus-6-note-http/</id>
-    <published>2020-06-18T12:48:47.000Z</published>
-    <updated>2020-06-21T22:32:00.770Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="傳紙條"><a href="#傳紙條" class="headerlink" title="傳紙條"></a>傳紙條</h2><h3 id="告白篇"><a href="#告白篇" class="headerlink" title="告白篇"></a>告白篇</h3><ol><li>來源</li><li>目的地</li><li>三次前置作業，確保收發功能（三次握手：確定發送、接收功能正常）</li></ol><h3 id="訂便當"><a href="#訂便當" class="headerlink" title="訂便當"></a>訂便當</h3><ol><li>格式統一</li><li>特殊需求（頭-特殊資訊、身體-內容）</li><li>回覆格式：以數字/狀態碼回應 200、300、400、404、500、503(也有頭-數字、身體-內容)</li><li>不同動作：GET POST DELET PUT</li></ol><h3 id="發大財"><a href="#發大財" class="headerlink" title="發大財"></a>發大財</h3><ol><li>統一服務代碼：80、3000、4000、5000……</li><li>格式簡化：對不同服務可以有不同格式</li><li>加速：有些服務不用確認如 streaming</li><li>地址、校名：ip Domain</li></ol><ul><li>為何需要協定（protocol）？<br>為了讓人能夠溝通，需要規範，所以其實語言就是一種 protocol 啦！？</li></ul><h2 id="HTTP-是什麼"><a href="#HTTP-是什麼" class="headerlink" title="HTTP 是什麼"></a>HTTP 是什麼</h2><p>H [超] T[文本] T[傳輸] P[協定]！！！  </p><p>它是一個「協定」，我們要做的事情是去瞭解它的「規則」。  </p><p>HTTP 屬於網路分層中的「應用層」（Application），每層都有相關的「協定」，這個到 TCP/IP 的部分會更詳細的討論。<br><img src="/diary/images/Web_Layers.png" alt="Web Layers"></p><h2 id="HTTP-request-與-response"><a href="#HTTP-request-與-response" class="headerlink" title="HTTP request 與 response"></a>HTTP request 與 response</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">client ---request---&gt; server</span><br><span class="line">client &lt;--response--- server</span><br></pre></td></tr></table></figure><p>以瀏覽器為例：  </p><ol><li><p>我們在網址列輸入 <a href="https://www.google.com" target="_blank" rel="noopener">https://www.google.com</a>  </p></li><li><p>瀏覽器幫我們傳一個 Request 到 server（幫我們寫紙條）<br>Request 差不多長這樣（在每個瀏覽器上會有些不同）：<br>（因為是 GET 所以只有 head 沒有 body）  </p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">:authority: www.google.com</span><br><span class="line">:method: GET</span><br><span class="line">:path: &#x2F;</span><br><span class="line">:scheme: https</span><br><span class="line">accept: text&#x2F;html,application&#x2F;xhtml+xml,application&#x2F;xml;q&#x3D;0.9,image&#x2F;webp,image&#x2F;apng,*&#x2F;*;q&#x3D;0.8,application&#x2F;signed-exchange;v&#x3D;b3;q&#x3D;0.9</span><br><span class="line">accept-encoding: gzip, deflate, br</span><br><span class="line">accept-language: en-US,en;q&#x3D;0.9</span><br><span class="line">..................................................</span><br></pre></td></tr></table></figure></li><li><p>server 會回傳一個帶有 HTML 原始碼的 Response。(完成紙條上的要求）  </p></li><li><p>瀏覽器接收到這個 Response 然後渲染（render）出來。  </p></li></ol><h2 id="DNS"><a href="#DNS" class="headerlink" title="DNS"></a>DNS</h2><p>網路世界的郵差，進行 IP 與 Domain Name 的轉換、翻譯。<br>DNS 伺服器也有分層，company &gt; isp &gt; country &gt; root<br>可以用 <code>nslookup</code> 查看IP 與 Domain Name 的對照。  </p><p>一個神奇的檔案：<code>/etc/hosts</code> 裡面寫有電腦預設的 IP / Domain Name 對照表  </p><h2 id="瀏覽器與其它"><a href="#瀏覽器與其它" class="headerlink" title="瀏覽器與其它"></a>瀏覽器與其它</h2><p>除了瀏覽器可以傳送 request 與接收 response 之外，我們也可以自已寫程式完成這個任務。<br>使用 request 這個套件就可以寫出一個這樣的 node 程式。<br>（node 也有內建函式可以用。<code>http.request(url[, options][, callback])</code>）  </p><h2 id="GET、POST-與其它"><a href="#GET、POST-與其它" class="headerlink" title="GET、POST 與其它"></a>GET、POST 與其它</h2><p>執行什麼動作：  </p><ol><li>GET：最常使用，用於取得資料，通常不會有 request body，只需要 header  </li><li>POST：傳送資料，通常會有 request body，body 內容為要向伺服器傳送的資料  </li><li>DELETE：刪除資料  </li><li>PUT：會完全取代所選取的資料  </li><li>PATCH：單純對所選取的資料做某些內容的修改、或增加內容  </li><li>OPTIONS：會回傳可以用的方法。（例如：Allow： GET，POST）有點像是一個可執行動作的查詢功能。  </li></ol><h2 id="HTTP-狀態碼"><a href="#HTTP-狀態碼" class="headerlink" title="HTTP 狀態碼"></a>HTTP 狀態碼</h2><p>常見 HTTP 狀態碼：</p><p>1XX：Server 正在做事情。<br>2XX：  </p><ul><li>204 處理了，但是不需回應，（如 DELETE）  </li></ul><p>3XX：  </p><ul><li>301 Location： XXXX  瀏覽器會記住 LOC （永久移動）  </li><li>302 （暫時移動）  </li></ul><p>4XX：  </p><ul><li>404 沒有  </li><li>418 查無  </li></ul><p>5XX：server錯誤</p><ul><li>500</li><li>503</li></ul><p><a href="https://www.google.com/teapot" target="_blank" rel="noopener">Google 418</a><br><a href="https://blog.techbridge.cc/2019/06/15/iam-a-teapot-418/" target="_blank" rel="noopener">Huli 418</a><br><a href="https://zh.wikipedia.org/wiki/HTTP%E7%8A%B6%E6%80%81%E7%A0%81" target="_blank" rel="noopener">維基百科 - HTTP 狀態碼</a>  </p><h2 id="超簡單-HTTP-Server"><a href="#超簡單-HTTP-Server" class="headerlink" title="超簡單 HTTP Server"></a>超簡單 HTTP Server</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">const http &#x3D; require(&#39;http&#39;)</span><br><span class="line"></span><br><span class="line">const server &#x3D; http.createServer(function(req, res) &#123;</span><br><span class="line">  console.log(req.url)</span><br><span class="line">  res.write(&#39;hello&#39;)</span><br><span class="line">  res.end()</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">server.listen(5000) &#x2F;&#x2F; port</span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;傳紙條&quot;&gt;&lt;a href=&quot;#傳紙條&quot; class=&quot;headerlink&quot; title=&quot;傳紙條&quot;&gt;&lt;/a&gt;傳紙條&lt;/h2&gt;&lt;h3 id=&quot;告白篇&quot;&gt;&lt;a href=&quot;#告白篇&quot; class=&quot;headerlink&quot; title=&quot;告白篇&quot;&gt;&lt;/a&gt;告白篇&lt;/h
-      
-    
-    </summary>
-    
-    
-      <category term="網路概論" scheme="http://JAS0NHUANG.github.io/diary/tags/%E7%B6%B2%E8%B7%AF%E6%A6%82%E8%AB%96/"/>
-    
-      <category term="HTTP" scheme="http://JAS0NHUANG.github.io/diary/tags/HTTP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>[筆記] 再走一次迷宮</title>
-    <link href="http://JAS0NHUANG.github.io/diary/J-plus-5-mazerun-again/"/>
-    <id>http://JAS0NHUANG.github.io/diary/J-plus-5-mazerun-again/</id>
-    <published>2020-06-17T20:55:39.000Z</published>
-    <updated>2020-06-21T22:31:48.190Z</updated>
-    
-    <content type="html"><![CDATA[<p>再試一次自已把走迷宮寫出來，然後一步一步記錄想法，建議沒有自已想過，或者沒有看著老師的解法仔細想過的同學先不要看。<br>然後我把所有自已測試時用到的 <code>console.log()</code> 都留下來了，當作一個思考過程的記錄</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">solve([</span><br><span class="line">  &#39;3 3&#39;, &#x2F;&#x2F; 迷宮高與寬（先高、後寬）</span><br><span class="line">  &#39;...&#39;, &#x2F;&#x2F; 迷宮圖樣</span><br><span class="line">  &#39;...&#39;,</span><br><span class="line">  &#39;...&#39;</span><br><span class="line">])</span><br><span class="line"></span><br><span class="line">function solve(lines) &#123;</span><br><span class="line">  &#x2F;&#x2F; 將高、寬轉換為數字存入陣列</span><br><span class="line">  const HWArray &#x3D; lines[0].split(&#39; &#39;)</span><br><span class="line">  &#x2F;&#x2F; console.log(HWArray)</span><br><span class="line">  &#x2F;&#x2F; 分別取出高 H、寬 W</span><br><span class="line">  const H &#x3D; Number(HWArray[0])</span><br><span class="line">  const W &#x3D; Number(HWArray[1])</span><br><span class="line">  &#x2F;&#x2F; 將迷宮存入陣列</span><br><span class="line">  const maze &#x3D; []</span><br><span class="line">  for (let i &#x3D; 1; i &lt; lines.length; i++) &#123;</span><br><span class="line">    maze.push(lines[i])</span><br><span class="line">  &#125;</span><br><span class="line">  &#x2F;&#x2F; console.log(maze)</span><br><span class="line">  &#x2F;&#x2F; 計算出終點</span><br><span class="line">  const endX &#x3D; H - 1</span><br><span class="line">  const endY &#x3D; W - 1</span><br><span class="line"></span><br><span class="line">  &#x2F;&#x2F; 設定一個空陣列等一下用來儲存走到每個點的步數</span><br><span class="line">  let stepsArr &#x3D; []</span><br><span class="line">  &#x2F;&#x2F; 先在這個空陣列裡面填入與高度同數量的空陣列</span><br><span class="line">  for (let i &#x3D; 1; i &lt; H + 1; i++) &#123;</span><br><span class="line">    stepsArr.push([ ])</span><br><span class="line">  &#125;</span><br><span class="line">  &#x2F;&#x2F; 設定起點（0, 0）到起點的步數為 0</span><br><span class="line">  stepsArr[0][0] &#x3D; 0</span><br><span class="line"></span><br><span class="line">  &#x2F;&#x2F; 設定一個列隊，用來存入可以走的點，起始設定為起點： 0, 0</span><br><span class="line">  let pointQueue &#x3D; [&#123;x:0, y:0&#125;]</span><br><span class="line"></span><br><span class="line">  &#x2F;&#x2F; 設定一個向四個方向走的陣列</span><br><span class="line">  const directions &#x3D; [</span><br><span class="line">    &#123; &quot;dx&quot;: 0, &quot;dy&quot;: 1&#125;,</span><br><span class="line">    &#123; &quot;dx&quot;: 1, &quot;dy&quot;: 0&#125;,</span><br><span class="line">    &#123; &quot;dx&quot;: 0, &quot;dy&quot;: -1&#125;,</span><br><span class="line">    &#123; &quot;dx&quot;: -1, &quot;dy&quot;: 0&#125;</span><br><span class="line">  ]</span><br><span class="line">  </span><br><span class="line">  &#x2F;&#x2F; 開始走迷宮</span><br><span class="line">  &#x2F;&#x2F; 只要列隊中還有未走過的點就執行以下運算</span><br><span class="line">  while (pointQueue.length) &#123;</span><br><span class="line">    &#x2F;&#x2F; 先取出目前所在的點，然後從 pointQueue 列隊中刪除</span><br><span class="line">    let currentPoint &#x3D; pointQueue.shift()</span><br><span class="line">    let x &#x3D; currentPoint.x</span><br><span class="line">    let y &#x3D; currentPoint.y</span><br><span class="line">    &#x2F;&#x2F; console.log(x, y)</span><br><span class="line">    &#x2F;&#x2F; 往四個方向走，進行判斷</span><br><span class="line">    for (let i &#x3D; 0; i &lt; directions.length; i++) &#123;</span><br><span class="line">      &#x2F;&#x2F; console.log(directions[i].dx)</span><br><span class="line">      let newX &#x3D; x + directions[i].dx</span><br><span class="line">      let newY &#x3D; y + directions[i].dy</span><br><span class="line">      &#x2F;&#x2F; 判斷條件：</span><br><span class="line">      &#x2F;&#x2F; 超過邊界或者路不能走</span><br><span class="line">      if (newX &lt; 0 || newY &lt; 0 || newX &gt; endX || newY &gt; endY || maze[newX][newY] !&#x3D;&#x3D; &#39;.&#39;) continue</span><br><span class="line">      &#x2F;&#x2F; 要走的點的步數大於原始點加上 1 步或者不是未走過的路</span><br><span class="line">      if (stepsArr[newX][newY] &lt;&#x3D; stepsArr[x][y] + 1 || stepsArr[newX][newY] !&#x3D;&#x3D; undefined) continue</span><br><span class="line">      &#x2F;&#x2F; 通過以上判斷則為要走的點。</span><br><span class="line">      &#x2F;&#x2F; 將到達原始點的步數加上 1 步，放入儲存步數的陣列中 stepsArr[newX][newY]</span><br><span class="line">      stepsArr[newX][newY] &#x3D; stepsArr[x][y] + 1</span><br><span class="line">      &#x2F;&#x2F; 將可以走的點加入列隊，等待成為之後的起始點。（列隊中可以同時有好幾個點）</span><br><span class="line">      pointQueue.push(&#123;x:newX, y:newY&#125;)</span><br><span class="line">      &#x2F;&#x2F; console.log(pointQueue)</span><br><span class="line">      &#x2F;&#x2F; console.log(&#96;newX and newY: $&#123;newX&#125; : $&#123;newY&#125;&#96;)</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">  &#x2F;&#x2F; console.log(stepsArr)</span><br><span class="line">  console.log(stepsArr[endX][endY])</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>其實就是把老師的解法從自已的記憶裡挖出來然後寫出來這樣。</p><p>其中有一個地方很神奇，就是最後在判斷是否為未走過的點以及原始點（老師說的 A 點）到前往點（老師說的 B 點）的距離比較那裡。<br>我第一次不知道腦子進了什麼東西，寫出來變這樣，明顯就是錯誤（不相關）的判斷：</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">if (stepsArr[newX][newY] &gt; stepsArr[x][y] + stepsArr[newX][newY] || stepsArr[newX][newY] !&#x3D;&#x3D; undefined) continue</span><br></pre></td></tr></table></figure><p>但是居然 AC！<br>仔細又看了一次老師的解法，發現好像沒有去判斷 A 走到 B 點的距離也沒關係，所以就試著把那一部分刪了，變成：</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">if (stepsArr[newX][newY] !&#x3D;&#x3D; undefined) continue</span><br></pre></td></tr></table></figure><p>也還是 AC。XD<br>我自已的感覺是，其實只要判斷是否有走過就可以了？！或者是測資還不夠強，遇到更複雜的迷宮就可能會算錯？！</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;再試一次自已把走迷宮寫出來，然後一步一步記錄想法，建議沒有自已想過，或者沒有看著老師的解法仔細想過的同學先不要看。&lt;br&gt;然後我把所有自已測試時用到的 &lt;code&gt;console.log()&lt;/code&gt; 都留下來了，當作一個思考過程的記錄&lt;/p&gt;
-&lt;figure clas
-      
-    
-    </summary>
-    
-    
-      <category term="JavaScript" scheme="http://JAS0NHUANG.github.io/diary/tags/JavaScript/"/>
-    
-      <category term="BFS" scheme="http://JAS0NHUANG.github.io/diary/tags/BFS/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>J+5 [進度] week2 超級挑戰、ES6、傳紙條</title>
-    <link href="http://JAS0NHUANG.github.io/diary/J-plus-5-progress/"/>
-    <id>http://JAS0NHUANG.github.io/diary/J-plus-5-progress/</id>
-    <published>2020-06-17T14:27:46.000Z</published>
-    <updated>2020-06-17T20:54:56.339Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="復習-預習"><a href="#復習-預習" class="headerlink" title="復習 + 預習"></a>復習 + 預習</h2><p>因為第二、三週程式基礎大都是在復習，雖然也不一定每一個細節都敢說是完全掌握了，但是一直復習感覺還是會比較無聊一點，所以接下來這一週應該每天都會有一半時間復習程式基礎，然後另一半的時間接著看之後的課程。</p><hr><h2 id="今日進度"><a href="#今日進度" class="headerlink" title="今日進度"></a>今日進度</h2><h3 id="重做-week2-超級挑戰題"><a href="#重做-week2-超級挑戰題" class="headerlink" title="重做 week2 超級挑戰題"></a>重做 week2 超級挑戰題</h3><ul><li><input disabled="" type="checkbox"> 重做 week2 超級挑戰題<br>試著自已再寫一次超級挑戰題。</li></ul><h3 id="看-JS102-升級你的-JavaScript-技能：ES6-npm-Jest"><a href="#看-JS102-升級你的-JavaScript-技能：ES6-npm-Jest" class="headerlink" title="看 [JS102] 升級你的 JavaScript 技能：ES6 + npm + Jest"></a>看 [JS102] 升級你的 JavaScript 技能：ES6 + npm + Jest</h3><ul><li><input checked="" disabled="" type="checkbox"> 看 [JS102] 升級你的 JavaScript 技能：ES6 + npm + Jest<br>昨天看完 npm 以及 Jest 的部分，今天看完 ES6 的部分。</li></ul><h3 id="看-NET201-傳紙條部分"><a href="#看-NET201-傳紙條部分" class="headerlink" title="看 [NET201] 傳紙條部分"></a>看 [NET201] 傳紙條部分</h3><ul><li><input disabled="" type="checkbox"> [NET201] 傳紙條部分<br>然後看老師的兩篇文章：<a href="https://medium.com/@hulitw/ramen-and-api-6238437dc544" target="_blank" rel="noopener">從拉麵店的販賣機理解什麼是 API</a>、<a href="https://medium.com/@hulitw/learning-tcp-ip-http-via-sending-letter-5d3299203660" target="_blank" rel="noopener">從傳紙條輕鬆學習基本網路概念</a><br>作筆記！</li></ul><hr><h2 id="明日進度"><a href="#明日進度" class="headerlink" title="明日進度"></a>明日進度</h2><h3 id="快速複習-ALG101-先別急著寫-leetcode-單元-5"><a href="#快速複習-ALG101-先別急著寫-leetcode-單元-5" class="headerlink" title="快速複習 [ALG101] 先別急著寫 leetcode 單元 5"></a>快速複習 [ALG101] 先別急著寫 leetcode 單元 5</h3><ul><li><input disabled="" type="checkbox"> [ALG101] 先別急著寫 leetcode 單元 5</li></ul><h3 id="看-NET201-HTTP-協定"><a href="#看-NET201-HTTP-協定" class="headerlink" title="看 [NET201] HTTP 協定"></a>看 [NET201] HTTP 協定</h3><ul><li><input disabled="" type="checkbox"> [NET201] HTTP 協定</li></ul><hr><h2 id="後天與未來計畫"><a href="#後天與未來計畫" class="headerlink" title="後天與未來計畫"></a>後天與未來計畫</h2><h3 id="快速複習-ALG101-先別急著寫-leetcode-單元-6"><a href="#快速複習-ALG101-先別急著寫-leetcode-單元-6" class="headerlink" title="快速複習 [ALG101] 先別急著寫 leetcode 單元 6"></a>快速複習 [ALG101] 先別急著寫 leetcode 單元 6</h3><ul><li><input disabled="" type="checkbox"> [ALG101] 先別急著寫 leetcode 單元 6<br>把 [ALG101] 單元 5、6 分兩天看，以免有倦怠感……</li></ul><h3 id="看-NET201-TCP-IP"><a href="#看-NET201-TCP-IP" class="headerlink" title="看 [NET201] TCP/IP"></a>看 [NET201] TCP/IP</h3><ul><li><input disabled="" type="checkbox"> [NET201] TCP/IP</li></ul><h3 id="將-JS101-練習-Lv2-與-Lv3-做完"><a href="#將-JS101-練習-Lv2-與-Lv3-做完" class="headerlink" title="將 [JS101] 練習 Lv2 與 Lv3 做完"></a>將 [JS101] 練習 Lv2 與 Lv3 做完</h3><ul><li><input disabled="" type="checkbox"> [JS101] 練習 Lv2 與 Lv3 做完<br>很多都跟作業、[ALG101] 的內容重覆了，大概看一下講解影片看看有沒有什麼我沒有想到的地方。</li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;復習-預習&quot;&gt;&lt;a href=&quot;#復習-預習&quot; class=&quot;headerlink&quot; title=&quot;復習 + 預習&quot;&gt;&lt;/a&gt;復習 + 預習&lt;/h2&gt;&lt;p&gt;因為第二、三週程式基礎大都是在復習，雖然也不一定每一個細節都敢說是完全掌握了，但是一直復習感覺還是會比較無聊
-      
-    
-    </summary>
-    
-    
-      <category term="每日進度" scheme="http://JAS0NHUANG.github.io/diary/tags/%E6%AF%8F%E6%97%A5%E9%80%B2%E5%BA%A6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>[筆記] Jest 測試入門</title>
-    <link href="http://JAS0NHUANG.github.io/diary/J-plus-4-note-jest/"/>
-    <id>http://JAS0NHUANG.github.io/diary/J-plus-4-note-jest/</id>
-    <published>2020-06-17T14:19:03.000Z</published>
-    <updated>2020-06-21T22:31:30.170Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="土炮測試"><a href="#土炮測試" class="headerlink" title="土炮測試"></a>土炮測試</h2><p>log 爆了你！  </p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">console.log(theFunction())</span><br><span class="line">console.log(theFunction() &#x3D;&#x3D;&#x3D; &#39;XXXX&#39;)</span><br></pre></td></tr></table></figure><p>缺點就是沒辦法規模化、不好執行。</p><h2 id="Jest-大神幫你測"><a href="#Jest-大神幫你測" class="headerlink" title="Jest 大神幫你測"></a>Jest 大神幫你測</h2><p><a href="https://jestjs.io/" target="_blank" rel="noopener">JEST</a></p><ul><li>安裝 <code>yarn add --dev jest</code>。</li><li>基本使用方法：<ol><li>先把想要測試的程式 <code>export</code> 出來：<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;&#x2F; 想被測的程式.js</span><br><span class="line">function 兩倍(x)&#123;</span><br><span class="line">  return x * 2</span><br><span class="line">&#125;</span><br><span class="line">module.exports &#x3D; 兩倍</span><br></pre></td></tr></table></figure></li><li>建立一個測試檔，引入想測試的程式：<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;&#x2F; 測試.test.js</span><br><span class="line">var 兩倍 &#x3D; require(&#39;.&#x2F;想被測的程式&#39;)</span><br></pre></td></tr></table></figure></li><li>然後寫測試：<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">test(&#39;這裡你想打什麼就打什麼，例如：&quot;5 的兩倍是 10&quot;&#39;， function () &#123;</span><br><span class="line">  &#x2F;&#x2F; 測試資料與預期結果</span><br><span class="line">  expect(兩倍(5)).toBe(10)</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure></li><li>然後跑起來！  <ol><li><code>./node_modules/jest/bin/jest.js</code>。</li><li>在 package.json 檔案裡加一個 script：<code>&quot;test&quot;:&quot;jest&quot;</code>，然後 <code>npm run test</code>。</li><li>如果 npm 版本夠新，也可以用 <code>npx jest</code>。<br>Jest 會自已去找所有 .test.js 的檔案來進行測試。當然也可以指定單一檔案測試。</li></ol></li></ol></li></ul><ul><li>加一個 describe 包住其它測試資料, 可以讓同一個函式的所有測試被放到同一個群組裡<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">describe(&#39;測試 兩倍&#39;, function() &#123;</span><br><span class="line">  test(&#39;這裡你想打什麼就打什麼&#39;， function () &#123;</span><br><span class="line">    &#x2F;&#x2F; 測試資料與預期結果</span><br><span class="line">    expect(兩倍(5)).toBe(10)</span><br><span class="line">  &#125;)</span><br><span class="line">  test(&#39;這裡你想打什麼就打什麼&#39;， function () &#123;</span><br><span class="line">    &#x2F;&#x2F; 測試資料與預期結果</span><br><span class="line">    expect(兩倍(9)).toBe(18)</span><br><span class="line">  &#125;)</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure><h2 id="TDD-測試驅動開發"><a href="#TDD-測試驅動開發" class="headerlink" title="TDD 測試驅動開發"></a>TDD 測試驅動開發</h2>先寫測試再寫程式。<br>其實就是把一般先寫程式再測試的方法倒過來，之後寫新的 project 的時候可以試試看。</li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;土炮測試&quot;&gt;&lt;a href=&quot;#土炮測試&quot; class=&quot;headerlink&quot; title=&quot;土炮測試&quot;&gt;&lt;/a&gt;土炮測試&lt;/h2&gt;&lt;p&gt;log 爆了你！  &lt;/p&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td 
-      
-    
-    </summary>
-    
-    
-      <category term="JavaScript" scheme="http://JAS0NHUANG.github.io/diary/tags/JavaScript/"/>
-    
-      <category term="Jest" scheme="http://JAS0NHUANG.github.io/diary/tags/Jest/"/>
-    
-      <category term="Test" scheme="http://JAS0NHUANG.github.io/diary/tags/Test/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>[筆記] 模組、套件與 npm</title>
-    <link href="http://JAS0NHUANG.github.io/diary/J-plus-4-note-package/"/>
-    <id>http://JAS0NHUANG.github.io/diary/J-plus-4-note-package/</id>
-    <published>2020-06-16T14:55:05.000Z</published>
-    <updated>2020-06-21T22:31:37.298Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="模組化"><a href="#模組化" class="headerlink" title="模組化"></a>模組化</h2><ul><li>require 用別人的模組<br>將不同功能切開，分別寫在不同檔案裡。<br>列如 node 就有提供很多寫好的模組，如：os、readline、fs、https……等等。<br>引入方法，使用 <code>require</code> 關鍵字：  <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">var os &#x3D; require(&#39;os&#39;) &#x2F;&#x2F; 引入模組並存入 os 這個變數中</span><br><span class="line">console.log(os.platform())</span><br></pre></td></tr></table></figure></li><li>exports 建立自已的模組<br>建立自已的模組讓別人/或自已可以使用，使用 <code>module.exports</code> 關鍵字  <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;&#x2F; 檔名為 abcde</span><br><span class="line">function abc(x) &#123;</span><br><span class="line">  return x</span><br><span class="line">&#125;</span><br><span class="line">module.exports &#x3D; abc</span><br></pre></td></tr></table></figure>然後想要在同一個資料夾裡的另一個程式裡使用的話一樣是用 require，但是引入的必需是檔案名稱，而不是函數名稱：<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">var abc &#x3D; require(&#39;.&#x2F;abcde&#39;)</span><br><span class="line">console.log(abc(&#39;hello&#39;))</span><br></pre></td></tr></table></figure></li><li>輸出多個模組<br>同一個檔案可以輸出多個模組，但是必需以單一物件 export（不然只會輸出最後一個模組），例如：<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;&#x2F; 檔名為 utils.js</span><br><span class="line">function double (x) &#123;</span><br><span class="line">  return x * 2</span><br><span class="line">&#125;</span><br><span class="line">function triple (y) &#123;</span><br><span class="line">  return y * 3</span><br><span class="line">&#125;</span><br><span class="line">module.exports &#x3D; &#123;</span><br><span class="line">  double: double,</span><br><span class="line">  triple: triple</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure></li></ul><p>或者也可以寫成：</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;&#x2F; exports 初始會被視為空物件</span><br><span class="line">exports.double &#x3D; double</span><br><span class="line">exports triple &#x3D; triple</span><br></pre></td></tr></table></figure><p>引入時可以作為方法使用：</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">var utils &#x3D; require(&#39;.&#x2F;utils&#39;）</span><br><span class="line">utils.double(22)</span><br><span class="line">utils.triple(33)</span><br></pre></td></tr></table></figure><h2 id="npm-大神們寫的模組-套件"><a href="#npm-大神們寫的模組-套件" class="headerlink" title="npm 大神們寫的模組/套件"></a>npm 大神們寫的模組/套件</h2><p>library、package、module 三個相近的概念，有時候其實指的也是同一個東西。</p><ol><li>拿 left-pad 來試試<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install left-pad</span><br></pre></td></tr></table></figure>安裝 left-pad（其實就是在同一個資料夾建立一個 <code>node_modules/</code> 資料夾，然後從 npm 的程式庫裡把 <code>left-pad</code> 這個套件抓下來，放到 <code>node_modules/</code> 資料夾內）<br>然後就可以 <code>var LP = require(&#39;left-pad&#39;)</code> 使用它了。</li></ol><ul><li>如果還沒有執行過，<code>npm init</code> 的話，因為資料夾內還沒有 <code>package.json</code> 檔案，所以這時候安裝的套件都不會被記錄到相依性裡頭。</li><li>但是只要一執行 <code>npm init</code>（不論是安裝套件之前還是之後），npm 預設都會把安裝的套件記錄到相依性裡（–save）。<br>這個相依關係有一個很實用的地方就是大家在分享自已的專案時不用分享 <code>node_modules</code> 資料夾內的套件，只要有 <code>package.json</code> 檔，在任何電腦上執行 <code>npm install</code> npm 就會自動把相依的套件都抓下來了。</li><li><code>--save</code> 選項是記錄到相依套件，<code>--save-dev</code> 則會記錄到「開發環境」的相依關係裡。<br>（看 <code>left-pad</code> 事件看了一個多小時，網路真的很恐怖，連出去就抓不回來了……）</li></ul><ol start="2"><li><p>npm scripts<br>在 <code>package.json</code> 檔案裡可以看到：<code>&quot;scripts&quot;:{}</code> 這個區塊，就是讓你寫 scripts 的地方啦！<br>這個 json 物件裡的 key 就是你想要在這個 node 專案裡設定的一個指令，value 就是下了這個指令後會執行的步驟。例如：設定 <code>&quot;start&quot;: &quot;node index.js&quot;</code> 那麼在這個專案資料夾裡執行 <code>npm run start</code>（必需要加 <code>npm run</code> 在指令之前）的時候，npm 就會自動執行 <code>node index.js</code> 這個指令。</p></li><li><p>還有 yarn<br>其實就是另一個管理套件的程式，跟 npm 不止 87 分像，基本指令對照 npm：</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">yarn -v &#x3D;&#x3D; npm -v</span><br><span class="line">yarn &#x3D;&#x3D; npm install</span><br><span class="line">yarn add PACKAGE &#x3D;&#x3D; npm install PACKAGE</span><br><span class="line">yarn add --dev PACKAGE &#x3D;&#x3D; npm install --save-dev PACKAGE</span><br><span class="line">yarn run start &#x3D;&#x3D; npm run start</span><br></pre></td></tr></table></figure><p><a href="https://classic.yarnpkg.com/es-ES/docs/migrating-from-npm" target="_blank" rel="noopener">這裡</a>可以看完整對照表</p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;模組化&quot;&gt;&lt;a href=&quot;#模組化&quot; class=&quot;headerlink&quot; title=&quot;模組化&quot;&gt;&lt;/a&gt;模組化&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;require 用別人的模組&lt;br&gt;將不同功能切開，分別寫在不同檔案裡。&lt;br&gt;列如 node 就有提供很多寫好的模組，
-      
-    
-    </summary>
-    
-    
-      <category term="JavaScript" scheme="http://JAS0NHUANG.github.io/diary/tags/JavaScript/"/>
-    
-      <category term="npm" scheme="http://JAS0NHUANG.github.io/diary/tags/npm/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>J+4 [進度] 寫題目 &amp; 學 ES6/npm/Jest</title>
-    <link href="http://JAS0NHUANG.github.io/diary/J-plus-4-progress/"/>
-    <id>http://JAS0NHUANG.github.io/diary/J-plus-4-progress/</id>
-    <published>2020-06-16T14:54:50.000Z</published>
-    <updated>2020-06-17T12:29:16.497Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="昨日小記"><a href="#昨日小記" class="headerlink" title="昨日小記"></a>昨日小記</h2><h3 id="重看-ALG101"><a href="#重看-ALG101" class="headerlink" title="重看 [ALG101]"></a>重看 [ALG101]</h3><p>昨天快速的重看了 [ALG101] 到單元四，重做了一些比較複雜的題目（如：印出聖誕樹、水仙花數……），因為第一次跟完 [ALG101] 的時候，有些自已亂寫的解法在 LIOJ 上面也能 AC 所以就沒有特別仔細的看老師的解法，這一次找出幾個比較複雜的仔細照老師的解法寫一次。  </p><h3 id="大O"><a href="#大O" class="headerlink" title="大O"></a>大O</h3><p>看完了 [CS101] 火球術的第七單元，對提到的排序法也有些概念了，但是那個「大O」還是一直搞不懂，怎麼算的也不清楚，這應該真的就是數學不好的問題了……O(1)、O(n) 還勉強可以知道怎麼來的，但是一看到那些 log n、(log n)c、(n!) 就真的不知道是怎麼推算出來的了，腦子大概有自動防護功能，避免它們進來搞亂我脆弱的腦子。  </p><h2 id="今日進度"><a href="#今日進度" class="headerlink" title="今日進度"></a>今日進度</h2><h3 id="檢查-week2-作業"><a href="#檢查-week2-作業" class="headerlink" title="檢查 week2 作業"></a>檢查 week2 作業</h3><ul><li><input disabled="" type="checkbox"> 檢查 week2 作業<br>確定 hw1 到 hw6 以及挑戰題沒有問題，補上想補充的，然後明天再寫一次超級挑戰題，後天應該就可以交 week2 的作業了。  </li></ul><h3 id="看-JS102-升級你的-JavaScript-技能：ES6-npm-Jest"><a href="#看-JS102-升級你的-JavaScript-技能：ES6-npm-Jest" class="headerlink" title="看 [JS102] 升級你的 JavaScript 技能：ES6 + npm + Jest"></a>看 [JS102] 升級你的 JavaScript 技能：ES6 + npm + Jest</h3><ul><li><input disabled="" type="checkbox"> 看 [JS102] 升級你的 JavaScript 技能：ES6 + npm + Jest  </li></ul><h2 id="明日進度"><a href="#明日進度" class="headerlink" title="明日進度"></a>明日進度</h2><h3 id="快速複習-ALG101-先別急著寫-leetcode-到單元六"><a href="#快速複習-ALG101-先別急著寫-leetcode-到單元六" class="headerlink" title="快速複習 [ALG101] 先別急著寫 leetcode 到單元六"></a>快速複習 [ALG101] 先別急著寫 leetcode 到單元六</h3><ul><li><input disabled="" type="checkbox"> [ALG101] 先別急著寫 leetcode 到單元六<br>一樣快速複習一遍看過的內容，把比較複雜的題目再寫一遍，雖然說是「快速」但是內容比較難一點點，題目也比較多，我解題速度也還很慢，所以大概也快不起來……  </li></ul><h3 id="將-JS101-練習-Lv2-與-Lv3-做完"><a href="#將-JS101-練習-Lv2-與-Lv3-做完" class="headerlink" title="將 [JS101] 練習 Lv2 與 Lv3 做完"></a>將 [JS101] 練習 Lv2 與 Lv3 做完</h3><ul><li><input disabled="" type="checkbox"> [JS101] 練習 Lv2 與 Lv3 做完<br>很多都跟作業、[ALG101] 的內容重覆了，應該只會大概看一下講解影片看看有沒有什麼我沒有想到的地方。<br>（看了一下課綱，發現這算是補充內容，所以排到其它主要內容後面完成。）  </li></ul><p>偷偷看了一下第四、第六、七週的內容……厚厚，真正的挑戰還沒開始呢！！</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;昨日小記&quot;&gt;&lt;a href=&quot;#昨日小記&quot; class=&quot;headerlink&quot; title=&quot;昨日小記&quot;&gt;&lt;/a&gt;昨日小記&lt;/h2&gt;&lt;h3 id=&quot;重看-ALG101&quot;&gt;&lt;a href=&quot;#重看-ALG101&quot; class=&quot;headerlink&quot; title=
-      
-    
-    </summary>
-    
-    
-      <category term="每日進度" scheme="http://JAS0NHUANG.github.io/diary/tags/%E6%AF%8F%E6%97%A5%E9%80%B2%E5%BA%A6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>J+3 [進度] [ALG101] 複習</title>
-    <link href="http://JAS0NHUANG.github.io/diary/J-plus-3-progress/"/>
-    <id>http://JAS0NHUANG.github.io/diary/J-plus-3-progress/</id>
-    <published>2020-06-15T20:31:07.000Z</published>
-    <updated>2020-06-15T20:31:07.361Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="昨日小記"><a href="#昨日小記" class="headerlink" title="昨日小記"></a>昨日小記</h2><h3 id="完成-week2-超級挑戰題"><a href="#完成-week2-超級挑戰題" class="headerlink" title="完成 week2 超級挑戰題"></a>完成 week2 超級挑戰題</h3><p>自已真的想不出來，雖然大概理解 BFS 就是將所有可能的點都走過（實際上網路上那些 BFS 相關的文章還是看的一知半解，大概程度確實還不到那邊吧！），但是轉換成程式碼還是沒那麼容易。<br>所以就決定先把老師的解法一步一步的看懂，然後再試著自已默寫一遍，在看老師程式碼的時候，x 軸、y 軸的狀態因為到後面出現 <code>ans[y][x]</code> 還有 <code>and[newY][newX]</code> 所以有一點點被搞混了，大概理解老師是要保持一般 x 軸為水平、y 軸為垂直的慣例才會這樣寫，但是我自已是覺得，直接在 <code>endX</code>、<code>endY</code> 設定的時候就使用 <code>endX = h - 1</code>、<code>endY = w - 1</code>，會比較直覺、比較好懂一點點（因為後面就不會出現有 x y 反過來寫的狀況了。）<br>自已默寫的時候還是會出錯，有些語法、內建函式的應用還不是很熟練。<br>三天後再來試試看自已還記不記得住解法。  </p><h3 id="研究-reduce-的用法"><a href="#研究-reduce-的用法" class="headerlink" title="研究 .reduce() 的用法"></a>研究 <code>.reduce()</code> 的用法</h3><p>花了大概兩個小時找資料，再看一遍老師的影片，然後把 <code>.reduce()</code> 的用法搞懂，寫了一篇筆記（<a href="https://jas0nhuang.github.io/diary/2020/06/14/J-plus-2-note-reduce/">J+2 [筆記] 淺淺的看一下 reduce</a>），歡迎大家指教。</p><h2 id="今日進度"><a href="#今日進度" class="headerlink" title="今日進度"></a>今日進度</h2><h3 id="快速的再看一遍-ALG101-到單元四"><a href="#快速的再看一遍-ALG101-到單元四" class="headerlink" title="快速的再看一遍  [ALG101] 到單元四"></a>快速的再看一遍  [ALG101] 到單元四</h3><ul><li><input disabled="" type="checkbox"> 快速的再看一遍  [ALG101] 到單元四<br>之前很仔細的上完了這堂課，程式概念慢慢有點內化的感覺，再瀏覽一次加深印象。<br>因為到單元六內容還不少，雖然之前都看過了，把影片再過一次還是要花不少時間，今天進度就先暫訂這樣就好。也讓自已腦子可以再消化一下超級挑戰題的解法。</li></ul><h3 id="整理、修正-week1-作業"><a href="#整理、修正-week1-作業" class="headerlink" title="整理、修正 week1 作業"></a>整理、修正 week1 作業</h3><ul><li><input checked="" disabled="" type="checkbox"> 整理、修正 week 作業<br>把 week1 作業裡面要修正，想要重新整理的地方改好，重新發 PR 自已 merge。</li></ul><h2 id="明日進度"><a href="#明日進度" class="headerlink" title="明日進度"></a>明日進度</h2><h3 id="看-CS101-初心者的計概與-coding-火球術-unit-7"><a href="#看-CS101-初心者的計概與-coding-火球術-unit-7" class="headerlink" title="看 [CS101] 初心者的計概與 coding 火球術 unit 7"></a>看 [CS101] 初心者的計概與 coding 火球術 unit 7</h3><ul><li><input disabled="" type="checkbox"> [CS101] 初心者的計概與 coding 火球術 unit 7</li></ul><h3 id="將-JS101-練習-Lv2-與-Lv3-做完"><a href="#將-JS101-練習-Lv2-與-Lv3-做完" class="headerlink" title="將 [JS101] 練習 Lv2 與 Lv3 做完"></a>將 [JS101] 練習 Lv2 與 Lv3 做完</h3><ul><li><input disabled="" type="checkbox"> [JS101] 練習 Lv2 與 Lv3 做完<br>很多都跟作業、[ALG101] 的內容重覆了，應該只會大概看一下講解影片看看有沒有什麼我沒有想到的地方。</li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;昨日小記&quot;&gt;&lt;a href=&quot;#昨日小記&quot; class=&quot;headerlink&quot; title=&quot;昨日小記&quot;&gt;&lt;/a&gt;昨日小記&lt;/h2&gt;&lt;h3 id=&quot;完成-week2-超級挑戰題&quot;&gt;&lt;a href=&quot;#完成-week2-超級挑戰題&quot; class=&quot;headerli
-      
-    
-    </summary>
-    
-    
-      <category term="每日進度" scheme="http://JAS0NHUANG.github.io/diary/tags/%E6%AF%8F%E6%97%A5%E9%80%B2%E5%BA%A6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>[筆記] [ALG101] 與 [CS101] unit 7 雜記</title>
-    <link href="http://JAS0NHUANG.github.io/diary/J-plus-3-note/"/>
-    <id>http://JAS0NHUANG.github.io/diary/J-plus-3-note/</id>
-    <published>2020-06-15T10:23:36.000Z</published>
-    <updated>2020-06-21T22:31:09.999Z</updated>
-    
-    <content type="html"><![CDATA[<p>快速記下一些重看 [ALG101] 的小細節</p><h2 id="ALG101-雜記"><a href="#ALG101-雜記" class="headerlink" title="[ALG101] 雜記"></a>[ALG101] 雜記</h2><h3 id="log-小技巧"><a href="#log-小技巧" class="headerlink" title="log 小技巧"></a>log 小技巧</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">let arr &#x3D; [2, 7, 5]</span><br><span class="line">console.log(JSON.stringify(arr)) &#x2F;&#x2F; &#39;[2, 7, 5]&#39;，將 arr 轉換為字串印出，避免在 dev tool 裡的輸出被後面的變動影響 </span><br><span class="line">arr.push(3)</span><br><span class="line">console.log(arr) &#x2F;&#x2F; [2, 7, 5, 3]</span><br></pre></td></tr></table></figure><h3 id="fizz-Buzz-解法研究"><a href="#fizz-Buzz-解法研究" class="headerlink" title="fizz Buzz 解法研究"></a>fizz Buzz 解法研究</h3><p><a href="https://leetcode.com/articles/fizz-buzz/#" target="_blank" rel="noopener">LeetCode - Fizz Buzz</a></p><h3 id="大小寫轉換"><a href="#大小寫轉換" class="headerlink" title="大小寫轉換"></a>大小寫轉換</h3><p>有三種解法：</p><ol><li>ASCII code</li><li>比較字典序。例：z &gt; b，k &gt; g……</li><li>內建 <code>.toUpperCase()</code> 或 <code>.toLowerCase()</code></li></ol><h3 id="幾個水桶"><a href="#幾個水桶" class="headerlink" title="幾個水桶"></a>幾個水桶</h3><p>翻成數學問題就是：將一個 10 進位的數字轉換為 2 進位，並輸出此二進位數字包含幾個 1<br>有上過課馬上就能聯想到這個解法，我第一次解的時候是用題目給的上限值開始往下取，先找到最大的 2 的 x 次方數，減去後再繼續往下取。</p><h3 id="大數字如何處理"><a href="#大數字如何處理" class="headerlink" title="大數字如何處理"></a>大數字如何處理</h3><p>如何處理超過 MAX_SAFE_INTEGER 的數字？MDN 就有說了：</p><blockquote><p>For larger integers, consider using BigInt.</p></blockquote><h3 id="印出金字塔-印出聖誕樹"><a href="#印出金字塔-印出聖誕樹" class="headerlink" title="印出金字塔/印出聖誕樹"></a>印出金字塔/印出聖誕樹</h3><p>還是花了快一個小時才解出來，放到 LIOJ 上還是 AC，但是寫出來的 Code 比第一次在 LIOJ 上面解出來的還要噁心……</p><h3 id="印出平方數"><a href="#印出平方數" class="headerlink" title="印出平方數"></a>印出平方數</h3><p>兩種解法：</p><ol><li>檢查每一個數字被開根號後是否為整數。</li><li>從 1 開始計算每個數的平方，一直到大於所求範圍結束。</li></ol><h2 id="CS101-火球術-unit-7-雜記"><a href="#CS101-火球術-unit-7-雜記" class="headerlink" title="[CS101] 火球術 unit 7 雜記"></a>[CS101] 火球術 unit 7 雜記</h2><h2 id="排序法"><a href="#排序法" class="headerlink" title="排序法"></a>排序法</h2><p><a href="https://visualgo.net/en" target="_blank" rel="noopener">VISUALGO</a></p><h3 id="select"><a href="#select" class="headerlink" title="select"></a>select</h3><p>遍歷陣列，找到最小與第一位交換，再找第二小與第二位交換、第三小與第三位交換……類推</p><h3 id="bubble"><a href="#bubble" class="headerlink" title="bubble"></a>bubble</h3><p>兩兩比較，較大放右邊，較小放左邊</p><h3 id="insertion"><a href="#insertion" class="headerlink" title="insertion"></a>insertion</h3><p>將前兩位先按順序放好，第三位起與前面數字比大小，大於第二位則放至第三位，大於第一位、小於第二位則放至第二位，小於第一位則放至第一位。第四位與前面數字比大小，大於第三位則放至第四位，大於第二位小於第三位則放至第三位……類推</p><h3 id="merge"><a href="#merge" class="headerlink" title="merge"></a>merge</h3><p>切半、切半、再切半！合併、合併、再合併！</p><h3 id="quick"><a href="#quick" class="headerlink" title="quick"></a>quick</h3><p>先將第一個數字設定為基準點（piviot），尋找比它小的數字，第一個找到的調換到它旁邊，第二個找到的調換到第一個的旁邊……類推。一直到找不到比較小的數字後，將第一個數字與最後一個找到的數字對調。<br>持續進行這個動作，直到每個數字歸位。</p><p>用文字敘述實在很不容易想像，還是上 VISUALGO 看動畫吧！</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;快速記下一些重看 [ALG101] 的小細節&lt;/p&gt;
-&lt;h2 id=&quot;ALG101-雜記&quot;&gt;&lt;a href=&quot;#ALG101-雜記&quot; class=&quot;headerlink&quot; title=&quot;[ALG101] 雜記&quot;&gt;&lt;/a&gt;[ALG101] 雜記&lt;/h2&gt;&lt;h3 id=&quot;log
-      
-    
-    </summary>
-    
-    
-      <category term="JavaScript" scheme="http://JAS0NHUANG.github.io/diary/tags/JavaScript/"/>
     
   </entry>
   
