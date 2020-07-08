@@ -40,191 +40,6 @@
   </entry>
   
   <entry>
-    <title>J+17 [進度] 切版練習 / 寫心得</title>
-    <link href="http://JAS0NHUANG.github.io/diary/J-plus-17-progress/"/>
-    <id>http://JAS0NHUANG.github.io/diary/J-plus-17-progress/</id>
-    <published>2020-07-08T05:00:51.000Z</published>
-    <updated>2020-07-08T05:00:51.058Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="昨日小記"><a href="#昨日小記" class="headerlink" title="昨日小記"></a>昨日小記</h2><h3 id="week4-作業"><a href="#week4-作業" class="headerlink" title="week4 作業"></a>week4 作業</h3><p>大致上是完成作業了，但是自已感覺程式碼還是不太好看，附上<a href="https://github.com/Lidemy/mentor-program-4th-JAS0NHUANG/tree/week4/homeworks/week4" target="_blank" rel="noopener">Week4 作業 REPO</a>有興趣的同學可以一起討論！另外，如果 week3 之前的內容覺得不必勞駕老師或助教的問題也歡迎跟我討論喔！:D</p><h3 id="HTML-CSS"><a href="#HTML-CSS" class="headerlink" title="HTML / CSS"></a>HTML / CSS</h3><p>前天把 week6 作業切了大概 87 分像，昨天再試著重新切一次，把每一步記錄下來，感覺 Flexbox 跟一些細節有比較熟悉，也比較知道自已在切什麼東西了……</p><h3 id="導師計畫半個月心得"><a href="#導師計畫半個月心得" class="headerlink" title="導師計畫半個月心得"></a>導師計畫半個月心得</h3><p>目前寫了一半，今天試著把它寫完，其實也就是大略分享一下自已對這個計畫的感覺還有這半個月學習到的內容。</p><hr><h2 id="今日進度"><a href="#今日進度" class="headerlink" title="今日進度"></a>今日進度</h2><h3 id="完成-Week4-作業"><a href="#完成-Week4-作業" class="headerlink" title="完成 Week4 作業"></a>完成 Week4 作業</h3><ul><li><input checked="" disabled="" type="checkbox"> 完成 Week4 作業<br>程式碼清理一下……或者有強者願意提供一些意見？！</li></ul><h3 id="每天看一點-JavaScript"><a href="#每天看一點-JavaScript" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input disabled="" type="checkbox"> 每天看一點 JavaScript<br>[JS101] 練習 Lv2 與 Lv3。昨天沒有看到 JavaScript，今天試著看一些，然後找 LeetCode 一些簡單的題目試試。</li></ul><h3 id="寫心得、筆記"><a href="#寫心得、筆記" class="headerlink" title="寫心得、筆記"></a>寫心得、筆記</h3><ul><li><input disabled="" type="checkbox"> 寫心得<br>把導師計畫半個月心得寫完。</li></ul><h3 id="練習切個版"><a href="#練習切個版" class="headerlink" title="練習切個版"></a>練習切個版</h3><ul><li><input disabled="" type="checkbox"> 練習切版<br>用 week6 作業練習切版，找一些 RWD 資料。</li></ul><hr><h2 id="明日進度"><a href="#明日進度" class="headerlink" title="明日進度"></a>明日進度</h2><h3 id="每天看一點-JavaScript-1"><a href="#每天看一點-JavaScript-1" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input disabled="" type="checkbox"> 每天看一點 JavaScript</li></ul><h3 id="交-Week4-作業"><a href="#交-Week4-作業" class="headerlink" title="交 Week4 作業"></a>交 Week4 作業</h3><ul><li><input disabled="" type="checkbox"> 交 Week4 作業</li></ul><h3 id="練習切個版-1"><a href="#練習切個版-1" class="headerlink" title="練習切個版"></a>練習切個版</h3><ul><li><input disabled="" type="checkbox"> 練習切版<br>用 week6 作業練習切版</li></ul><hr><h2 id="計畫"><a href="#計畫" class="headerlink" title="計畫"></a>計畫</h2><h3 id="背包問題解題筆記"><a href="#背包問題解題筆記" class="headerlink" title="背包問題解題筆記"></a>背包問題解題筆記</h3><ul><li><input disabled="" type="checkbox"> 把背包問題解題的過程記錄下來</li></ul><h3 id="視覺化-HTML-CSS-小抄"><a href="#視覺化-HTML-CSS-小抄" class="headerlink" title="視覺化 HTML / CSS 小抄"></a>視覺化 HTML / CSS 小抄</h3><ul><li><input disabled="" type="checkbox"> 視覺化 HTML / CSS 小抄</li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;昨日小記&quot;&gt;&lt;a href=&quot;#昨日小記&quot; class=&quot;headerlink&quot; title=&quot;昨日小記&quot;&gt;&lt;/a&gt;昨日小記&lt;/h2&gt;&lt;h3 id=&quot;week4-作業&quot;&gt;&lt;a href=&quot;#week4-作業&quot; class=&quot;headerlink&quot; title=&quot;w
-      
-    
-    </summary>
-    
-    
-      <category term="每日進度" scheme="http://JAS0NHUANG.github.io/diary/tags/%E6%AF%8F%E6%97%A5%E9%80%B2%E5%BA%A6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>J+16 [進度] week4作業/ 切版練習 / 寫心得</title>
-    <link href="http://JAS0NHUANG.github.io/diary/J-plus-16-progress/"/>
-    <id>http://JAS0NHUANG.github.io/diary/J-plus-16-progress/</id>
-    <published>2020-07-08T04:55:06.000Z</published>
-    <updated>2020-07-08T04:55:06.159Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="昨日小記"><a href="#昨日小記" class="headerlink" title="昨日小記"></a>昨日小記</h2><h3 id="week4-作業"><a href="#week4-作業" class="headerlink" title="week4 作業"></a>week4 作業</h3><p>作業差不多完成了，挑戰題剩下 Delete 的功能加上去，然後可能要重新把程式碼整理一遍，不然內容有點混亂。</p><h3 id="HTML-CSS"><a href="#HTML-CSS" class="headerlink" title="HTML / CSS"></a>HTML / CSS</h3><p>昨天把 week6 的作業拿出來亂切一通，感覺很多 HTML/CSS 的細節都還不熟練，多練習應該就會慢慢上手了吧！</p><hr><h2 id="今日進度"><a href="#今日進度" class="headerlink" title="今日進度"></a>今日進度</h2><h3 id="完成-Week4-作業"><a href="#完成-Week4-作業" class="headerlink" title="完成 Week4 作業"></a>完成 Week4 作業</h3><ul><li><input checked="" disabled="" type="checkbox"> 完成 Week4 作業<br>把 Week4 作業寫完，然後就是最後檢查跟整理程式碼。</li></ul><h3 id="每天看一點-JavaScript"><a href="#每天看一點-JavaScript" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input disabled="" type="checkbox"> 每天看一點 JavaScript<br>[JS101] 練習 Lv2 與 Lv3。昨天看了一點點，今天繼續。</li></ul><h3 id="寫心得、筆記"><a href="#寫心得、筆記" class="headerlink" title="寫心得、筆記"></a>寫心得、筆記</h3><ul><li><input checked="" disabled="" type="checkbox"> 寫心得寫心得寫心得寫心得寫心得寫心得寫心得<br>好像應該真的靜下心來把半個月以來的心得寫一寫了。</li></ul><h3 id="練習切個版"><a href="#練習切個版" class="headerlink" title="練習切個版"></a>練習切個版</h3><ul><li><input checked="" disabled="" type="checkbox"> 練習切版<br>用 week6 作業練習切版</li></ul><hr><h2 id="明日進度"><a href="#明日進度" class="headerlink" title="明日進度"></a>明日進度</h2><h3 id="每天看一點-JavaScript-1"><a href="#每天看一點-JavaScript-1" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input disabled="" type="checkbox"> 每天看一點 JavaScript</li></ul><h3 id="交-Week4-作業"><a href="#交-Week4-作業" class="headerlink" title="交 Week4 作業"></a>交 Week4 作業</h3><ul><li><input disabled="" type="checkbox"> 交 Week4 作業</li></ul><h3 id="寫心得、筆記-1"><a href="#寫心得、筆記-1" class="headerlink" title="寫心得、筆記"></a>寫心得、筆記</h3><ul><li><input disabled="" type="checkbox"> 寫心得<br>程式導師計畫半個月心得。</li></ul><h3 id="練習切個版-1"><a href="#練習切個版-1" class="headerlink" title="練習切個版"></a>練習切個版</h3><ul><li><input disabled="" type="checkbox"> 練習切版<br>用 week6 作業練習切版</li></ul><hr><h2 id="計畫"><a href="#計畫" class="headerlink" title="計畫"></a>計畫</h2><h3 id="背包問題解題筆記"><a href="#背包問題解題筆記" class="headerlink" title="背包問題解題筆記"></a>背包問題解題筆記</h3><ul><li><input disabled="" type="checkbox"> 把背包問題解題的過程記錄下來</li></ul><h3 id="視覺化-HTML-CSS-小抄"><a href="#視覺化-HTML-CSS-小抄" class="headerlink" title="視覺化 HTML / CSS 小抄"></a>視覺化 HTML / CSS 小抄</h3><ul><li><input disabled="" type="checkbox"> 視覺化 HTML / CSS 小抄</li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;昨日小記&quot;&gt;&lt;a href=&quot;#昨日小記&quot; class=&quot;headerlink&quot; title=&quot;昨日小記&quot;&gt;&lt;/a&gt;昨日小記&lt;/h2&gt;&lt;h3 id=&quot;week4-作業&quot;&gt;&lt;a href=&quot;#week4-作業&quot; class=&quot;headerlink&quot; title=&quot;w
-      
-    
-    </summary>
-    
-    
-      <category term="每日進度" scheme="http://JAS0NHUANG.github.io/diary/tags/%E6%AF%8F%E6%97%A5%E9%80%B2%E5%BA%A6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>J+15 [進度] 加強 JavaScript / week4 作業 / 吃粽子</title>
-    <link href="http://JAS0NHUANG.github.io/diary/J-plus-15-progress/"/>
-    <id>http://JAS0NHUANG.github.io/diary/J-plus-15-progress/</id>
-    <published>2020-07-08T04:52:50.000Z</published>
-    <updated>2020-07-08T04:52:50.754Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="昨日小記"><a href="#昨日小記" class="headerlink" title="昨日小記"></a>昨日小記</h2><h3 id="寫-week4-作業"><a href="#寫-week4-作業" class="headerlink" title="寫 week4 作業"></a>寫 week4 作業</h3><p>繼續整理 week4 作業，把串接 New Twitch API 的方法搞清楚，重新寫一次挑戰題，然後問了助教、老師一堆問題……</p><h3 id="ALG101-複習"><a href="#ALG101-複習" class="headerlink" title="ALG101 複習"></a>ALG101 複習</h3><p>總算是複習完了，然後解了兩題  LeetCode 上面超水的水題，今天繼續解個一、兩題吧！</p><h3 id="HTML-CSS"><a href="#HTML-CSS" class="headerlink" title="HTML / CSS"></a>HTML / CSS</h3><p>昨天快速的看了一下 HTML / CSS 的內容，之後應該還要再重看一些地方，然後隨便把第六週作業拿出來亂搞一通……</p><h2 id="今日進度"><a href="#今日進度" class="headerlink" title="今日進度"></a>今日進度</h2><h3 id="完成-Week4-作業"><a href="#完成-Week4-作業" class="headerlink" title="完成 Week4 作業"></a>完成 Week4 作業</h3><ul><li><input disabled="" type="checkbox"> 完成 Week4 作業<br>Week4 作業最後整理，試著用 http 套件處理 POST、DELETE……等請求。<br>MinW 助教提醒可以先不要用 Axios，會錯過一些理解 promise 為什麼一直被包裝的機會 XDDDDD</li></ul><h3 id="每天看一點-JavaScript"><a href="#每天看一點-JavaScript" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input checked="" disabled="" type="checkbox"> 每天看一點 JavaScript<br>[JS101] 練習 Lv2 與 Lv3。Still too weak to LeetCode！！</li></ul><hr><h2 id="明日進度"><a href="#明日進度" class="headerlink" title="明日進度"></a>明日進度</h2><h3 id="每天看一點-JavaScript-1"><a href="#每天看一點-JavaScript-1" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input disabled="" type="checkbox"> 每天看一點 JavaScript</li></ul><h3 id="Week4-作業"><a href="#Week4-作業" class="headerlink" title="Week4 作業"></a>Week4 作業</h3><ul><li><input disabled="" type="checkbox"> 繼續研究 Week4 作業</li></ul><h3 id="寫心得、筆記"><a href="#寫心得、筆記" class="headerlink" title="寫心得、筆記"></a>寫心得、筆記</h3><ul><li><input disabled="" type="checkbox"> 寫心得寫心得寫心得寫心得寫心得寫心得寫心得寫心得寫心得寫心得寫心得<br>好像應該停下來好好整理從開始參加計畫到現在半個月的心得了！</li></ul><h2 id="計畫"><a href="#計畫" class="headerlink" title="計畫"></a>計畫</h2><h3 id="背包問題解題筆記"><a href="#背包問題解題筆記" class="headerlink" title="背包問題解題筆記"></a>背包問題解題筆記</h3><ul><li><input disabled="" type="checkbox"> 把背包問題解題的過程記錄下來</li></ul><h3 id="寫參加程式導師計畫前半個月心得"><a href="#寫參加程式導師計畫前半個月心得" class="headerlink" title="寫參加程式導師計畫前半個月心得"></a>寫參加程式導師計畫前半個月心得</h3><ul><li><input disabled="" type="checkbox"> 寫參加程式導師計畫前半個月心得</li></ul><h3 id="視覺化-HTML-CSS-小抄"><a href="#視覺化-HTML-CSS-小抄" class="headerlink" title="視覺化 HTML / CSS 小抄"></a>視覺化 HTML / CSS 小抄</h3><ul><li><input disabled="" type="checkbox"> 視覺化 HTML / CSS 小抄</li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;昨日小記&quot;&gt;&lt;a href=&quot;#昨日小記&quot; class=&quot;headerlink&quot; title=&quot;昨日小記&quot;&gt;&lt;/a&gt;昨日小記&lt;/h2&gt;&lt;h3 id=&quot;寫-week4-作業&quot;&gt;&lt;a href=&quot;#寫-week4-作業&quot; class=&quot;headerlink&quot; titl
-      
-    
-    </summary>
-    
-    
-      <category term="每日進度" scheme="http://JAS0NHUANG.github.io/diary/tags/%E6%AF%8F%E6%97%A5%E9%80%B2%E5%BA%A6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>J+14 [進度] 加強 JavaScript / week4 作業</title>
-    <link href="http://JAS0NHUANG.github.io/diary/J-plus-14-progress/"/>
-    <id>http://JAS0NHUANG.github.io/diary/J-plus-14-progress/</id>
-    <published>2020-07-08T04:51:28.000Z</published>
-    <updated>2020-07-08T04:51:28.220Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="昨日小記"><a href="#昨日小記" class="headerlink" title="昨日小記"></a>昨日小記</h2><h3 id="寫-week4-作業"><a href="#寫-week4-作業" class="headerlink" title="寫 week4 作業"></a>寫 week4 作業</h3><p>重新整理了 week4 的作業，把 axios 與 request 的方法各寫了一遍，看過範例之後調整自已的寫法，；也試著用內建 http 的方法寫（目前還只會用 GET 就是了）。</p><h3 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h3><p>昨天看了一些 HTML 課程的內容，細節總是記不太起來，研究了一下同學們推薦的畫畫軟體，計畫做一個視覺化的 cheat sheet，至少之後要寫的時候不用一直 Google。<br>但是目前只能畫出這個：<br><img src="https://i.imgur.com/BOuZRAh.png" alt="圖"><br>好像比原版的還……</p><h2 id="今日進度"><a href="#今日進度" class="headerlink" title="今日進度"></a>今日進度</h2><h3 id="每天看一點-JavaScript"><a href="#每天看一點-JavaScript" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input checked="" disabled="" type="checkbox"> 每天看一點 JavaScript<br>[ALG101] 第九單元<br>昨天都在處理第四週作業，沒有看……，寫 week4 作業應該也能算是在練習 JavaScript 吧？！</li></ul><h3 id="寫-Week4-作業"><a href="#寫-Week4-作業" class="headerlink" title="寫 Week4 作業"></a>寫 Week4 作業</h3><ul><li><input checked="" disabled="" type="checkbox"> 寫 Week4 作業</li></ul><h3 id="開始看一點-HTML-CSS"><a href="#開始看一點-HTML-CSS" class="headerlink" title="開始看一點 HTML / CSS"></a>開始看一點 HTML / CSS</h3><ul><li><input checked="" disabled="" type="checkbox"> 開始看一點 HTML / CSS</li></ul><hr><h2 id="明日進度"><a href="#明日進度" class="headerlink" title="明日進度"></a>明日進度</h2><h3 id="完成-Week4-作業"><a href="#完成-Week4-作業" class="headerlink" title="完成 Week4 作業"></a>完成 Week4 作業</h3><ul><li><input disabled="" type="checkbox"> 完成 Week4 作業</li></ul><h3 id="每天看一點-JavaScript-1"><a href="#每天看一點-JavaScript-1" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input disabled="" type="checkbox"> 每天看一點 JavaScript<br>[JS101] 練習 Lv2 與 Lv3</li></ul><h2 id="計畫"><a href="#計畫" class="headerlink" title="計畫"></a>計畫</h2><h3 id="背包問題解題筆記"><a href="#背包問題解題筆記" class="headerlink" title="背包問題解題筆記"></a>背包問題解題筆記</h3><ul><li><input disabled="" type="checkbox"> 把背包問題解題的過程記錄下來<br>這幾天看看寫不寫的出來吧……感覺好像都沒辦法開始動……</li></ul><h3 id="寫參加程式導師計畫前半個月心得"><a href="#寫參加程式導師計畫前半個月心得" class="headerlink" title="寫參加程式導師計畫前半個月心得"></a>寫參加程式導師計畫前半個月心得</h3><ul><li><input disabled="" type="checkbox"> 寫參加程式導師計畫前半個月心得<br>寫文章的速度還沒有被訓練起來，那就以半個月寫一次整體心得為目標吧。（好像寫心得才真的是最難的事情。）</li></ul><h3 id="視覺化-HTML-CSS-小抄"><a href="#視覺化-HTML-CSS-小抄" class="headerlink" title="視覺化 HTML / CSS 小抄"></a>視覺化 HTML / CSS 小抄</h3><ul><li><input disabled="" type="checkbox"> 視覺化 HTML / CSS 小抄</li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;昨日小記&quot;&gt;&lt;a href=&quot;#昨日小記&quot; class=&quot;headerlink&quot; title=&quot;昨日小記&quot;&gt;&lt;/a&gt;昨日小記&lt;/h2&gt;&lt;h3 id=&quot;寫-week4-作業&quot;&gt;&lt;a href=&quot;#寫-week4-作業&quot; class=&quot;headerlink&quot; titl
-      
-    
-    </summary>
-    
-    
-      <category term="每日進度" scheme="http://JAS0NHUANG.github.io/diary/tags/%E6%AF%8F%E6%97%A5%E9%80%B2%E5%BA%A6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>J+13 [進度] 加強 JavaScript / 嘗試 week4 作業不同寫法</title>
-    <link href="http://JAS0NHUANG.github.io/diary/J-plus-13-progress/"/>
-    <id>http://JAS0NHUANG.github.io/diary/J-plus-13-progress/</id>
-    <published>2020-07-08T04:49:47.000Z</published>
-    <updated>2020-07-08T04:49:47.483Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="昨日小記"><a href="#昨日小記" class="headerlink" title="昨日小記"></a>昨日小記</h2><p>很多事都沒有照著計畫在做，不過每天都有收獲我想應該就夠了。</p><h3 id="修正-week3-作業"><a href="#修正-week3-作業" class="headerlink" title="修正 week3 作業"></a>修正 week3 作業</h3><p>把 Week3 作業裡老師提醒的部分修改一下，然後再試著每一題依照範例重新寫一次，看懂範例跟自已重頭照著那個邏輯寫一次感覺差很多，真的要多強迫自已練習，不然就會一直留在自已的壞習慣裡。</p><h3 id="Lidemy-HTTP-Challenge-心得-（下）"><a href="#Lidemy-HTTP-Challenge-心得-（下）" class="headerlink" title="Lidemy HTTP Challenge 心得 （下）"></a>Lidemy HTTP Challenge 心得 （下）</h3><p>寫了第二篇<a href="https://medium.com/@jas0nhuang/lidemy-http-challenge-%E4%B8%8B-axios-%E9%80%9A%E9%97%9C%E6%94%BB%E7%95%A5-73c69c9cc937" target="_blank" rel="noopener">用 Axios 通關 Lidemy HTTP Challenge （下）</a>，我想大部分的人都還沒有玩，還是等玩完再去看吧！</p><h2 id="今日進度"><a href="#今日進度" class="headerlink" title="今日進度"></a>今日進度</h2><h3 id="每天看一點-JavaScript"><a href="#每天看一點-JavaScript" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input disabled="" type="checkbox"> 每天看一點 JavaScript<br>[ALG101] 第九單元<br>昨天看完第八單元，今天看第九單元。</li></ul><h3 id="寫-Week4-作業"><a href="#寫-Week4-作業" class="headerlink" title="寫 Week4 作業"></a>寫 Week4 作業</h3><ul><li><input checked="" disabled="" type="checkbox"> 寫 Week4 作業<br>跟昨天一樣，試著用不同的套件寫，然後重新思考挑戰題的寫法。</li></ul><h3 id="背包問題解題筆記"><a href="#背包問題解題筆記" class="headerlink" title="背包問題解題筆記"></a>背包問題解題筆記</h3><ul><li><input disabled="" type="checkbox"> 把背包問題解題的過程記錄下來<br>這幾天看看寫不寫的出來吧……感覺好像都沒辦法開始動……</li></ul><h3 id="開始看一點-HTML-CSS"><a href="#開始看一點-HTML-CSS" class="headerlink" title="開始看一點 HTML / CSS"></a>開始看一點 HTML / CSS</h3><ul><li><input checked="" disabled="" type="checkbox"> 開始看一點 HTML / CSS<br>雖然我在大 flash 時代就知道一些 HTML/CSS 的基礎了，但是因為缺乏美術細胞，所以總是弄不出好看的畫面，而且以往也都只知道點皮毛，細節都不清不楚，就先預習一下，以免之後看不見諸位切版大神的車尾燈！</li></ul><hr><h2 id="明日進度"><a href="#明日進度" class="headerlink" title="明日進度"></a>明日進度</h2><h3 id="完成-Week4-作業"><a href="#完成-Week4-作業" class="headerlink" title="完成 Week4 作業"></a>完成 Week4 作業</h3><ul><li><input disabled="" type="checkbox"> 完成 Week4 作業</li></ul><h3 id="寫參加程式導師計畫前半個月心得"><a href="#寫參加程式導師計畫前半個月心得" class="headerlink" title="寫參加程式導師計畫前半個月心得"></a>寫參加程式導師計畫前半個月心得</h3><ul><li><input disabled="" type="checkbox"> 寫參加程式導師計畫前半個月心得<br>寫文章的速度還沒有被訓練起來，那就以半個月寫一次整體心得為目標吧。（好像寫心得才真的是最難的事情。）</li></ul><h3 id="每天看一點-JavaScript-1"><a href="#每天看一點-JavaScript-1" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input disabled="" type="checkbox"> 每天看一點 JavaScript<br>[JS101] 練習 Lv2 與 Lv3</li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;昨日小記&quot;&gt;&lt;a href=&quot;#昨日小記&quot; class=&quot;headerlink&quot; title=&quot;昨日小記&quot;&gt;&lt;/a&gt;昨日小記&lt;/h2&gt;&lt;p&gt;很多事都沒有照著計畫在做，不過每天都有收獲我想應該就夠了。&lt;/p&gt;
-&lt;h3 id=&quot;修正-week3-作業&quot;&gt;&lt;a href
-      
-    
-    </summary>
-    
-    
-      <category term="每日進度" scheme="http://JAS0NHUANG.github.io/diary/tags/%E6%AF%8F%E6%97%A5%E9%80%B2%E5%BA%A6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>J+12 [進度] 寫 Week4 作業 / 加強 JavaScript</title>
-    <link href="http://JAS0NHUANG.github.io/diary/J-plus-12-progress/"/>
-    <id>http://JAS0NHUANG.github.io/diary/J-plus-12-progress/</id>
-    <published>2020-07-08T04:47:49.000Z</published>
-    <updated>2020-07-08T04:47:49.230Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="昨日小記"><a href="#昨日小記" class="headerlink" title="昨日小記"></a>昨日小記</h2><h3 id="r3-0-異世界網站挑戰"><a href="#r3-0-異世界網站挑戰" class="headerlink" title="r3:0 異世界網站挑戰"></a>r3:0 異世界網站挑戰</h3><p>可能玩遊戲玩上癮，昨天跑去玩了 Minw 助教與老師一起做的 <a href="https://r30challenge.herokuapp.com/" target="_blank" rel="noopener">r3:0 異世界網站挑戰</a>，一樣很有趣，但是遊戲「性質」感覺不太一樣，至於為什麼會這麼說，大家之後自已去玩玩看就知道囉！</p><h3 id="API-串串"><a href="#API-串串" class="headerlink" title="API 串串"></a>API 串串</h3><p>第四週的那幾個作業感覺也變成 HTTP Challenge 遊戲的延伸了，花了不少時間研究怎麼串新的 Twitch API，「算是」成功的達到挑戰題的要求，只是 code 還很難看。也試著把其它作業裡用 Axios 寫的方法用 request 跟 https 玩了一下。感覺串 API 串出興趣來了……XD</p><h2 id="今日進度"><a href="#今日進度" class="headerlink" title="今日進度"></a>今日進度</h2><h3 id="每天看一點-JavaScript"><a href="#每天看一點-JavaScript" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input checked="" disabled="" type="checkbox"> 每天看一點 JavaScript<br>[ALG101] 第八單元<br>昨天玩遊戲、玩第四週作業就忘了看了……今天放在第一個。感覺是應該要花點時間加強 JavaScript，看到老師說一定要去看參考範例，我是交作業之前都有看過了（好像這樣也不好！？），但是應該可以練習把每一題用老師的寫法再寫一次，強迫自已用比較有效率的寫法完成。</li></ul><h3 id="寫-Week4-作業"><a href="#寫-Week4-作業" class="headerlink" title="寫 Week4 作業"></a>寫 Week4 作業</h3><ul><li><input disabled="" type="checkbox"> 寫 Week4 作業<br>基本要求應該都算是完成了，應該會嘗試用不同套件再寫寫看，然後把挑戰題的 code 寫法再思考一下。</li></ul><h3 id="背包問題解題筆記"><a href="#背包問題解題筆記" class="headerlink" title="背包問題解題筆記"></a>背包問題解題筆記</h3><ul><li><input disabled="" type="checkbox"> 把背包問題解題的過程記錄下來<br>這幾天看看寫不寫的出來吧！</li></ul><hr><h2 id="明日進度"><a href="#明日進度" class="headerlink" title="明日進度"></a>明日進度</h2><h3 id="完成-Week4-作業"><a href="#完成-Week4-作業" class="headerlink" title="完成 Week4 作業"></a>完成 Week4 作業</h3><ul><li><input disabled="" type="checkbox"> 完成 Week4 作業</li></ul><h3 id="寫參加程式導師計畫前半個月心得"><a href="#寫參加程式導師計畫前半個月心得" class="headerlink" title="寫參加程式導師計畫前半個月心得"></a>寫參加程式導師計畫前半個月心得</h3><ul><li><input disabled="" type="checkbox"> 寫參加程式導師計畫前半個月心得<br>寫文章的速度還沒有被訓練起來，那就以半個月寫一次整體心得為目標吧。（好像寫心得才真的是最難的事情。）</li></ul><h3 id="每天看一點-JavaScript-1"><a href="#每天看一點-JavaScript-1" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input disabled="" type="checkbox"> 每天看一點 JavaScript<br>[JS101] 練習 Lv2 與 Lv3</li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;昨日小記&quot;&gt;&lt;a href=&quot;#昨日小記&quot; class=&quot;headerlink&quot; title=&quot;昨日小記&quot;&gt;&lt;/a&gt;昨日小記&lt;/h2&gt;&lt;h3 id=&quot;r3-0-異世界網站挑戰&quot;&gt;&lt;a href=&quot;#r3-0-異世界網站挑戰&quot; class=&quot;headerlink&quot; 
-      
-    
-    </summary>
-    
-    
-      <category term="每日進度" scheme="http://JAS0NHUANG.github.io/diary/tags/%E6%AF%8F%E6%97%A5%E9%80%B2%E5%BA%A6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>J+11 [進度]  Lidemy HTTP Challenge 通關心得 / 交 week3 作業</title>
-    <link href="http://JAS0NHUANG.github.io/diary/J-plus-11-progress/"/>
-    <id>http://JAS0NHUANG.github.io/diary/J-plus-11-progress/</id>
-    <published>2020-07-08T04:46:23.000Z</published>
-    <updated>2020-07-08T04:46:23.831Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="昨日小記"><a href="#昨日小記" class="headerlink" title="昨日小記"></a>昨日小記</h2><h3 id="Lidemy-HTTP-Challenge"><a href="#Lidemy-HTTP-Challenge" class="headerlink" title="Lidemy HTTP Challenge"></a>Lidemy HTTP Challenge</h3><p>昨天晚上通關 Lidemy HTTP Challenge，寫了第一篇 medium 文章講我的<a href="https://medium.com/@jas0nhuang/lidemy-http-challenge-%E4%B8%8A-axios-%E9%80%9A%E9%97%9C%E6%94%BB%E7%95%A5-42785b365515" target="_blank" rel="noopener">通關心得與攻略</a>，很雷，所以還沒玩過的同學是建議先不要看。很有趣的遊戲，其實大家上課上到感覺被知識轟炸的時候可以去把遊戲打開來看一下 XD。</p><h2 id="今日進度"><a href="#今日進度" class="headerlink" title="今日進度"></a>今日進度</h2><h3 id="背包問題解題筆記"><a href="#背包問題解題筆記" class="headerlink" title="背包問題解題筆記"></a>背包問題解題筆記</h3><ul><li><input disabled="" type="checkbox"> 把背包問題解題的過程記錄下來<br>真的很難用文字解釋 Dynamic Programming（中譯為動態規劃），今天再試著整理一下思路把記錄寫下來。</li></ul><h3 id="交-Week3-作業"><a href="#交-Week3-作業" class="headerlink" title="交 Week3 作業"></a>交 Week3 作業</h3><ul><li><input checked="" disabled="" type="checkbox"> 交 week3 作業<br>完成解題、心得、挑戰題筆記，確認之後交作業。</li></ul><h3 id="每天看一點-JavaScript"><a href="#每天看一點-JavaScript" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input disabled="" type="checkbox"> 每天看一點 JavaScript<br>[ALG101] 第八單元</li></ul><hr><h2 id="明日進度"><a href="#明日進度" class="headerlink" title="明日進度"></a>明日進度</h2><h3 id="寫參加程式導師計畫前半個月心得"><a href="#寫參加程式導師計畫前半個月心得" class="headerlink" title="寫參加程式導師計畫前半個月心得"></a>寫參加程式導師計畫前半個月心得</h3><ul><li><input disabled="" type="checkbox"> 寫參加程式導師計畫前半個月心得<br>寫文章的速度還沒有被訓練起來，那就以半個月寫一次整體心得為目標吧。</li></ul><h3 id="交-Week3-作業，開始寫-Week4-作業"><a href="#交-Week3-作業，開始寫-Week4-作業" class="headerlink" title="交 Week3 作業，開始寫 Week4 作業"></a>交 Week3 作業，開始寫 Week4 作業</h3><ul><li><input disabled="" type="checkbox"> 寫 Week4 作業<br>其實 week4 的作業也差不多寫完了……<br>剩下兩個 Twitch API 的挑戰題不知道怎樣可以抓 200 筆資料下來，試著找出解法。</li></ul><h3 id="每天看一點-JavaScript-1"><a href="#每天看一點-JavaScript-1" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input disabled="" type="checkbox"> 每天看一點 JavaScript<br>[JS101] 練習 Lv2 與 Lv3</li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;昨日小記&quot;&gt;&lt;a href=&quot;#昨日小記&quot; class=&quot;headerlink&quot; title=&quot;昨日小記&quot;&gt;&lt;/a&gt;昨日小記&lt;/h2&gt;&lt;h3 id=&quot;Lidemy-HTTP-Challenge&quot;&gt;&lt;a href=&quot;#Lidemy-HTTP-Challenge&quot; c
-      
-    
-    </summary>
-    
-    
-      <category term="每日進度" scheme="http://JAS0NHUANG.github.io/diary/tags/%E6%AF%8F%E6%97%A5%E9%80%B2%E5%BA%A6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>J+10 [進度] 完成 Week3 作業 / 解題心得筆記</title>
-    <link href="http://JAS0NHUANG.github.io/diary/J-plus-10-progress/"/>
-    <id>http://JAS0NHUANG.github.io/diary/J-plus-10-progress/</id>
-    <published>2020-07-08T04:44:01.000Z</published>
-    <updated>2020-07-08T04:44:01.028Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="昨日小記"><a href="#昨日小記" class="headerlink" title="昨日小記"></a>昨日小記</h2><h3 id="Lidemy-HTTP-Challenge"><a href="#Lidemy-HTTP-Challenge" class="headerlink" title="Lidemy HTTP Challenge"></a>Lidemy HTTP Challenge</h3><p>昨天不小心打開就停不下來了……試著用 axios 在 node 上面去串接，目前解到第 14 關，看了提示還是沒有什麼頭緒，晚點再繼續找資料。</p><h2 id="今日進度"><a href="#今日進度" class="headerlink" title="今日進度"></a>今日進度</h2><h3 id="背包問題解題筆記"><a href="#背包問題解題筆記" class="headerlink" title="背包問題解題筆記"></a>背包問題解題筆記</h3><ul><li><input disabled="" type="checkbox"> 把背包問題解題的過程記錄下來<br>這個筆記比較難寫，可能要再多消化一下再嘗試寫下來。</li></ul><h3 id="完成-Week3-作業"><a href="#完成-Week3-作業" class="headerlink" title="完成 Week3 作業"></a>完成 Week3 作業</h3><ul><li><input disabled="" type="checkbox"> 完成 week3 作業<br>完成解題、心得、挑戰題筆記，確認之後明天應該可以交作業。</li></ul><h3 id="看完-NET201-網路基礎概論"><a href="#看完-NET201-網路基礎概論" class="headerlink" title="看完 [NET201] 網路基礎概論"></a>看完 [NET201] 網路基礎概論</h3><ul><li><input checked="" disabled="" type="checkbox"> 看完 [NET201] 網路基礎概論</li></ul><h3 id="每天看一點-JavaScript"><a href="#每天看一點-JavaScript" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input checked="" disabled="" type="checkbox"> 每天看一點 JavaScript<br>[ALG101] 第七單元結束</li></ul><hr><h2 id="明日進度"><a href="#明日進度" class="headerlink" title="明日進度"></a>明日進度</h2><h3 id="寫參加程式導師計畫第一週心得"><a href="#寫參加程式導師計畫第一週心得" class="headerlink" title="寫參加程式導師計畫第一週心得"></a>寫參加程式導師計畫第一週心得</h3><ul><li><input disabled="" type="checkbox"> 寫參加程式導師計畫第一週心得</li></ul><h3 id="交-Week3-作業，開始寫-Week4-作業"><a href="#交-Week3-作業，開始寫-Week4-作業" class="headerlink" title="交 Week3 作業，開始寫 Week4 作業"></a>交 Week3 作業，開始寫 Week4 作業</h3><ul><li><input disabled="" type="checkbox"> 交 Week3 作業，開始寫 Week4 作業<br>其實 week4 的作業也差不多寫完了……<br>剩下兩個 Twitch API 的挑戰題不知道怎樣可以抓 200 筆資料下來。</li></ul><h3 id="每天看一點-JavaScript-1"><a href="#每天看一點-JavaScript-1" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input disabled="" type="checkbox"> 每天看一點 JavaScript<br>[ALG101] 第八單元以後的內容、 [JS101] 練習 Lv2 與 Lv3</li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;昨日小記&quot;&gt;&lt;a href=&quot;#昨日小記&quot; class=&quot;headerlink&quot; title=&quot;昨日小記&quot;&gt;&lt;/a&gt;昨日小記&lt;/h2&gt;&lt;h3 id=&quot;Lidemy-HTTP-Challenge&quot;&gt;&lt;a href=&quot;#Lidemy-HTTP-Challenge&quot; c
-      
-    
-    </summary>
-    
-    
-      <category term="每日進度" scheme="http://JAS0NHUANG.github.io/diary/tags/%E6%AF%8F%E6%97%A5%E9%80%B2%E5%BA%A6/"/>
-    
-  </entry>
-  
-  <entry>
     <title>J+25 [進度] 看 SHOWTIME 2 / 整理筆記、心得</title>
     <link href="http://JAS0NHUANG.github.io/diary/J-plus-25-progress/"/>
     <id>http://JAS0NHUANG.github.io/diary/J-plus-25-progress/</id>
@@ -386,6 +201,214 @@
   </entry>
   
   <entry>
+    <title>J+18 [進度] 切版練習</title>
+    <link href="http://JAS0NHUANG.github.io/diary/J-plus-18-progress/"/>
+    <id>http://JAS0NHUANG.github.io/diary/J-plus-18-progress/</id>
+    <published>2020-06-30T06:53:59.000Z</published>
+    <updated>2020-07-08T06:54:23.390Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="昨日小記"><a href="#昨日小記" class="headerlink" title="昨日小記"></a>昨日小記</h2><h3 id="HTML-CSS"><a href="#HTML-CSS" class="headerlink" title="HTML / CSS"></a>HTML / CSS</h3><p>繼續用 week6 的作業練習切版，有一個小問題，就是不知道怎樣讓四個並排的圖片在縮小時不要變成 一排3張圖、一排1張圖，而是直接變成二排 2 張圖……目前想到的解法就是靠 RWD 的設定，在一定像素時縮小 container 的寬度，自動把第一排的第3張圖擠到第二排去。</p><h3 id="導師計畫半個月心得"><a href="#導師計畫半個月心得" class="headerlink" title="導師計畫半個月心得"></a>導師計畫半個月心得</h3><p>明明也不是什麼很長的文章，寫了好幾天……剩下最後一點點，今天應該能完成。</p><hr><h2 id="今日進度"><a href="#今日進度" class="headerlink" title="今日進度"></a>今日進度</h2><h3 id="練習切個版"><a href="#練習切個版" class="headerlink" title="練習切個版"></a>練習切個版</h3><ul><li><input checked="" disabled="" type="checkbox"> 練習切版<br>繼續用 week6 作業練習切版，找一些 RWD 資料。試著完成前兩個作業。</li></ul><h3 id="每天看一點-JavaScript"><a href="#每天看一點-JavaScript" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input checked="" disabled="" type="checkbox"> 每天看一點 JavaScript<br>昨天把 [JS101] 全部看完、寫完練習 。今天開始應該會每天找一、兩題 LeetCode 上面簡單的題目試試。</li></ul><h3 id="寫心得、筆記"><a href="#寫心得、筆記" class="headerlink" title="寫心得、筆記"></a>寫心得、筆記</h3><ul><li><input checked="" disabled="" type="checkbox"> 寫心得<br>把導師計畫半個月心得寫完。</li></ul><hr><h2 id="明日進度"><a href="#明日進度" class="headerlink" title="明日進度"></a>明日進度</h2><h3 id="每天看一點-JavaScript-1"><a href="#每天看一點-JavaScript-1" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input disabled="" type="checkbox"> 每天看一點 JavaScript</li></ul><h3 id="交-Week4-作業"><a href="#交-Week4-作業" class="headerlink" title="交 Week4 作業"></a>交 Week4 作業</h3><ul><li><input disabled="" type="checkbox"> 交 Week4 作業</li></ul><h3 id="練習切版"><a href="#練習切版" class="headerlink" title="練習切版"></a>練習切版</h3><ul><li><input disabled="" type="checkbox"> 練習切版</li></ul><hr><h2 id="計畫"><a href="#計畫" class="headerlink" title="計畫"></a>計畫</h2><h3 id="背包問題解題筆記"><a href="#背包問題解題筆記" class="headerlink" title="背包問題解題筆記"></a>背包問題解題筆記</h3><ul><li><input disabled="" type="checkbox"> 把背包問題解題的過程記錄下來</li></ul><h3 id="視覺化-HTML-CSS-小抄"><a href="#視覺化-HTML-CSS-小抄" class="headerlink" title="視覺化 HTML / CSS 小抄"></a>視覺化 HTML / CSS 小抄</h3><ul><li><input disabled="" type="checkbox"> 視覺化 HTML / CSS 小抄</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;昨日小記&quot;&gt;&lt;a href=&quot;#昨日小記&quot; class=&quot;headerlink&quot; title=&quot;昨日小記&quot;&gt;&lt;/a&gt;昨日小記&lt;/h2&gt;&lt;h3 id=&quot;HTML-CSS&quot;&gt;&lt;a href=&quot;#HTML-CSS&quot; class=&quot;headerlink&quot; title=&quot;H
+      
+    
+    </summary>
+    
+    
+      <category term="每日進度" scheme="http://JAS0NHUANG.github.io/diary/tags/%E6%AF%8F%E6%97%A5%E9%80%B2%E5%BA%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>J+17 [進度] 切版練習 / 寫心得</title>
+    <link href="http://JAS0NHUANG.github.io/diary/J-plus-17-progress/"/>
+    <id>http://JAS0NHUANG.github.io/diary/J-plus-17-progress/</id>
+    <published>2020-06-29T05:00:51.000Z</published>
+    <updated>2020-07-08T06:49:51.743Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="昨日小記"><a href="#昨日小記" class="headerlink" title="昨日小記"></a>昨日小記</h2><h3 id="week4-作業"><a href="#week4-作業" class="headerlink" title="week4 作業"></a>week4 作業</h3><p>大致上是完成作業了，但是自已感覺程式碼還是不太好看，附上<a href="https://github.com/Lidemy/mentor-program-4th-JAS0NHUANG/tree/week4/homeworks/week4" target="_blank" rel="noopener">Week4 作業 REPO</a>有興趣的同學可以一起討論！另外，如果 week3 之前的內容覺得不必勞駕老師或助教的問題也歡迎跟我討論喔！:D</p><h3 id="HTML-CSS"><a href="#HTML-CSS" class="headerlink" title="HTML / CSS"></a>HTML / CSS</h3><p>前天把 week6 作業切了大概 87 分像，昨天再試著重新切一次，把每一步記錄下來，感覺 Flexbox 跟一些細節有比較熟悉，也比較知道自已在切什麼東西了……</p><h3 id="導師計畫半個月心得"><a href="#導師計畫半個月心得" class="headerlink" title="導師計畫半個月心得"></a>導師計畫半個月心得</h3><p>目前寫了一半，今天試著把它寫完，其實也就是大略分享一下自已對這個計畫的感覺還有這半個月學習到的內容。</p><hr><h2 id="今日進度"><a href="#今日進度" class="headerlink" title="今日進度"></a>今日進度</h2><h3 id="完成-Week4-作業"><a href="#完成-Week4-作業" class="headerlink" title="完成 Week4 作業"></a>完成 Week4 作業</h3><ul><li><input checked="" disabled="" type="checkbox"> 完成 Week4 作業<br>程式碼清理一下……或者有強者願意提供一些意見？！</li></ul><h3 id="每天看一點-JavaScript"><a href="#每天看一點-JavaScript" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input disabled="" type="checkbox"> 每天看一點 JavaScript<br>[JS101] 練習 Lv2 與 Lv3。昨天沒有看到 JavaScript，今天試著看一些，然後找 LeetCode 一些簡單的題目試試。</li></ul><h3 id="寫心得、筆記"><a href="#寫心得、筆記" class="headerlink" title="寫心得、筆記"></a>寫心得、筆記</h3><ul><li><input disabled="" type="checkbox"> 寫心得<br>把導師計畫半個月心得寫完。</li></ul><h3 id="練習切個版"><a href="#練習切個版" class="headerlink" title="練習切個版"></a>練習切個版</h3><ul><li><input disabled="" type="checkbox"> 練習切版<br>用 week6 作業練習切版，找一些 RWD 資料。</li></ul><hr><h2 id="明日進度"><a href="#明日進度" class="headerlink" title="明日進度"></a>明日進度</h2><h3 id="每天看一點-JavaScript-1"><a href="#每天看一點-JavaScript-1" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input disabled="" type="checkbox"> 每天看一點 JavaScript</li></ul><h3 id="交-Week4-作業"><a href="#交-Week4-作業" class="headerlink" title="交 Week4 作業"></a>交 Week4 作業</h3><ul><li><input disabled="" type="checkbox"> 交 Week4 作業</li></ul><h3 id="練習切個版-1"><a href="#練習切個版-1" class="headerlink" title="練習切個版"></a>練習切個版</h3><ul><li><input disabled="" type="checkbox"> 練習切版<br>用 week6 作業練習切版</li></ul><hr><h2 id="計畫"><a href="#計畫" class="headerlink" title="計畫"></a>計畫</h2><h3 id="背包問題解題筆記"><a href="#背包問題解題筆記" class="headerlink" title="背包問題解題筆記"></a>背包問題解題筆記</h3><ul><li><input disabled="" type="checkbox"> 把背包問題解題的過程記錄下來</li></ul><h3 id="視覺化-HTML-CSS-小抄"><a href="#視覺化-HTML-CSS-小抄" class="headerlink" title="視覺化 HTML / CSS 小抄"></a>視覺化 HTML / CSS 小抄</h3><ul><li><input disabled="" type="checkbox"> 視覺化 HTML / CSS 小抄</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;昨日小記&quot;&gt;&lt;a href=&quot;#昨日小記&quot; class=&quot;headerlink&quot; title=&quot;昨日小記&quot;&gt;&lt;/a&gt;昨日小記&lt;/h2&gt;&lt;h3 id=&quot;week4-作業&quot;&gt;&lt;a href=&quot;#week4-作業&quot; class=&quot;headerlink&quot; title=&quot;w
+      
+    
+    </summary>
+    
+    
+      <category term="每日進度" scheme="http://JAS0NHUANG.github.io/diary/tags/%E6%AF%8F%E6%97%A5%E9%80%B2%E5%BA%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>J+16 [進度] week4作業/ 切版練習 / 寫心得</title>
+    <link href="http://JAS0NHUANG.github.io/diary/J-plus-16-progress/"/>
+    <id>http://JAS0NHUANG.github.io/diary/J-plus-16-progress/</id>
+    <published>2020-06-28T04:55:06.000Z</published>
+    <updated>2020-07-08T06:50:06.154Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="昨日小記"><a href="#昨日小記" class="headerlink" title="昨日小記"></a>昨日小記</h2><h3 id="week4-作業"><a href="#week4-作業" class="headerlink" title="week4 作業"></a>week4 作業</h3><p>作業差不多完成了，挑戰題剩下 Delete 的功能加上去，然後可能要重新把程式碼整理一遍，不然內容有點混亂。</p><h3 id="HTML-CSS"><a href="#HTML-CSS" class="headerlink" title="HTML / CSS"></a>HTML / CSS</h3><p>昨天把 week6 的作業拿出來亂切一通，感覺很多 HTML/CSS 的細節都還不熟練，多練習應該就會慢慢上手了吧！</p><hr><h2 id="今日進度"><a href="#今日進度" class="headerlink" title="今日進度"></a>今日進度</h2><h3 id="完成-Week4-作業"><a href="#完成-Week4-作業" class="headerlink" title="完成 Week4 作業"></a>完成 Week4 作業</h3><ul><li><input checked="" disabled="" type="checkbox"> 完成 Week4 作業<br>把 Week4 作業寫完，然後就是最後檢查跟整理程式碼。</li></ul><h3 id="每天看一點-JavaScript"><a href="#每天看一點-JavaScript" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input disabled="" type="checkbox"> 每天看一點 JavaScript<br>[JS101] 練習 Lv2 與 Lv3。昨天看了一點點，今天繼續。</li></ul><h3 id="寫心得、筆記"><a href="#寫心得、筆記" class="headerlink" title="寫心得、筆記"></a>寫心得、筆記</h3><ul><li><input checked="" disabled="" type="checkbox"> 寫心得寫心得寫心得寫心得寫心得寫心得寫心得<br>好像應該真的靜下心來把半個月以來的心得寫一寫了。</li></ul><h3 id="練習切個版"><a href="#練習切個版" class="headerlink" title="練習切個版"></a>練習切個版</h3><ul><li><input checked="" disabled="" type="checkbox"> 練習切版<br>用 week6 作業練習切版</li></ul><hr><h2 id="明日進度"><a href="#明日進度" class="headerlink" title="明日進度"></a>明日進度</h2><h3 id="每天看一點-JavaScript-1"><a href="#每天看一點-JavaScript-1" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input disabled="" type="checkbox"> 每天看一點 JavaScript</li></ul><h3 id="交-Week4-作業"><a href="#交-Week4-作業" class="headerlink" title="交 Week4 作業"></a>交 Week4 作業</h3><ul><li><input disabled="" type="checkbox"> 交 Week4 作業</li></ul><h3 id="寫心得、筆記-1"><a href="#寫心得、筆記-1" class="headerlink" title="寫心得、筆記"></a>寫心得、筆記</h3><ul><li><input disabled="" type="checkbox"> 寫心得<br>程式導師計畫半個月心得。</li></ul><h3 id="練習切個版-1"><a href="#練習切個版-1" class="headerlink" title="練習切個版"></a>練習切個版</h3><ul><li><input disabled="" type="checkbox"> 練習切版<br>用 week6 作業練習切版</li></ul><hr><h2 id="計畫"><a href="#計畫" class="headerlink" title="計畫"></a>計畫</h2><h3 id="背包問題解題筆記"><a href="#背包問題解題筆記" class="headerlink" title="背包問題解題筆記"></a>背包問題解題筆記</h3><ul><li><input disabled="" type="checkbox"> 把背包問題解題的過程記錄下來</li></ul><h3 id="視覺化-HTML-CSS-小抄"><a href="#視覺化-HTML-CSS-小抄" class="headerlink" title="視覺化 HTML / CSS 小抄"></a>視覺化 HTML / CSS 小抄</h3><ul><li><input disabled="" type="checkbox"> 視覺化 HTML / CSS 小抄</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;昨日小記&quot;&gt;&lt;a href=&quot;#昨日小記&quot; class=&quot;headerlink&quot; title=&quot;昨日小記&quot;&gt;&lt;/a&gt;昨日小記&lt;/h2&gt;&lt;h3 id=&quot;week4-作業&quot;&gt;&lt;a href=&quot;#week4-作業&quot; class=&quot;headerlink&quot; title=&quot;w
+      
+    
+    </summary>
+    
+    
+      <category term="每日進度" scheme="http://JAS0NHUANG.github.io/diary/tags/%E6%AF%8F%E6%97%A5%E9%80%B2%E5%BA%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>J+15 [進度] 加強 JavaScript / week4 作業 / 吃粽子</title>
+    <link href="http://JAS0NHUANG.github.io/diary/J-plus-15-progress/"/>
+    <id>http://JAS0NHUANG.github.io/diary/J-plus-15-progress/</id>
+    <published>2020-06-27T04:52:50.000Z</published>
+    <updated>2020-07-08T06:50:18.070Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="昨日小記"><a href="#昨日小記" class="headerlink" title="昨日小記"></a>昨日小記</h2><h3 id="寫-week4-作業"><a href="#寫-week4-作業" class="headerlink" title="寫 week4 作業"></a>寫 week4 作業</h3><p>繼續整理 week4 作業，把串接 New Twitch API 的方法搞清楚，重新寫一次挑戰題，然後問了助教、老師一堆問題……</p><h3 id="ALG101-複習"><a href="#ALG101-複習" class="headerlink" title="ALG101 複習"></a>ALG101 複習</h3><p>總算是複習完了，然後解了兩題  LeetCode 上面超水的水題，今天繼續解個一、兩題吧！</p><h3 id="HTML-CSS"><a href="#HTML-CSS" class="headerlink" title="HTML / CSS"></a>HTML / CSS</h3><p>昨天快速的看了一下 HTML / CSS 的內容，之後應該還要再重看一些地方，然後隨便把第六週作業拿出來亂搞一通……</p><h2 id="今日進度"><a href="#今日進度" class="headerlink" title="今日進度"></a>今日進度</h2><h3 id="完成-Week4-作業"><a href="#完成-Week4-作業" class="headerlink" title="完成 Week4 作業"></a>完成 Week4 作業</h3><ul><li><input disabled="" type="checkbox"> 完成 Week4 作業<br>Week4 作業最後整理，試著用 http 套件處理 POST、DELETE……等請求。<br>MinW 助教提醒可以先不要用 Axios，會錯過一些理解 promise 為什麼一直被包裝的機會 XDDDDD</li></ul><h3 id="每天看一點-JavaScript"><a href="#每天看一點-JavaScript" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input checked="" disabled="" type="checkbox"> 每天看一點 JavaScript<br>[JS101] 練習 Lv2 與 Lv3。Still too weak to LeetCode！！</li></ul><hr><h2 id="明日進度"><a href="#明日進度" class="headerlink" title="明日進度"></a>明日進度</h2><h3 id="每天看一點-JavaScript-1"><a href="#每天看一點-JavaScript-1" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input disabled="" type="checkbox"> 每天看一點 JavaScript</li></ul><h3 id="Week4-作業"><a href="#Week4-作業" class="headerlink" title="Week4 作業"></a>Week4 作業</h3><ul><li><input disabled="" type="checkbox"> 繼續研究 Week4 作業</li></ul><h3 id="寫心得、筆記"><a href="#寫心得、筆記" class="headerlink" title="寫心得、筆記"></a>寫心得、筆記</h3><ul><li><input disabled="" type="checkbox"> 寫心得寫心得寫心得寫心得寫心得寫心得寫心得寫心得寫心得寫心得寫心得<br>好像應該停下來好好整理從開始參加計畫到現在半個月的心得了！</li></ul><h2 id="計畫"><a href="#計畫" class="headerlink" title="計畫"></a>計畫</h2><h3 id="背包問題解題筆記"><a href="#背包問題解題筆記" class="headerlink" title="背包問題解題筆記"></a>背包問題解題筆記</h3><ul><li><input disabled="" type="checkbox"> 把背包問題解題的過程記錄下來</li></ul><h3 id="寫參加程式導師計畫前半個月心得"><a href="#寫參加程式導師計畫前半個月心得" class="headerlink" title="寫參加程式導師計畫前半個月心得"></a>寫參加程式導師計畫前半個月心得</h3><ul><li><input disabled="" type="checkbox"> 寫參加程式導師計畫前半個月心得</li></ul><h3 id="視覺化-HTML-CSS-小抄"><a href="#視覺化-HTML-CSS-小抄" class="headerlink" title="視覺化 HTML / CSS 小抄"></a>視覺化 HTML / CSS 小抄</h3><ul><li><input disabled="" type="checkbox"> 視覺化 HTML / CSS 小抄</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;昨日小記&quot;&gt;&lt;a href=&quot;#昨日小記&quot; class=&quot;headerlink&quot; title=&quot;昨日小記&quot;&gt;&lt;/a&gt;昨日小記&lt;/h2&gt;&lt;h3 id=&quot;寫-week4-作業&quot;&gt;&lt;a href=&quot;#寫-week4-作業&quot; class=&quot;headerlink&quot; titl
+      
+    
+    </summary>
+    
+    
+      <category term="每日進度" scheme="http://JAS0NHUANG.github.io/diary/tags/%E6%AF%8F%E6%97%A5%E9%80%B2%E5%BA%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>J+14 [進度] 加強 JavaScript / week4 作業</title>
+    <link href="http://JAS0NHUANG.github.io/diary/J-plus-14-progress/"/>
+    <id>http://JAS0NHUANG.github.io/diary/J-plus-14-progress/</id>
+    <published>2020-06-26T04:51:28.000Z</published>
+    <updated>2020-07-08T06:50:27.510Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="昨日小記"><a href="#昨日小記" class="headerlink" title="昨日小記"></a>昨日小記</h2><h3 id="寫-week4-作業"><a href="#寫-week4-作業" class="headerlink" title="寫 week4 作業"></a>寫 week4 作業</h3><p>重新整理了 week4 的作業，把 axios 與 request 的方法各寫了一遍，看過範例之後調整自已的寫法，；也試著用內建 http 的方法寫（目前還只會用 GET 就是了）。</p><h3 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h3><p>昨天看了一些 HTML 課程的內容，細節總是記不太起來，研究了一下同學們推薦的畫畫軟體，計畫做一個視覺化的 cheat sheet，至少之後要寫的時候不用一直 Google。<br>但是目前只能畫出這個：<br><img src="https://i.imgur.com/BOuZRAh.png" alt="圖"><br>好像比原版的還……</p><h2 id="今日進度"><a href="#今日進度" class="headerlink" title="今日進度"></a>今日進度</h2><h3 id="每天看一點-JavaScript"><a href="#每天看一點-JavaScript" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input checked="" disabled="" type="checkbox"> 每天看一點 JavaScript<br>[ALG101] 第九單元<br>昨天都在處理第四週作業，沒有看……，寫 week4 作業應該也能算是在練習 JavaScript 吧？！</li></ul><h3 id="寫-Week4-作業"><a href="#寫-Week4-作業" class="headerlink" title="寫 Week4 作業"></a>寫 Week4 作業</h3><ul><li><input checked="" disabled="" type="checkbox"> 寫 Week4 作業</li></ul><h3 id="開始看一點-HTML-CSS"><a href="#開始看一點-HTML-CSS" class="headerlink" title="開始看一點 HTML / CSS"></a>開始看一點 HTML / CSS</h3><ul><li><input checked="" disabled="" type="checkbox"> 開始看一點 HTML / CSS</li></ul><hr><h2 id="明日進度"><a href="#明日進度" class="headerlink" title="明日進度"></a>明日進度</h2><h3 id="完成-Week4-作業"><a href="#完成-Week4-作業" class="headerlink" title="完成 Week4 作業"></a>完成 Week4 作業</h3><ul><li><input disabled="" type="checkbox"> 完成 Week4 作業</li></ul><h3 id="每天看一點-JavaScript-1"><a href="#每天看一點-JavaScript-1" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input disabled="" type="checkbox"> 每天看一點 JavaScript<br>[JS101] 練習 Lv2 與 Lv3</li></ul><h2 id="計畫"><a href="#計畫" class="headerlink" title="計畫"></a>計畫</h2><h3 id="背包問題解題筆記"><a href="#背包問題解題筆記" class="headerlink" title="背包問題解題筆記"></a>背包問題解題筆記</h3><ul><li><input disabled="" type="checkbox"> 把背包問題解題的過程記錄下來<br>這幾天看看寫不寫的出來吧……感覺好像都沒辦法開始動……</li></ul><h3 id="寫參加程式導師計畫前半個月心得"><a href="#寫參加程式導師計畫前半個月心得" class="headerlink" title="寫參加程式導師計畫前半個月心得"></a>寫參加程式導師計畫前半個月心得</h3><ul><li><input disabled="" type="checkbox"> 寫參加程式導師計畫前半個月心得<br>寫文章的速度還沒有被訓練起來，那就以半個月寫一次整體心得為目標吧。（好像寫心得才真的是最難的事情。）</li></ul><h3 id="視覺化-HTML-CSS-小抄"><a href="#視覺化-HTML-CSS-小抄" class="headerlink" title="視覺化 HTML / CSS 小抄"></a>視覺化 HTML / CSS 小抄</h3><ul><li><input disabled="" type="checkbox"> 視覺化 HTML / CSS 小抄</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;昨日小記&quot;&gt;&lt;a href=&quot;#昨日小記&quot; class=&quot;headerlink&quot; title=&quot;昨日小記&quot;&gt;&lt;/a&gt;昨日小記&lt;/h2&gt;&lt;h3 id=&quot;寫-week4-作業&quot;&gt;&lt;a href=&quot;#寫-week4-作業&quot; class=&quot;headerlink&quot; titl
+      
+    
+    </summary>
+    
+    
+      <category term="每日進度" scheme="http://JAS0NHUANG.github.io/diary/tags/%E6%AF%8F%E6%97%A5%E9%80%B2%E5%BA%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>J+13 [進度] 加強 JavaScript / 嘗試 week4 作業不同寫法</title>
+    <link href="http://JAS0NHUANG.github.io/diary/J-plus-13-progress/"/>
+    <id>http://JAS0NHUANG.github.io/diary/J-plus-13-progress/</id>
+    <published>2020-06-25T04:49:47.000Z</published>
+    <updated>2020-07-08T06:50:37.130Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="昨日小記"><a href="#昨日小記" class="headerlink" title="昨日小記"></a>昨日小記</h2><p>很多事都沒有照著計畫在做，不過每天都有收獲我想應該就夠了。</p><h3 id="修正-week3-作業"><a href="#修正-week3-作業" class="headerlink" title="修正 week3 作業"></a>修正 week3 作業</h3><p>把 Week3 作業裡老師提醒的部分修改一下，然後再試著每一題依照範例重新寫一次，看懂範例跟自已重頭照著那個邏輯寫一次感覺差很多，真的要多強迫自已練習，不然就會一直留在自已的壞習慣裡。</p><h3 id="Lidemy-HTTP-Challenge-心得-（下）"><a href="#Lidemy-HTTP-Challenge-心得-（下）" class="headerlink" title="Lidemy HTTP Challenge 心得 （下）"></a>Lidemy HTTP Challenge 心得 （下）</h3><p>寫了第二篇<a href="https://medium.com/@jas0nhuang/lidemy-http-challenge-%E4%B8%8B-axios-%E9%80%9A%E9%97%9C%E6%94%BB%E7%95%A5-73c69c9cc937" target="_blank" rel="noopener">用 Axios 通關 Lidemy HTTP Challenge （下）</a>，我想大部分的人都還沒有玩，還是等玩完再去看吧！</p><h2 id="今日進度"><a href="#今日進度" class="headerlink" title="今日進度"></a>今日進度</h2><h3 id="每天看一點-JavaScript"><a href="#每天看一點-JavaScript" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input disabled="" type="checkbox"> 每天看一點 JavaScript<br>[ALG101] 第九單元<br>昨天看完第八單元，今天看第九單元。</li></ul><h3 id="寫-Week4-作業"><a href="#寫-Week4-作業" class="headerlink" title="寫 Week4 作業"></a>寫 Week4 作業</h3><ul><li><input checked="" disabled="" type="checkbox"> 寫 Week4 作業<br>跟昨天一樣，試著用不同的套件寫，然後重新思考挑戰題的寫法。</li></ul><h3 id="背包問題解題筆記"><a href="#背包問題解題筆記" class="headerlink" title="背包問題解題筆記"></a>背包問題解題筆記</h3><ul><li><input disabled="" type="checkbox"> 把背包問題解題的過程記錄下來<br>這幾天看看寫不寫的出來吧……感覺好像都沒辦法開始動……</li></ul><h3 id="開始看一點-HTML-CSS"><a href="#開始看一點-HTML-CSS" class="headerlink" title="開始看一點 HTML / CSS"></a>開始看一點 HTML / CSS</h3><ul><li><input checked="" disabled="" type="checkbox"> 開始看一點 HTML / CSS<br>雖然我在大 flash 時代就知道一些 HTML/CSS 的基礎了，但是因為缺乏美術細胞，所以總是弄不出好看的畫面，而且以往也都只知道點皮毛，細節都不清不楚，就先預習一下，以免之後看不見諸位切版大神的車尾燈！</li></ul><hr><h2 id="明日進度"><a href="#明日進度" class="headerlink" title="明日進度"></a>明日進度</h2><h3 id="完成-Week4-作業"><a href="#完成-Week4-作業" class="headerlink" title="完成 Week4 作業"></a>完成 Week4 作業</h3><ul><li><input disabled="" type="checkbox"> 完成 Week4 作業</li></ul><h3 id="寫參加程式導師計畫前半個月心得"><a href="#寫參加程式導師計畫前半個月心得" class="headerlink" title="寫參加程式導師計畫前半個月心得"></a>寫參加程式導師計畫前半個月心得</h3><ul><li><input disabled="" type="checkbox"> 寫參加程式導師計畫前半個月心得<br>寫文章的速度還沒有被訓練起來，那就以半個月寫一次整體心得為目標吧。（好像寫心得才真的是最難的事情。）</li></ul><h3 id="每天看一點-JavaScript-1"><a href="#每天看一點-JavaScript-1" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input disabled="" type="checkbox"> 每天看一點 JavaScript<br>[JS101] 練習 Lv2 與 Lv3</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;昨日小記&quot;&gt;&lt;a href=&quot;#昨日小記&quot; class=&quot;headerlink&quot; title=&quot;昨日小記&quot;&gt;&lt;/a&gt;昨日小記&lt;/h2&gt;&lt;p&gt;很多事都沒有照著計畫在做，不過每天都有收獲我想應該就夠了。&lt;/p&gt;
+&lt;h3 id=&quot;修正-week3-作業&quot;&gt;&lt;a href
+      
+    
+    </summary>
+    
+    
+      <category term="每日進度" scheme="http://JAS0NHUANG.github.io/diary/tags/%E6%AF%8F%E6%97%A5%E9%80%B2%E5%BA%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>J+12 [進度] 寫 Week4 作業 / 加強 JavaScript</title>
+    <link href="http://JAS0NHUANG.github.io/diary/J-plus-12-progress/"/>
+    <id>http://JAS0NHUANG.github.io/diary/J-plus-12-progress/</id>
+    <published>2020-06-24T04:47:49.000Z</published>
+    <updated>2020-07-08T06:50:51.817Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="昨日小記"><a href="#昨日小記" class="headerlink" title="昨日小記"></a>昨日小記</h2><h3 id="r3-0-異世界網站挑戰"><a href="#r3-0-異世界網站挑戰" class="headerlink" title="r3:0 異世界網站挑戰"></a>r3:0 異世界網站挑戰</h3><p>可能玩遊戲玩上癮，昨天跑去玩了 Minw 助教與老師一起做的 <a href="https://r30challenge.herokuapp.com/" target="_blank" rel="noopener">r3:0 異世界網站挑戰</a>，一樣很有趣，但是遊戲「性質」感覺不太一樣，至於為什麼會這麼說，大家之後自已去玩玩看就知道囉！</p><h3 id="API-串串"><a href="#API-串串" class="headerlink" title="API 串串"></a>API 串串</h3><p>第四週的那幾個作業感覺也變成 HTTP Challenge 遊戲的延伸了，花了不少時間研究怎麼串新的 Twitch API，「算是」成功的達到挑戰題的要求，只是 code 還很難看。也試著把其它作業裡用 Axios 寫的方法用 request 跟 https 玩了一下。感覺串 API 串出興趣來了……XD</p><h2 id="今日進度"><a href="#今日進度" class="headerlink" title="今日進度"></a>今日進度</h2><h3 id="每天看一點-JavaScript"><a href="#每天看一點-JavaScript" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input checked="" disabled="" type="checkbox"> 每天看一點 JavaScript<br>[ALG101] 第八單元<br>昨天玩遊戲、玩第四週作業就忘了看了……今天放在第一個。感覺是應該要花點時間加強 JavaScript，看到老師說一定要去看參考範例，我是交作業之前都有看過了（好像這樣也不好！？），但是應該可以練習把每一題用老師的寫法再寫一次，強迫自已用比較有效率的寫法完成。</li></ul><h3 id="寫-Week4-作業"><a href="#寫-Week4-作業" class="headerlink" title="寫 Week4 作業"></a>寫 Week4 作業</h3><ul><li><input disabled="" type="checkbox"> 寫 Week4 作業<br>基本要求應該都算是完成了，應該會嘗試用不同套件再寫寫看，然後把挑戰題的 code 寫法再思考一下。</li></ul><h3 id="背包問題解題筆記"><a href="#背包問題解題筆記" class="headerlink" title="背包問題解題筆記"></a>背包問題解題筆記</h3><ul><li><input disabled="" type="checkbox"> 把背包問題解題的過程記錄下來<br>這幾天看看寫不寫的出來吧！</li></ul><hr><h2 id="明日進度"><a href="#明日進度" class="headerlink" title="明日進度"></a>明日進度</h2><h3 id="完成-Week4-作業"><a href="#完成-Week4-作業" class="headerlink" title="完成 Week4 作業"></a>完成 Week4 作業</h3><ul><li><input disabled="" type="checkbox"> 完成 Week4 作業</li></ul><h3 id="寫參加程式導師計畫前半個月心得"><a href="#寫參加程式導師計畫前半個月心得" class="headerlink" title="寫參加程式導師計畫前半個月心得"></a>寫參加程式導師計畫前半個月心得</h3><ul><li><input disabled="" type="checkbox"> 寫參加程式導師計畫前半個月心得<br>寫文章的速度還沒有被訓練起來，那就以半個月寫一次整體心得為目標吧。（好像寫心得才真的是最難的事情。）</li></ul><h3 id="每天看一點-JavaScript-1"><a href="#每天看一點-JavaScript-1" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input disabled="" type="checkbox"> 每天看一點 JavaScript<br>[JS101] 練習 Lv2 與 Lv3</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;昨日小記&quot;&gt;&lt;a href=&quot;#昨日小記&quot; class=&quot;headerlink&quot; title=&quot;昨日小記&quot;&gt;&lt;/a&gt;昨日小記&lt;/h2&gt;&lt;h3 id=&quot;r3-0-異世界網站挑戰&quot;&gt;&lt;a href=&quot;#r3-0-異世界網站挑戰&quot; class=&quot;headerlink&quot; 
+      
+    
+    </summary>
+    
+    
+      <category term="每日進度" scheme="http://JAS0NHUANG.github.io/diary/tags/%E6%AF%8F%E6%97%A5%E9%80%B2%E5%BA%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>J+11 [進度]  Lidemy HTTP Challenge 通關心得 / 交 week3 作業</title>
+    <link href="http://JAS0NHUANG.github.io/diary/J-plus-11-progress/"/>
+    <id>http://JAS0NHUANG.github.io/diary/J-plus-11-progress/</id>
+    <published>2020-06-23T04:46:23.000Z</published>
+    <updated>2020-07-08T06:51:08.573Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="昨日小記"><a href="#昨日小記" class="headerlink" title="昨日小記"></a>昨日小記</h2><h3 id="Lidemy-HTTP-Challenge"><a href="#Lidemy-HTTP-Challenge" class="headerlink" title="Lidemy HTTP Challenge"></a>Lidemy HTTP Challenge</h3><p>昨天晚上通關 Lidemy HTTP Challenge，寫了第一篇 medium 文章講我的<a href="https://medium.com/@jas0nhuang/lidemy-http-challenge-%E4%B8%8A-axios-%E9%80%9A%E9%97%9C%E6%94%BB%E7%95%A5-42785b365515" target="_blank" rel="noopener">通關心得與攻略</a>，很雷，所以還沒玩過的同學是建議先不要看。很有趣的遊戲，其實大家上課上到感覺被知識轟炸的時候可以去把遊戲打開來看一下 XD。</p><h2 id="今日進度"><a href="#今日進度" class="headerlink" title="今日進度"></a>今日進度</h2><h3 id="背包問題解題筆記"><a href="#背包問題解題筆記" class="headerlink" title="背包問題解題筆記"></a>背包問題解題筆記</h3><ul><li><input disabled="" type="checkbox"> 把背包問題解題的過程記錄下來<br>真的很難用文字解釋 Dynamic Programming（中譯為動態規劃），今天再試著整理一下思路把記錄寫下來。</li></ul><h3 id="交-Week3-作業"><a href="#交-Week3-作業" class="headerlink" title="交 Week3 作業"></a>交 Week3 作業</h3><ul><li><input checked="" disabled="" type="checkbox"> 交 week3 作業<br>完成解題、心得、挑戰題筆記，確認之後交作業。</li></ul><h3 id="每天看一點-JavaScript"><a href="#每天看一點-JavaScript" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input disabled="" type="checkbox"> 每天看一點 JavaScript<br>[ALG101] 第八單元</li></ul><hr><h2 id="明日進度"><a href="#明日進度" class="headerlink" title="明日進度"></a>明日進度</h2><h3 id="寫參加程式導師計畫前半個月心得"><a href="#寫參加程式導師計畫前半個月心得" class="headerlink" title="寫參加程式導師計畫前半個月心得"></a>寫參加程式導師計畫前半個月心得</h3><ul><li><input disabled="" type="checkbox"> 寫參加程式導師計畫前半個月心得<br>寫文章的速度還沒有被訓練起來，那就以半個月寫一次整體心得為目標吧。</li></ul><h3 id="交-Week3-作業，開始寫-Week4-作業"><a href="#交-Week3-作業，開始寫-Week4-作業" class="headerlink" title="交 Week3 作業，開始寫 Week4 作業"></a>交 Week3 作業，開始寫 Week4 作業</h3><ul><li><input disabled="" type="checkbox"> 寫 Week4 作業<br>其實 week4 的作業也差不多寫完了……<br>剩下兩個 Twitch API 的挑戰題不知道怎樣可以抓 200 筆資料下來，試著找出解法。</li></ul><h3 id="每天看一點-JavaScript-1"><a href="#每天看一點-JavaScript-1" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input disabled="" type="checkbox"> 每天看一點 JavaScript<br>[JS101] 練習 Lv2 與 Lv3</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;昨日小記&quot;&gt;&lt;a href=&quot;#昨日小記&quot; class=&quot;headerlink&quot; title=&quot;昨日小記&quot;&gt;&lt;/a&gt;昨日小記&lt;/h2&gt;&lt;h3 id=&quot;Lidemy-HTTP-Challenge&quot;&gt;&lt;a href=&quot;#Lidemy-HTTP-Challenge&quot; c
+      
+    
+    </summary>
+    
+    
+      <category term="每日進度" scheme="http://JAS0NHUANG.github.io/diary/tags/%E6%AF%8F%E6%97%A5%E9%80%B2%E5%BA%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>J+10 [進度] 完成 Week3 作業 / 解題心得筆記</title>
+    <link href="http://JAS0NHUANG.github.io/diary/J-plus-10-progress/"/>
+    <id>http://JAS0NHUANG.github.io/diary/J-plus-10-progress/</id>
+    <published>2020-06-22T04:44:01.000Z</published>
+    <updated>2020-07-08T06:51:18.461Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="昨日小記"><a href="#昨日小記" class="headerlink" title="昨日小記"></a>昨日小記</h2><h3 id="Lidemy-HTTP-Challenge"><a href="#Lidemy-HTTP-Challenge" class="headerlink" title="Lidemy HTTP Challenge"></a>Lidemy HTTP Challenge</h3><p>昨天不小心打開就停不下來了……試著用 axios 在 node 上面去串接，目前解到第 14 關，看了提示還是沒有什麼頭緒，晚點再繼續找資料。</p><h2 id="今日進度"><a href="#今日進度" class="headerlink" title="今日進度"></a>今日進度</h2><h3 id="背包問題解題筆記"><a href="#背包問題解題筆記" class="headerlink" title="背包問題解題筆記"></a>背包問題解題筆記</h3><ul><li><input disabled="" type="checkbox"> 把背包問題解題的過程記錄下來<br>這個筆記比較難寫，可能要再多消化一下再嘗試寫下來。</li></ul><h3 id="完成-Week3-作業"><a href="#完成-Week3-作業" class="headerlink" title="完成 Week3 作業"></a>完成 Week3 作業</h3><ul><li><input disabled="" type="checkbox"> 完成 week3 作業<br>完成解題、心得、挑戰題筆記，確認之後明天應該可以交作業。</li></ul><h3 id="看完-NET201-網路基礎概論"><a href="#看完-NET201-網路基礎概論" class="headerlink" title="看完 [NET201] 網路基礎概論"></a>看完 [NET201] 網路基礎概論</h3><ul><li><input checked="" disabled="" type="checkbox"> 看完 [NET201] 網路基礎概論</li></ul><h3 id="每天看一點-JavaScript"><a href="#每天看一點-JavaScript" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input checked="" disabled="" type="checkbox"> 每天看一點 JavaScript<br>[ALG101] 第七單元結束</li></ul><hr><h2 id="明日進度"><a href="#明日進度" class="headerlink" title="明日進度"></a>明日進度</h2><h3 id="寫參加程式導師計畫第一週心得"><a href="#寫參加程式導師計畫第一週心得" class="headerlink" title="寫參加程式導師計畫第一週心得"></a>寫參加程式導師計畫第一週心得</h3><ul><li><input disabled="" type="checkbox"> 寫參加程式導師計畫第一週心得</li></ul><h3 id="交-Week3-作業，開始寫-Week4-作業"><a href="#交-Week3-作業，開始寫-Week4-作業" class="headerlink" title="交 Week3 作業，開始寫 Week4 作業"></a>交 Week3 作業，開始寫 Week4 作業</h3><ul><li><input disabled="" type="checkbox"> 交 Week3 作業，開始寫 Week4 作業<br>其實 week4 的作業也差不多寫完了……<br>剩下兩個 Twitch API 的挑戰題不知道怎樣可以抓 200 筆資料下來。</li></ul><h3 id="每天看一點-JavaScript-1"><a href="#每天看一點-JavaScript-1" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input disabled="" type="checkbox"> 每天看一點 JavaScript<br>[ALG101] 第八單元以後的內容、 [JS101] 練習 Lv2 與 Lv3</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;昨日小記&quot;&gt;&lt;a href=&quot;#昨日小記&quot; class=&quot;headerlink&quot; title=&quot;昨日小記&quot;&gt;&lt;/a&gt;昨日小記&lt;/h2&gt;&lt;h3 id=&quot;Lidemy-HTTP-Challenge&quot;&gt;&lt;a href=&quot;#Lidemy-HTTP-Challenge&quot; c
+      
+    
+    </summary>
+    
+    
+      <category term="每日進度" scheme="http://JAS0NHUANG.github.io/diary/tags/%E6%AF%8F%E6%97%A5%E9%80%B2%E5%BA%A6/"/>
+    
+  </entry>
+  
+  <entry>
     <title>[筆記] TCPIP 與 API</title>
     <link href="http://JAS0NHUANG.github.io/diary/J-plus-9-note-TCPIP-API/"/>
     <id>http://JAS0NHUANG.github.io/diary/J-plus-9-note-TCPIP-API/</id>
@@ -447,29 +470,6 @@
       
       
         &lt;h2 id=&quot;今日進度&quot;&gt;&lt;a href=&quot;#今日進度&quot; class=&quot;headerlink&quot; title=&quot;今日進度&quot;&gt;&lt;/a&gt;今日進度&lt;/h2&gt;&lt;h3 id=&quot;42-Check-in&quot;&gt;&lt;a href=&quot;#42-Check-in&quot; class=&quot;headerlink&quot; ti
-      
-    
-    </summary>
-    
-    
-      <category term="每日進度" scheme="http://JAS0NHUANG.github.io/diary/tags/%E6%AF%8F%E6%97%A5%E9%80%B2%E5%BA%A6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>J+7 [進度] 複習 [ALG101] / 瞭解 TCP/IP</title>
-    <link href="http://JAS0NHUANG.github.io/diary/J-plus-7-progress/"/>
-    <id>http://JAS0NHUANG.github.io/diary/J-plus-7-progress/</id>
-    <published>2020-06-19T22:09:31.000Z</published>
-    <updated>2020-06-21T22:08:30.052Z</updated>
-    
-    <content type="html"><![CDATA[<p><a href="https://jas0nhuang.github.io/diary/"><img src="https://img.shields.io/static/v1?logo=slack&label=Slack&message=JAS0N%20HUANG&color=eb1000&&style=flat-square" alt="slack"></a><br>貼爆！歡迎找我聊天（雖然我已經自已跑去煩好幾個人了 XD ……，然後部落格裡就不放連結了！）  </p><h3 id="挑戰題到底要不要挑戰"><a href="#挑戰題到底要不要挑戰" class="headerlink" title="挑戰題到底要不要挑戰"></a>挑戰題到底要不要挑戰</h3><p>昨天把 Week2 作業加兩個「舊」挑戰題整理好，交了作業，然後就看到老師的更新……<br>看了看新的挑戰題，思考了一下……決定先不管它們啦！<br>也不是說就打算完全不想了，只是不要被卡在那裡，先把課程裡要求的基礎能力打穩再說吧。  </p><hr><h2 id="今日進度"><a href="#今日進度" class="headerlink" title="今日進度"></a>今日進度</h2><h3 id="Slack-徽章"><a href="#Slack-徽章" class="headerlink" title="Slack 徽章"></a>Slack 徽章</h3><ul><li><input checked="" disabled="" type="checkbox"> 每日進度放上 Slack 徽章<br>實在太酷，一定要跟風弄一個。</li></ul><h3 id="快速複習-ALG101-先別急著寫-leetcode-單元-5"><a href="#快速複習-ALG101-先別急著寫-leetcode-單元-5" class="headerlink" title="快速複習 [ALG101] 先別急著寫 leetcode 單元 5"></a>快速複習 [ALG101] 先別急著寫 leetcode 單元 5</h3><ul><li><input checked="" disabled="" type="checkbox"> [ALG101] 先別急著寫 leetcode 單元 6 一半<br>看到 [ALG101] 單元 6 一半</li></ul><h3 id="寫-Week3-作業"><a href="#寫-Week3-作業" class="headerlink" title="寫 Week3 作業"></a>寫 Week3 作業</h3><ul><li><input checked="" disabled="" type="checkbox"> 寫 Week3 作業<br>之前都寫過了，每天寫個一兩題，再把它們全部重寫一次。<br>寫完 hw1 - hw5</li></ul><h3 id="看-NET201-TCP-IP"><a href="#看-NET201-TCP-IP" class="headerlink" title="看 [NET201] TCP/IP"></a>看 [NET201] TCP/IP</h3><ul><li><input disabled="" type="checkbox"> [NET201] TCP/IP</li></ul><hr><h2 id="明日進度"><a href="#明日進度" class="headerlink" title="明日進度"></a>明日進度</h2><h3 id="看-NET201-API-與資料格式"><a href="#看-NET201-API-與資料格式" class="headerlink" title="看 [NET201] API 與資料格式"></a>看 [NET201] API 與資料格式</h3><ul><li><input disabled="" type="checkbox"> [NET201] API 與資料格式</li></ul><h3 id="快速複習-ALG101-先別急著寫-leetcode-單元-6"><a href="#快速複習-ALG101-先別急著寫-leetcode-單元-6" class="headerlink" title="快速複習 [ALG101] 先別急著寫 leetcode 單元 6"></a>快速複習 [ALG101] 先別急著寫 leetcode 單元 6</h3><ul><li><input disabled="" type="checkbox"> [ALG101] 先別急著寫 leetcode 單元 6</li></ul><h3 id="寫-Week3-作業-1"><a href="#寫-Week3-作業-1" class="headerlink" title="寫 Week3 作業"></a>寫 Week3 作業</h3><ul><li><input disabled="" type="checkbox"> 寫 Week3 作業 hw1 - hw5</li></ul><hr><h2 id="未來計畫"><a href="#未來計畫" class="headerlink" title="未來計畫"></a>未來計畫</h2><h3 id="按照課程進度前進"><a href="#按照課程進度前進" class="headerlink" title="按照課程進度前進"></a>按照課程進度前進</h3><h3 id="將-JS101-練習-Lv2-與-Lv3-做完"><a href="#將-JS101-練習-Lv2-與-Lv3-做完" class="headerlink" title="將 [JS101] 練習 Lv2 與 Lv3 做完"></a>將 [JS101] 練習 Lv2 與 Lv3 做完</h3><ul><li><input disabled="" type="checkbox"> [JS101] 練習 Lv2 與 Lv3 做完<br>很多都跟作業、[ALG101] 的內容重覆了，大概看一下講解影片看看有沒有什麼我沒有想到的地方。有時間再慢慢做。</li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;&lt;a href=&quot;https://jas0nhuang.github.io/diary/&quot;&gt;&lt;img src=&quot;https://img.shields.io/static/v1?logo=slack&amp;label=Slack&amp;message=JAS0N%20HUANG&amp;col
       
     
     </summary>
