@@ -6,7 +6,7 @@
   <link href="/diary/atom.xml" rel="self"/>
   
   <link href="http://JAS0NHUANG.github.io/diary/"/>
-  <updated>2020-07-08T06:42:40.119Z</updated>
+  <updated>2020-07-09T11:38:22.428Z</updated>
   <id>http://JAS0NHUANG.github.io/diary/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>J+27 [進度] 整理筆記、寫完 week5 作業（心得）</title>
+    <link href="http://JAS0NHUANG.github.io/diary/J-plus-27-progress/"/>
+    <id>http://JAS0NHUANG.github.io/diary/J-plus-27-progress/</id>
+    <published>2020-07-09T11:38:22.000Z</published>
+    <updated>2020-07-09T11:38:22.428Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="昨日小記"><a href="#昨日小記" class="headerlink" title="昨日小記"></a>昨日小記</h2><h3 id="人類博物館看展"><a href="#人類博物館看展" class="headerlink" title="人類博物館看展"></a>人類博物館看展</h3><p>跟家人、朋友一起到巴黎人類博物館看展，原來「龐貝展」的完整名稱是「龐貝的最後一餐」，是搭配「我吃故我在」（Je mange donc je suis.）特展的一個副展覽。其實整個人類博物館的內容都蠻不錯的，介紹人類文化、發展，其中還有一個特別的攝影展，分享一張照片給大家：<br><img src="https://i.imgur.com/l7GOMzl.jpg" alt="etre beau"><br>“做自已就是美麗。”</p><p>附上英文網站連結：<a href="http://www.museedelhomme.fr/en/exhibitions/exhibitions-galerie-lhomme/etre-beau-being-beautiful-4046" target="_blank" rel="noopener">Musée de l’Homme - Being Beautiful</a>，有興趣的人可以去看看。</p><h3 id="整理心得、筆記，寫-week5-作業"><a href="#整理心得、筆記，寫-week5-作業" class="headerlink" title="整理心得、筆記，寫 week5 作業"></a>整理心得、筆記，寫 week5 作業</h3><p>week5 作業一邊寫一邊回想自已這幾週學過了什麼，感覺有些東西還要再仔細的去看一次，像是印象中老師的文章有說到 JavaScript 底層其實都算是 call by value，但是又有點忘記它的定義與內容是什麼，call by 與 pass by 這兩個詞是不是有不同？<br>今天再花點時間回去看一些印象還不清楚的細節。</p><h3 id="看老師直播"><a href="#看老師直播" class="headerlink" title="看老師直播"></a>看老師直播</h3><p>平常沒有在看直播的習慣，而且還是時間這麼長的直播……感覺蠻新鮮的。辛苦老師了，連續講兩個半小時不停真的是太猛。</p><hr><h2 id="今日進度"><a href="#今日進度" class="headerlink" title="今日進度"></a>今日進度</h2><h3 id="整理前四週筆記、心得，寫完-week5-作業"><a href="#整理前四週筆記、心得，寫完-week5-作業" class="headerlink" title="整理前四週筆記、心得，寫完 week5 作業"></a>整理前四週筆記、心得，寫完 week5 作業</h3><ul><li><input disabled="" type="checkbox"> 整理前四週筆記、心得<br>整理筆記、心得，每日進度差不多都備份到自已部落格上了。整理一下 week5 作業。</li></ul><h3 id="week5-Showtime"><a href="#week5-Showtime" class="headerlink" title="week5 Showtime"></a>week5 Showtime</h3><ul><li><input disabled="" type="checkbox"> week5 Showtime<br>自已試著寫寄信小程式</li></ul><h3 id="每天看一點-JavaScript"><a href="#每天看一點-JavaScript" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input disabled="" type="checkbox"> 每天看一點 JavaScript<br>透過 <a href="https://leetcode.com/explore/learn/card/linked-list/" target="_blank" rel="noopener">LeetCode Explore</a> 瞭解 Linked list。</li></ul><hr><h2 id="明日進度"><a href="#明日進度" class="headerlink" title="明日進度"></a>明日進度</h2><h3 id="練習切個版"><a href="#練習切個版" class="headerlink" title="練習切個版"></a>練習切個版</h3><ul><li><input disabled="" type="checkbox"> 練習切版<br>寫 week6 挑戰題</li></ul><h3 id="每天看一點-JavaScript-1"><a href="#每天看一點-JavaScript-1" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input disabled="" type="checkbox"> 每天看一點 JavaScript</li></ul><h3 id="開始看一些-DOM-操作的課程"><a href="#開始看一些-DOM-操作的課程" class="headerlink" title="開始看一些 DOM 操作的課程"></a>開始看一些 DOM 操作的課程</h3><p>其實已經開始看一些些了（就……寫作業或練習有點倦怠時就會跑去看點新的東西……）</p><hr><h2 id="計畫"><a href="#計畫" class="headerlink" title="計畫"></a>計畫</h2><p>希望不要越長越大的計畫列表……</p><ol><li>背包問題筆記</li><li>HTML/CSS 小抄</li><li>想想 Side Project；繼續研究法國求職中心的 API，瞭解法國這裡工程師的就業市場。</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;昨日小記&quot;&gt;&lt;a href=&quot;#昨日小記&quot; class=&quot;headerlink&quot; title=&quot;昨日小記&quot;&gt;&lt;/a&gt;昨日小記&lt;/h2&gt;&lt;h3 id=&quot;人類博物館看展&quot;&gt;&lt;a href=&quot;#人類博物館看展&quot; class=&quot;headerlink&quot; title=&quot;人類博
+      
+    
+    </summary>
+    
+    
+      <category term="每日進度" scheme="http://JAS0NHUANG.github.io/diary/tags/%E6%AF%8F%E6%97%A5%E9%80%B2%E5%BA%A6/"/>
+    
+  </entry>
   
   <entry>
     <title>J+26 [進度] 整理筆記、心得 / 看龐貝展 / 看直播</title>
@@ -447,29 +470,6 @@
       
       
         &lt;h2 id=&quot;昨日小記&quot;&gt;&lt;a href=&quot;#昨日小記&quot; class=&quot;headerlink&quot; title=&quot;昨日小記&quot;&gt;&lt;/a&gt;昨日小記&lt;/h2&gt;&lt;h3 id=&quot;與工程師閒聊&quot;&gt;&lt;a href=&quot;#與工程師閒聊&quot; class=&quot;headerlink&quot; title=&quot;與工程師閒
-      
-    
-    </summary>
-    
-    
-      <category term="每日進度" scheme="http://JAS0NHUANG.github.io/diary/tags/%E6%AF%8F%E6%97%A5%E9%80%B2%E5%BA%A6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>J+8 [進度] 42 學校 Check-in / 背包問題複習</title>
-    <link href="http://JAS0NHUANG.github.io/diary/J-plus-8-progress/"/>
-    <id>http://JAS0NHUANG.github.io/diary/J-plus-8-progress/</id>
-    <published>2020-06-20T22:04:29.000Z</published>
-    <updated>2020-06-21T22:07:51.185Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="今日進度"><a href="#今日進度" class="headerlink" title="今日進度"></a>今日進度</h2><h3 id="42-Check-in"><a href="#42-Check-in" class="headerlink" title="42 Check-in"></a>42 Check-in</h3><ul><li><input checked="" disabled="" type="checkbox"> 42 Check-in<br>42 學校網路會議 check-in ，會議裡說下次的 piscine (有看少年 Pi 的應該知道這個字是啥意思吧？!) 要等明年啦……<br>(42 學校是法國一間神奇的 coding 學校，有興趣可以上網找看看!)</li></ul><h3 id="快速複習-ALG101-先別急著寫-leetcode-單元-6"><a href="#快速複習-ALG101-先別急著寫-leetcode-單元-6" class="headerlink" title="快速複習 [ALG101] 先別急著寫 leetcode 單元 6"></a>快速複習 [ALG101] 先別急著寫 leetcode 單元 6</h3><ul><li><input checked="" disabled="" type="checkbox"> [ALG101] 看完先別急著寫 leetcode 單元 6<br>看完 [ALG101] 單元 6</li></ul><h3 id="複習背包問題"><a href="#複習背包問題" class="headerlink" title="複習背包問題"></a>複習背包問題</h3><ul><li><input checked="" disabled="" type="checkbox"> 複習背包問題，重寫 week3 超級挑戰題</li></ul><h3 id="看-NET201-API-與資料格式"><a href="#看-NET201-API-與資料格式" class="headerlink" title="看 [NET201] API 與資料格式"></a>看 [NET201] API 與資料格式</h3><ul><li><input disabled="" type="checkbox"> [NET201] API 與資料格式</li></ul><hr><h2 id="明日進度"><a href="#明日進度" class="headerlink" title="明日進度"></a>明日進度</h2><h3 id="背包問題解題筆記"><a href="#背包問題解題筆記" class="headerlink" title="背包問題解題筆記"></a>背包問題解題筆記</h3><ul><li><input disabled="" type="checkbox"> 把背包問題解題的過程記錄下來</li></ul><h3 id="寫-Week3-hw6-解題心得"><a href="#寫-Week3-hw6-解題心得" class="headerlink" title="寫 Week3 hw6 解題心得"></a>寫 Week3 hw6 解題心得</h3><ul><li><input disabled="" type="checkbox"> 寫 week3 hw6<br>把所有解題的心得寫完</li></ul><h3 id="看-NET201-API-與資料格式-1"><a href="#看-NET201-API-與資料格式-1" class="headerlink" title="看 [NET201] API 與資料格式"></a>看 [NET201] API 與資料格式</h3><ul><li><input disabled="" type="checkbox"> [NET201] API 與資料格式</li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;今日進度&quot;&gt;&lt;a href=&quot;#今日進度&quot; class=&quot;headerlink&quot; title=&quot;今日進度&quot;&gt;&lt;/a&gt;今日進度&lt;/h2&gt;&lt;h3 id=&quot;42-Check-in&quot;&gt;&lt;a href=&quot;#42-Check-in&quot; class=&quot;headerlink&quot; ti
       
     
     </summary>
