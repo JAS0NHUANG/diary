@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <!--head-->
+    <head>
+    <title>JAS0N HUANG</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="DoQOqkvX376V4rp4mmeGYFGrLOB-wrUCMMKlqgrqmuQ" />
+    
+<link rel="stylesheet" href="/diary/css/style.css">
+
+
+    <script type="text/javascript">
+        let apiUrl = 'https://www.googleapis.com/youtube/v3/channels?part=snippet&id=UC9ckyA_A3MfXUa0ttxMoIZw&key=AIzaSyBiuF1WCpG7TaCY8xtd4cb73Sn-5NTPrb0'
+        let xhr = new XMLHttpRequest()
+        xhr.open('get', apiUrl, true)
+        xhr.send()
+
+        xhr.onreadystatechange = function(){
+            if(this.readyState ===4 && this.status === 200){
+                let data = JSON.parse(this.responseText)
+                console.log(data)
+            }
+        }
+    </script>
+<meta name="generator" content="Hexo 4.2.1"></head>
+
+  <body>
+
+    
+    <div class="container">
+        <div class="blog_header">
+    <a href="/diary/">
+        <h1 class="blog_title">
+        <img src="/diary/images/Jas0nhuang.svg" alt="jas0nhuang">
+        <!-- %= config.title %-->
+        </h1>
+    </a>
+
+    <div class="container">
+        <nav class="blog_nav">
+            
+                <a class="menu_item" href="/diary/archives">文章</a>
+            
+                <a class="menu_item" href="/diary/tags">標籤</a>
+            
+                <a class="menu_item" href="/diary/about">關於</a>
+            
+        </nav>
+    </div>
+</div>
+
+    </div>
+    
+
+    
+    <div class="body">
+    <div class="main">
+<div class="full">
+    <h1 class="page_title">[筆記] 複習 ALG101</h1>
+    <h2 id="Unit-5"><a href="#Unit-5" class="headerlink" title="Unit 5"></a>Unit 5</h2><p>先處理 edge case<br>mapping 對應多物件<br>想要用數字就都加上 Number() （型別轉換）</p>
+<h3 id="LIOJ-1032"><a href="#LIOJ-1032" class="headerlink" title="LIOJ 1032"></a>LIOJ 1032</h3><p><code>Math.sqrt()</code> // 開根號<br><code>Math.abs()</code> // 取絕對值<br>也可以自已寫 <code>(n &lt; 0) =&gt; -n</code><br><code>NUMBER.toFixed(2)</code> // 取到小數第二位</p>
+<p>可以用 <code>diff</code>（CLI 指令）比較輸出結果<br>換行字元問題：ODOA 與 OA<br><code>diff --strip-trailing-cr</code></p>
+<h3 id="位元運算的應用"><a href="#位元運算的應用" class="headerlink" title="位元運算的應用"></a>位元運算的應用</h3><p>作業檢討：Project7 LIOJ 1008：幾個水桶<br>看到 <code>n &gt;&gt; 1</code>，<code>n &amp; 1</code> 的應用方法大概就像是看到超級挑戰題的解答差不多。</p>
+<h3 id="排序"><a href="#排序" class="headerlink" title="排序"></a>排序</h3><p>以內建排序法 <code>.sort(function(a, b){return a-b})</code> 處理, 大約要用掉 1 到 2 秒的時間。</p>
+<h3 id="搜尋"><a href="#搜尋" class="headerlink" title="搜尋"></a>搜尋</h3><p>最基本的遍歷，大概要用 300 毫秒。</p>
+<h3 id="最大連續和"><a href="#最大連續和" class="headerlink" title="最大連續和"></a>最大連續和</h3><p>窮舉法，O(n^3)</p>
+<h3 id="陣列最短距離"><a href="#陣列最短距離" class="headerlink" title="陣列最短距離"></a>陣列最短距離</h3><p>窮舉法 O(n*m)<br>「已排序好的數列」特性，如何優化</p>
+<h3 id="two-sum"><a href="#two-sum" class="headerlink" title="two sum"></a>two sum</h3><p>空間換時間，用物件記起來，找到物件裡是否有配對。</p>
+<h3 id="逆序數對"><a href="#逆序數對" class="headerlink" title="逆序數對"></a>逆序數對</h3><p>跟合併排序法有關。神奇！！</p>
+<h2 id="Unit-9"><a href="#Unit-9" class="headerlink" title="Unit 9"></a>Unit 9</h2><p>資料結構：<br>幾個例子：<br>Set 集合 特性<br>queue 排序 queue.push queue.front queue.dequeue</p>
+<h3 id="排序-1"><a href="#排序-1" class="headerlink" title="排序"></a>排序</h3><p>counting sort</p>
+
+    <hr>
+    <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/diary/tags/Algorithm/" rel="tag">Algorithm</a></li><li class="tag-list-item"><a class="tag-list-link" href="/diary/tags/JavaScript/" rel="tag">JavaScript</a></li></ul>
+    
+    
+</div>
+</div>
+
+
+    </div>
+
+    
+        <section id="comments">
+    <div id="disqus_thread"></div>
+        <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'JAS0NHUANG';
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a></noscript>
+</section>
+
+
+    
+    
+    <!--footer-->
+    <footer class="blog_footer">
+    <p>
+        JAS0N HUANG
+        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">
+            <img src="/images/cc.svg" alt="CC" height="16"></a>
+        2020/06
+    </p>
+    
+</footer>
+
+  </body>
+</html>

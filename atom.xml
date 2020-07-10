@@ -409,6 +409,30 @@
   </entry>
   
   <entry>
+    <title>[筆記] HTML</title>
+    <link href="http://JAS0NHUANG.github.io/diary/J-plus-10-note-HTML/"/>
+    <id>http://JAS0NHUANG.github.io/diary/J-plus-10-note-HTML/</id>
+    <published>2020-06-22T05:08:19.000Z</published>
+    <updated>2020-07-10T05:09:59.679Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="HTML-基本標籤快速記錄"><a href="#HTML-基本標籤快速記錄" class="headerlink" title="HTML 基本標籤快速記錄"></a>HTML 基本標籤快速記錄</h2><ul><li><p>html、head、body、meta<br>用 emmet 就什麼都不用打了，只要打 <code>!</code>+<code>,,</code> 就會自動幫你生出一個基礎模版啦！<br>模版長這樣：</p><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">"en"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"UTF-8"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">title</span>&gt;</span><span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">  </span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure></li><li><p>h1 - h6、p、div（block）、span（inline）、img</p></li><li><p>ul、ol、li</p></li><li><p>pre(這個以前比較少用到，通常用來顯示程式碼，PREformated text）、br</p></li><li><p>table、th、tr（row）、td（cell）</p></li><li><p>a（target=”_self” / “_blank”、href=”#ID”）</p></li><li><p>main、nav、footer（語義化）<br>(<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Content_sectioning" target="_blank" rel="noopener">https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Content_sectioning</a>)<br>(<a href="https://www.w3schools.com/html/html5_semantic_elements.asp" target="_blank" rel="noopener">https://www.w3schools.com/html/html5_semantic_elements.asp</a>)</p></li><li><p>iframe</p></li></ul><h3 id="SEO"><a href="#SEO" class="headerlink" title="SEO"></a>SEO</h3><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"keywords"</span> <span class="attr">content</span>=<span class="string">"XXX, yyy, ZZZ"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"description"</span> <span class="attr">content</span>=<span class="string">"DEEEEEEEESCRRREE"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">property</span>=<span class="string">"og:XXXXX"</span> <span class="attr">content</span>=<span class="string">"XXXXXXX"</span>&gt;</span></span><br></pre></td></tr></table></figure><p>Open Graph Protocol，通常是 Facebook 在用，可以用 <a href="https://developers.facebook.com/tools/debug" target="_blank" rel="noopener">Facebook 的偵錯工具</a>測試。</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;script type&#x3D;&quot;application&#x2F;ld+json&quot;&gt;</span><br></pre></td></tr></table></figure><p><a href="https://json-ld.org/" target="_blank" rel="noopener">JSON-ld</a></p><p>robot.txt<br><a href="https://github.com/robots.txt" target="_blank" rel="noopener">github 都不給爬……</a></p><p>sitemap.xml<br>XML 格式檔案，幫搜尋引擎先爬好</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;meta property&#x3D;&quot;al:ios:......&quot;&gt;</span><br></pre></td></tr></table></figure><p>Google Search Console</p><p>原生流量 vs 付錢流量</p><h3 id="Escape跳脫"><a href="#Escape跳脫" class="headerlink" title="Escape跳脫"></a>Escape跳脫</h3><p>&amp;amp<br>&lt;<br>&gt;</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;HTML-基本標籤快速記錄&quot;&gt;&lt;a href=&quot;#HTML-基本標籤快速記錄&quot; class=&quot;headerlink&quot; title=&quot;HTML 基本標籤快速記錄&quot;&gt;&lt;/a&gt;HTML 基本標籤快速記錄&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;html、head、body、me
+      
+    
+    </summary>
+    
+    
+      <category term="HTML" scheme="http://JAS0NHUANG.github.io/diary/tags/HTML/"/>
+    
+  </entry>
+  
+  <entry>
     <title>J+10 [進度] 完成 Week3 作業 / 解題心得筆記</title>
     <link href="http://JAS0NHUANG.github.io/diary/J-plus-10-progress/"/>
     <id>http://JAS0NHUANG.github.io/diary/J-plus-10-progress/</id>
@@ -453,29 +477,6 @@
       <category term="網路概論" scheme="http://JAS0NHUANG.github.io/diary/tags/%E7%B6%B2%E8%B7%AF%E6%A6%82%E8%AB%96/"/>
     
       <category term="TCP/IP" scheme="http://JAS0NHUANG.github.io/diary/tags/TCP-IP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>J+9 [進度] Week3 解題心得 / 瞭解 API</title>
-    <link href="http://JAS0NHUANG.github.io/diary/J-plus-9-progress/"/>
-    <id>http://JAS0NHUANG.github.io/diary/J-plus-9-progress/</id>
-    <published>2020-06-21T22:06:54.000Z</published>
-    <updated>2020-06-21T22:08:02.193Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="昨日小記"><a href="#昨日小記" class="headerlink" title="昨日小記"></a>昨日小記</h2><h3 id="與工程師閒聊"><a href="#與工程師閒聊" class="headerlink" title="與工程師閒聊"></a>與工程師閒聊</h3><p>帶小孩到朋友家聚餐，跟一個技術控工程師朋友（在 nokia 貝爾實驗室工作的強人……）聊了一下，他也是覺得在 Linux 系統上處理資料還是 grep、awk、sed 最常用也最好用；也提到基礎打好比較重要，不必一直跟風學新的框架，像是 Linux、JavaScript、基本的演算法這些東西大概一直都會用到，真的學好了之後要再學任何框架都不會是太困難的事情。<br>另外他還提到 kubernetes，說這個技術值得去學學，我是因為之前在學 Red Hat 所以有聽過這個技術，也大概知道它是管理像 Docker 這種容器的系統，只是還不太瞭解 K8s 在網路前、後端開發上是如何應用的，感覺是比較偏後端伺服器管理會用到的東西就是了。</p><h3 id="複習背包問題"><a href="#複習背包問題" class="headerlink" title="複習背包問題"></a>複習背包問題</h3><p>複習了一下背包問題，重新寫了一次貪婪的小偷 2，遇到一點點實作上的小問題，但是最後還是解決了，其實瞭解 Dynamic Programming 的原則是如何應用在這題上面就不會太困難了。（只是寫出來的 code 還是很醜就是了……）</p><h2 id="今日進度"><a href="#今日進度" class="headerlink" title="今日進度"></a>今日進度</h2><h3 id="背包問題解題筆記"><a href="#背包問題解題筆記" class="headerlink" title="背包問題解題筆記"></a>背包問題解題筆記</h3><ul><li><input disabled="" type="checkbox"> 把背包問題解題的過程記錄下來   </li></ul><h3 id="寫-Week3-hw6-解題心得"><a href="#寫-Week3-hw6-解題心得" class="headerlink" title="寫 Week3 hw6 解題心得"></a>寫 Week3 hw6 解題心得</h3><ul><li><input checked="" disabled="" type="checkbox"> 寫 week3 hw6<br>把所有解題的心得寫完</li></ul><h3 id="看-NET201-API-與資料格式"><a href="#看-NET201-API-與資料格式" class="headerlink" title="看 [NET201] API 與資料格式"></a>看 [NET201] API 與資料格式</h3><ul><li><input disabled="" type="checkbox"> [NET201] API 與資料格式  </li></ul><hr><h2 id="明日進度"><a href="#明日進度" class="headerlink" title="明日進度"></a>明日進度</h2><h3 id="寫參加程式導師計畫第一週心得"><a href="#寫參加程式導師計畫第一週心得" class="headerlink" title="寫參加程式導師計畫第一週心得"></a>寫參加程式導師計畫第一週心得</h3><ul><li><input disabled="" type="checkbox"> 寫參加程式導師計畫第一週心得</li></ul><h3 id="每天看一點-JavaScript"><a href="#每天看一點-JavaScript" class="headerlink" title="每天看一點 JavaScript"></a>每天看一點 JavaScript</h3><ul><li><input disabled="" type="checkbox"> 每天看一點 JavaScript<br>[ALG101] 第七單元以後的內容、 [JS101] 練習 Lv2 與 Lv3  </li></ul><h3 id="看完-NET201-網路基礎概論"><a href="#看完-NET201-網路基礎概論" class="headerlink" title="看完 [NET201] 網路基礎概論"></a>看完 [NET201] 網路基礎概論</h3><ul><li><input disabled="" type="checkbox"> 看完 [NET201] 網路基礎概論  </li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;昨日小記&quot;&gt;&lt;a href=&quot;#昨日小記&quot; class=&quot;headerlink&quot; title=&quot;昨日小記&quot;&gt;&lt;/a&gt;昨日小記&lt;/h2&gt;&lt;h3 id=&quot;與工程師閒聊&quot;&gt;&lt;a href=&quot;#與工程師閒聊&quot; class=&quot;headerlink&quot; title=&quot;與工程師閒
-      
-    
-    </summary>
-    
-    
-      <category term="每日進度" scheme="http://JAS0NHUANG.github.io/diary/tags/%E6%AF%8F%E6%97%A5%E9%80%B2%E5%BA%A6/"/>
     
   </entry>
   

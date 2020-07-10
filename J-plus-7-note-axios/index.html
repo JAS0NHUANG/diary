@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <!--head-->
+    <head>
+    <title>JAS0N HUANG</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="DoQOqkvX376V4rp4mmeGYFGrLOB-wrUCMMKlqgrqmuQ" />
+    
+<link rel="stylesheet" href="/diary/css/style.css">
+
+
+    <script type="text/javascript">
+        let apiUrl = 'https://www.googleapis.com/youtube/v3/channels?part=snippet&id=UC9ckyA_A3MfXUa0ttxMoIZw&key=AIzaSyBiuF1WCpG7TaCY8xtd4cb73Sn-5NTPrb0'
+        let xhr = new XMLHttpRequest()
+        xhr.open('get', apiUrl, true)
+        xhr.send()
+
+        xhr.onreadystatechange = function(){
+            if(this.readyState ===4 && this.status === 200){
+                let data = JSON.parse(this.responseText)
+                console.log(data)
+            }
+        }
+    </script>
+<meta name="generator" content="Hexo 4.2.1"></head>
+
+  <body>
+
+    
+    <div class="container">
+        <div class="blog_header">
+    <a href="/diary/">
+        <h1 class="blog_title">
+        <img src="/diary/images/Jas0nhuang.svg" alt="jas0nhuang">
+        <!-- %= config.title %-->
+        </h1>
+    </a>
+
+    <div class="container">
+        <nav class="blog_nav">
+            
+                <a class="menu_item" href="/diary/archives">文章</a>
+            
+                <a class="menu_item" href="/diary/tags">標籤</a>
+            
+                <a class="menu_item" href="/diary/about">關於</a>
+            
+        </nav>
+    </div>
+</div>
+
+    </div>
+    
+
+    
+    <div class="body">
+    <div class="main">
+<div class="full">
+    <h1 class="page_title">[筆記] Axios 與 API 串接資料整理</h1>
+    <h2 id="為什麼要用-axios"><a href="#為什麼要用-axios" class="headerlink" title="為什麼要用 axios"></a>為什麼要用 axios</h2><p>因為課程裡介紹的 request 套件寫著 deprecated，所以就想說找個替代品，加上 axios 感覺現在正夯，所以就試著研究看看了。</p>
+<p>參考資料：<br><a href="https://www.npmjs.com/package/request" target="_blank" rel="noopener">request</a><br><a href="https://www.npmjs.com/package/axios" target="_blank" rel="noopener">npm - axios</a><br><a href="https://codertw.com/%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC/230442/" target="_blank" rel="noopener">詳解axios 全攻略之基本介紹與使用（GET 與 POST）</a><br><a href="https://medium.com/i-am-mike/%E4%BD%BF%E7%94%A8axios%E6%99%82%E4%BD%A0%E7%9A%84api%E9%83%BD%E6%80%8E%E9%BA%BC%E7%AE%A1%E7%90%86-557d88365619" target="_blank" rel="noopener">使用Axios你的API都怎麼管理？</a><br><a href="https://blog.logrocket.com/how-to-make-http-requests-like-a-pro-with-axios/" target="_blank" rel="noopener">How to make HTTP requests like a pro with Axios</a></p>
+<p>試著用 Axios 串接 TWITCH API</p>
+<h2 id="使用-node-內建-HTTP-套件"><a href="#使用-node-內建-HTTP-套件" class="headerlink" title="使用 node 內建 HTTP 套件"></a>使用 node 內建 HTTP 套件</h2><p><a href="https://blog.bearer.sh/node-http-request/" target="_blank" rel="noopener">Use the Node.js HTTP Module to Make a Request</a><br><a href="https://blog.bearer.sh/top-node-request-libraries/" target="_blank" rel="noopener">The Top Node.js HTTP Libraries in 2020</a></p>
+<h3 id="串接-New-Twitch-API"><a href="#串接-New-Twitch-API" class="headerlink" title="串接 New Twitch API"></a>串接 New Twitch API</h3><p>可能是不知道看文件的方法……真的覺得 New Twitch API 的文件寫的很爛</p>
+<p><a href="https://dev.twitch.tv/docs/api" target="_blank" rel="noopener">Getting Started with the Twitch API</a><br><a href="https://dev.twitch.tv/docs/authentication/#sending-user-access-and-app-access-tokens" target="_blank" rel="noopener">Sending user access and app access tokens</a><br><a href="https://dev.twitch.tv/console/" target="_blank" rel="noopener">Twitch dev console</a><br><a href="https://dev.twitch.tv/docs/api/reference#get-streams" target="_blank" rel="noopener">New Twitch API - Get STreams</a><br>[New Twitch API - OAuth autorization code flow](<a href="https://dev.twitch.tv/docs/authentication/getting-tokens-oauth#oauth-authorization-code-flow]" target="_blank" rel="noopener">https://dev.twitch.tv/docs/authentication/getting-tokens-oauth#oauth-authorization-code-flow]</a> </p>
+
+    <hr>
+    <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/diary/tags/API/" rel="tag">API</a></li><li class="tag-list-item"><a class="tag-list-link" href="/diary/tags/Axios/" rel="tag">Axios</a></li><li class="tag-list-item"><a class="tag-list-link" href="/diary/tags/JavaScript/" rel="tag">JavaScript</a></li></ul>
+    
+    
+</div>
+</div>
+
+
+    </div>
+
+    
+        <section id="comments">
+    <div id="disqus_thread"></div>
+        <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'JAS0NHUANG';
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a></noscript>
+</section>
+
+
+    
+    
+    <!--footer-->
+    <footer class="blog_footer">
+    <p>
+        JAS0N HUANG
+        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">
+            <img src="/images/cc.svg" alt="CC" height="16"></a>
+        2020/06
+    </p>
+    
+</footer>
+
+  </body>
+</html>
