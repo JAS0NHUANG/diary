@@ -155,6 +155,32 @@
   </entry>
   
   <entry>
+    <title>[筆記] JavaScript 丼（一） 瀏覽器上的 JavaScript</title>
+    <link href="http://JAS0NHUANG.github.io/diary/J-plus-21-note-dom-1/"/>
+    <id>http://JAS0NHUANG.github.io/diary/J-plus-21-note-dom-1/</id>
+    <published>2020-07-03T08:14:43.000Z</published>
+    <updated>2020-07-13T12:46:31.553Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="哪裡可以執行-JavaScript"><a href="#哪裡可以執行-JavaScript" class="headerlink" title="哪裡可以執行 JavaScript"></a>哪裡可以執行 JavaScript</h2><ol><li>Node（或其它執行環境如： Deno、V8、SpiderMonkey……）</li><li>HTML 裡的 script 標籤</li><li>HTML 裡引入 script<br>JavaScript 程式碼放在哪裡有很重大的影響！</li></ol><h3 id="Node-vs-瀏覽器"><a href="#Node-vs-瀏覽器" class="headerlink" title="Node vs 瀏覽器"></a>Node vs 瀏覽器</h3><p>兩個不同的執行環境，除了 JavaScript （ECMAScript）語言本身就有的語法及特性。</p><ul><li>有些功能兩者都會實作，如：console.log()、setTimeout() </li><li>有些功能則是只能在某個環境裡執行，例如 require()、fs() 可以在 Node 上使用，但是瀏覽器上不行；Document 物件只在瀏覽器上存在，Node 裡不存在。</li></ul><h2 id="JavaScript-在瀏覽器裡幹什麼：介面、事件、資料"><a href="#JavaScript-在瀏覽器裡幹什麼：介面、事件、資料" class="headerlink" title="JavaScript 在瀏覽器裡幹什麼：介面、事件、資料"></a>JavaScript 在瀏覽器裡幹什麼：介面、事件、資料</h2><p>用 JavaScript 進行以上三件事：改變介面（畫面）、監聽事件、處理資料</p><h3 id="什麼是丼"><a href="#什麼是丼" class="headerlink" title="什麼是丼"></a>什麼是丼</h3><p>一個瀏覽器特有的「文件」系統。<br>Document =&gt; Object ，瀏覽器其中一個重要的工作就是將「文件」轉換成「物件」！<br>Document 可以看做就是「HTML 文件經由解析之後成為一些物件」，我們就可以在瀏覽器上面操作、使用它們。</p><p>一個 DOM 的概略狀態：</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Document</span><br><span class="line">└─── &lt;html&gt;</span><br><span class="line">    ├── &lt;head&gt;</span><br><span class="line">    │   ├── &lt;title&gt;</span><br><span class="line">    │       └── &quot;My Web Site&quot;</span><br><span class="line">    └── &lt;body&gt;</span><br><span class="line">        ├── &lt;h1&gt;</span><br><span class="line">            ...</span><br></pre></td></tr></table></figure><h3 id="選擇物件"><a href="#選擇物件" class="headerlink" title="選擇物件"></a>選擇物件</h3><ol><li>.getElementByXXX .getElementsByXXXXX，<br>script 放的位置會有影響，放在還沒有被解析的元素之前是沒辦法選擇該元素的。<br><code>document.getElementsByTagName()</code> ByClassName，會抓到一個 HTML Collection。ByID</li><li>querySelector(‘CSS SELECTOR’) 只會選到第一個<br>querySelectorAll 會選到全部<br>（會抓到一個 NodeList）<br>querySelector 的使用方法相較之下更直覺一點。</li></ol><h3 id="選到物件後改變-CSS"><a href="#選到物件後改變-CSS" class="headerlink" title="選到物件後改變 CSS"></a>選到物件後改變 CSS</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">const element &#x3D; document.querySelector(&#39;#block&#39;)</span><br><span class="line">element.style.background &#x3D;  &quot;red&quot;</span><br><span class="line">element.style.padding &#x3D; &quot;10px&quot;</span><br><span class="line">element.style[&quot;padding-top&quot;] &#x3D; &quot;10px&quot;</span><br><span class="line">element.style.paddingTop &#x3D; &quot;10px&quot; (cammel cased)</span><br></pre></td></tr></table></figure><p>通常是不會像上面這樣用的！而是會先寫好一個 class，然後直接增加或移除某個 element 的 class。</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">element.classList.add(&#39;XXXX&#39;)</span><br><span class="line">element.classList.remove(&#39;YYYY&#39;)</span><br><span class="line">element.classList.toggle(&#39;ZZZZZ&#39;)</span><br></pre></td></tr></table></figure><h3 id="改變內容"><a href="#改變內容" class="headerlink" title="改變內容"></a>改變內容</h3><p>innerText 標籤裡面的文字，不會抓到 tag<br>innerHTML 標籤裡的所有元素，也會抓到tag<br>outerHTML 把自已在內以下的所有元素都抓起來</p><h3 id="插入或刪除元素"><a href="#插入或刪除元素" class="headerlink" title="插入或刪除元素"></a>插入或刪除元素</h3><ol><li>想刪除元素的話要先找到他的「上一代」是誰。然後再用 <code>.removeChild()</code> 刪除。<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> element = <span class="built_in">document</span>.querySelector(<span class="string">'#block'</span>)</span><br><span class="line">element.removeChild(<span class="built_in">document</span>.querySelector(<span class="string">'a'</span>))</span><br></pre></td></tr></table></figure></li><li>新增元素<ul><li>先創造一個新的元素：<code>const item = document.createElement(&#39;div&#39;)</code></li><li>然後 <code>element.appendChild(item)</code> 將 item 新增上去。<br>還可以設定其它內容像是 <code>item.innerText = &#39;XXX&#39;</code> ，將 item 內容改為 XXX。<br>也可以加入純文字：<code>const item = document.creatTextNode(&#39;ZZZ&#39;)</code></li></ul></li></ol><p>還有其它像是選擇旁邊的元素、拿到上層再上層的元素、插入到最前面……等等，再自已去找 API 資料。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;哪裡可以執行-JavaScript&quot;&gt;&lt;a href=&quot;#哪裡可以執行-JavaScript&quot; class=&quot;headerlink&quot; title=&quot;哪裡可以執行 JavaScript&quot;&gt;&lt;/a&gt;哪裡可以執行 JavaScript&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;Node
+      
+    
+    </summary>
+    
+    
+      <category term="JavaScript" scheme="http://JAS0NHUANG.github.io/diary/tags/JavaScript/"/>
+    
+      <category term="DOM" scheme="http://JAS0NHUANG.github.io/diary/tags/DOM/"/>
+    
+  </entry>
+  
+  <entry>
     <title>J+21 [進度] 切版練習 / 甜甜圈迷宮</title>
     <link href="http://JAS0NHUANG.github.io/diary/J-plus-21-progress/"/>
     <id>http://JAS0NHUANG.github.io/diary/J-plus-21-progress/</id>
@@ -452,31 +478,6 @@
     
     
       <category term="每日進度" scheme="http://JAS0NHUANG.github.io/diary/tags/%E6%AF%8F%E6%97%A5%E9%80%B2%E5%BA%A6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>[筆記] TCPIP 與 API</title>
-    <link href="http://JAS0NHUANG.github.io/diary/J-plus-9-note-TCPIP-API/"/>
-    <id>http://JAS0NHUANG.github.io/diary/J-plus-9-note-TCPIP-API/</id>
-    <published>2020-06-21T23:52:21.000Z</published>
-    <updated>2020-06-21T23:52:21.988Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="網路層級與-TCP-IP-模型"><a href="#網路層級與-TCP-IP-模型" class="headerlink" title="網路層級與 TCP/IP 模型"></a>網路層級與 TCP/IP 模型</h2><p>在 HTTP 筆記裡就有這張圖啦：<br><img src="/diary/source/images/Web_Layer" alt="Web Layer">  </p><p>OSI 七層，各層級都有自已的協定。<br>TCP/IP 模型為四層：應用層、傳輸層、網路層、鏈結層。<br>HTTP 屬於應用層，TCP 屬於傳送層，IP 屬於網路層。  </p><h3 id="IP-位址"><a href="#IP-位址" class="headerlink" title="IP 位址"></a>IP 位址</h3><p>IPv4 與 IPv6<br>有固定 IP 與浮動 IP  </p><p>理想情況：世界上的所有電腦都有一個不重覆的固定 IP（顯然不可能……）  </p><p>實際狀況：每台內網的電腦都有一個虛擬（私有 private） IP 連到數據機，數據機再以一個對外的固定 IP 對外連線。  </p><h3 id="Port-連接埠"><a href="#Port-連接埠" class="headerlink" title="Port 連接埠"></a>Port 連接埠</h3><p>在 IP 位址後面可以接上 Port，目的是區別在同一個主機上的不同服務<br>預設：HTTP 80、HTTPS 443、FTP 21……  </p><h3 id="TCP-與-UDP"><a href="#TCP-與-UDP" class="headerlink" title="TCP 與 UDP"></a>TCP 與 UDP</h3><p>兩個都是傳輸層的協定，不同點在於，TCP 是可靠的連接，有所謂的三次握手。<br>UDP 則不必要保證可靠性，視訊通話、網路直播……等以即時性為訴求的服務，通常會建立在這個傳輸協定上。  </p><h2 id="什麼是-API"><a href="#什麼是-API" class="headerlink" title="什麼是 API"></a>什麼是 API</h2><p>Application Programming Interface：應用程式介面<br>一種介面, 一個溝通的管道, 資料交換的方法<br>制作 USB 廠商的隨身碟！！！<br>提供「資料」 或接收資料, 提供 API 者可以控制什麼資料可以讓使用者存取。<br>透過「網路」提供的 API 就會被稱做 Web API，而通常 Web API 都是在講 HTTP API（透過 HTTP 協定提供的 API）。<br><a href="https://picsum.photos" target="_blank" rel="noopener">Lorem Picsum</a> 一個有趣的 API。   </p><h3 id="API-的功能"><a href="#API-的功能" class="headerlink" title="API 的功能"></a>API 的功能</h3><ul><li>對使用者：  </li></ul><ol><li>固定選項  </li><li>減少溝通障礙  </li></ol><ul><li>對提供者：  </li></ul><ol><li>減少人力  </li><li>不提供沒有的選項，沒有客製化  </li></ol><h3 id="再用一次-request-串串"><a href="#再用一次-request-串串" class="headerlink" title="再用一次 request 串串"></a>再用一次 request 串串</h3><p>測試用 API：[Req | Res]（<a href="https://reqres.in）" target="_blank" rel="noopener">https://reqres.in）</a><br>GET：  </p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">const request &#x3D; require(&#39;request&#39;)</span><br><span class="line">request(</span><br><span class="line">  &#39;https:&#x2F;&#x2F;reqres.in&#x2F;api&#x2F;users&#39;,</span><br><span class="line">  function(error, response, body) &#123;</span><br><span class="line">    console.log(body)</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><ul><li>node 小技巧：<br>讀取參數  <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">const process &#x3D; require(&#39;process&#39;)</span><br><span class="line">console.log(process.argv）</span><br></pre></td></tr></table></figure></li></ul><p>POST：  </p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">const request &#x3D; require(&#39;request&#39;)</span><br><span class="line">request.post(</span><br><span class="line">  &#123;</span><br><span class="line">    url: &#39;https:&#x2F;&#x2F;reqres.in&#x2F;api&#x2F;users&#39;,</span><br><span class="line">    form: &#123;</span><br><span class="line">      name:&#39;JJ&#39;,</span><br><span class="line">      job:&#39;none&#39;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;,</span><br><span class="line">  function(error, response, body) &#123;</span><br><span class="line">    console.log(body)</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="XML-與-JSON"><a href="#XML-與-JSON" class="headerlink" title="XML 與 JSON"></a>XML 與 JSON</h3><p>XML 歷史悠久，通常會用 SOAP 協定傳送。（node 上面可以用 node-soap 套件來傳送）  </p><p>現在大部分都用 JSON 這個資料格式了。<br>如果回傳的 JSON 內容被轉換為字串的話，可以用 <code>JSON.parse()</code> 來轉換為 JSON 資料。<br>也可以反轉，將 JSON 資料轉換為字串：<code>JSON.stringify()</code>  </p><h3 id="到底什麼是-RESTful"><a href="#到底什麼是-RESTful" class="headerlink" title="到底什麼是 RESTful"></a>到底什麼是 RESTful</h3><p>不是協定、標準，只是一種「風格」<br>查詢用 GET，新增用 POST，刪除用 DELETE，修改用 PATCH。大部分的 API 都是 RESTful 風格了，因為它比較直覺，好懂，也符合 HTTP request 的語意。  </p><h2 id="CLI-上好用的工具"><a href="#CLI-上好用的工具" class="headerlink" title="CLI 上好用的工具"></a>CLI 上好用的工具</h2><h3 id="curl"><a href="#curl" class="headerlink" title="curl"></a>curl</h3><p><code>curl 網址</code> 回傳整個頁面的回應<br><code>curl -i 網址</code> 只下載 header</p><h3 id="ping"><a href="#ping" class="headerlink" title="ping"></a>ping</h3><p>測試是否能連線到某個伺服器</p><h3 id="telnet"><a href="#telnet" class="headerlink" title="telnet"></a>telnet</h3><p><code>telnet {IP} {port}</code> 可以連線到該伺服器的某個 port 上。<br>預設 port 為 23  </p><h3 id="nslookup"><a href="#nslookup" class="headerlink" title="nslookup"></a>nslookup</h3><p>查看 DNS 查詢到的 IP</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;網路層級與-TCP-IP-模型&quot;&gt;&lt;a href=&quot;#網路層級與-TCP-IP-模型&quot; class=&quot;headerlink&quot; title=&quot;網路層級與 TCP/IP 模型&quot;&gt;&lt;/a&gt;網路層級與 TCP/IP 模型&lt;/h2&gt;&lt;p&gt;在 HTTP 筆記裡就有這張圖啦：&lt;
-      
-    
-    </summary>
-    
-    
-      <category term="網路概論" scheme="http://JAS0NHUANG.github.io/diary/tags/%E7%B6%B2%E8%B7%AF%E6%A6%82%E8%AB%96/"/>
-    
-      <category term="TCP/IP" scheme="http://JAS0NHUANG.github.io/diary/tags/TCP-IP/"/>
     
   </entry>
   
